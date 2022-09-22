@@ -1,13 +1,15 @@
-import React from 'react'
-import { Container } from '../styles/container.styled'
-import { HeaderContainer } from '../styles/header.styled'
+import React from "react";
+import { Container } from "../styles/container.styled";
+import { HeaderContainer } from "../styles/header.styled";
 
 const Header = () => {
   return (
     <HeaderContainer>
-        <Container>Header</Container>
+      <Container>
+        <h1>Header</h1>
+      </Container>
     </HeaderContainer>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

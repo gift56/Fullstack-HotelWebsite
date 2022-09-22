@@ -1,10 +1,27 @@
 import React from "react";
+import { ThemeProvider } from "styled-components";
 import Home from "./pages/Home";
 
 const App = () => {
+  const theme = {
+    spanText: "#FCD043",
+    heroBg: "#313F38",
+    whiteColor: "#FFFCF6",
+    textColor: "#333333",
+    darkColor: "#313F38",
+    fontStack: "Miracle', sans-serif",
+    mobile: {
+      minLap: "1080px",
+      tab: "902px",
+      tab2: "982px",
+      phone: "768px",
+    },
+  };
   return (
     <div>
-      <Home />
+      <ThemeProvider theme={theme}>
+        <Home />
+      </ThemeProvider>
     </div>
   );
 };
