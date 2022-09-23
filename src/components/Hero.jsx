@@ -1,6 +1,8 @@
 import React from "react";
 import Star from "../assets/star.svg";
-import DowArrow from "../assets/downdrop.svg";
+import DownArrow from "../assets/downdrop.svg";
+import Mobilehero from "../assets/Hmobile.svg";
+import Desktophero from "../assets/desktopH.svg";
 import { Container } from "../styles/container.styled";
 import {
   HeroArea,
@@ -30,13 +32,21 @@ const Hero = () => {
                     <span>since 1973</span>
                   </button>
                   <div className="dowdrop">
-
+                    <img src={DownArrow} alt="/" />
                   </div>
                 </div>
+                <h4 className="text">
+                  The luxurious hotel in the most beautiful European city with
+                  an exclusive restaurant, conference-hall, and art-bar.
+                </h4>
               </div>
             </LeftSideTitle>
           </LeftSide>
-          <RightSide></RightSide>
+          <RightSide>
+            <div className="mobileImg">
+              <img src={Mobilehero} alt="heroImg" />
+            </div>
+          </RightSide>
         </HeroArea>
       </Container>
     </HeroContainer>
