@@ -25,16 +25,14 @@ export const HeaderArea = styled.div`
   }
   .mobileUl {
     position: absolute;
-    top: 65px;
-    /* left: -100vw;
-     */
-    left: 0;
+    top: 70px;
+    left: -800vw;
     width: 100%;
     z-index: 1;
     background-color: ${({ theme }) => theme.darkColor};
     display: flex;
     flex-direction: column;
-    transition: all 500ms ease;
+    transition: all 800ms ease;
     border-bottom: 1px solid gray;
     padding: 1rem 1.8rem;
     gap: 2rem;

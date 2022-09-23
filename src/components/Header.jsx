@@ -45,7 +45,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <ul className="mobileUl">
+          <ul className={`mobileUl ${open ? "left" : ""}`}>
             {Links.map((link, index) => (
               <li
                 className={`li ${active === index ? "active" : ""}`}
@@ -73,9 +73,9 @@ const Header = () => {
           </div>
           <button className="Toggle" onClick={() => setOpen((prev) => !prev)}>
             {open ? (
-              <img src={Bar} alt="icon" />
-            ) : (
               <img src={Close} alt="icon" />
+            ) : (
+              <img src={Bar} alt="icon" />
             )}
           </button>
         </HeaderArea>
