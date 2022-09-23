@@ -1,5 +1,6 @@
 import React from "react";
 import Star from "../assets/star.svg";
+import DowArrow from "../assets/downdrop.svg";
 import { Container } from "../styles/container.styled";
 import {
   HeroArea,
@@ -21,7 +22,17 @@ const Hero = () => {
                 <p>rooms // restaurant // congress hall // wine bar</p>
               </div>
               <div className="details">
-                <button></button>
+                <div className="tabs">
+                  <button>
+                    <div>
+                      <img src={Star} alt="/" />
+                    </div>
+                    <span>since 1973</span>
+                  </button>
+                  <div className="dowdrop">
+
+                  </div>
+                </div>
               </div>
             </LeftSideTitle>
           </LeftSide>
