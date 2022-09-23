@@ -5,6 +5,7 @@ import Mobilehero from "../assets/Hmobile.svg";
 import Desktophero from "../assets/desktopH.svg";
 import { Container } from "../styles/container.styled";
 import {
+  BookForm,
   HeroArea,
   HeroContainer,
   LeftSide,
@@ -45,6 +46,19 @@ const Hero = () => {
           <RightSide>
             <div className="mobileImg">
               <img src={Mobilehero} alt="heroImg" />
+            </div>
+            <div className="desktopImg">
+              <div className="image">
+                <img src={Desktophero} alt="heroImg" />
+              </div>
+              <BookForm></BookForm>
+            </div>
+            <div className="book">
+              <p>Art & Congress hall</p>
+              <div className="contact">
+                <p>+38 032 297 50 20</p>
+                <p className="address">8 Lystopadovoho Chynu,Lviv</p>
+              </div>
             </div>
           </RightSide>
         </HeroArea>
