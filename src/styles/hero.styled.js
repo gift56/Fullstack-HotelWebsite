@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
-export const HeroContainer = styled.section``;
+export const HeroContainer = styled.section`
+  position: relative;
+  background-color: ${({ theme }) => theme.darkColor};
+`;
 
-export const HeroArea = styled.div``;
+export const HeroArea = styled.div`
+
+`;
 
 export const LeftSide = styled.div``;
 
