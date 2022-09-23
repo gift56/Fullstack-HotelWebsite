@@ -14,6 +14,7 @@ export const HeaderArea = styled.div`
   align-items: center;
   color: ${({ theme }) => theme.whiteColor};
   padding: 20px 0;
+  z-index: 10;
 
   div {
     h2 {
@@ -28,7 +29,7 @@ export const HeaderArea = styled.div`
     top: 70px;
     left: -800vw;
     width: 100%;
-    z-index: 1;
+    z-index: 10;
     background-color: ${({ theme }) => theme.darkColor};
     display: flex;
     flex-direction: column;
