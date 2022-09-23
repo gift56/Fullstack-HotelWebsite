@@ -7,5 +7,9 @@
   border: none;
   outline: none;
   font-family: "Open Sans", sans-serif;
+  list-style: none;
 }
 /* font-family: "miracle", sans-serif; */
+.active div {
+  opacity: 1 !important;
+}

@@ -1,12 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
+import Star from "../assets/star.svg";
 import { Container } from "../styles/container.styled";
-import { HeaderContainer } from "../styles/header.styled";
+import { HeaderContainer, HeaderArea } from "../styles/header.styled";
+import "../index.css";
 
 const Header = () => {
+  const [active, setActive] = useState(0);
+
+  const selectProduct = (index) => {
+    setActive(index);
+  };
+
+  const Links = [
+    "home",
+    "about",
+    "rooms",
+    "restaurant",
+    "conference hall",
+    "contacts",
+  ];
   return (
     <HeaderContainer>
       <Container>
-        
+        <HeaderArea>
+          <div>
+            <h2>BankHotel</h2>
+          </div>
+          <ul>
+            {Links.map((link, index) => (
+              <li
+                className={`li ${active === index ? "active" : ""}`}
+                onClick={() => selectProduct(index)}
+                key={index}
+              >
+                {link}{" "}
+                <div>
+                  <img src={Star} alt="/" />
+                </div>
+              </li>
+            ))}
+          </ul>
+          <div className="contactNuber">
+            <p>+234 803 4559 3477</p>
+          </div>
+        </HeaderArea>
       </Container>
     </HeaderContainer>
   );

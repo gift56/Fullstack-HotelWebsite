@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 const App = () => {
   const theme = {
     spanText: "#FCD043",
-    heroBg: "#313F38",
+    heroBg: "#2A5B46",
     whiteColor: "#FFFCF6",
     textColor: "#333333",
     darkColor: "#313F38",
