@@ -43,10 +43,12 @@ const Header = () => {
               </li>
             ))}
           </ul>
-
-          <div className="contactNuber">
+          <div className="contactNumber">
             <p>+234 803 4559 3477</p>
           </div>
+          <button className="Toggle">
+            <img src={Bar} alt="icon" />
+          </button>
         </HeaderArea>
       </Container>
     </HeaderContainer>

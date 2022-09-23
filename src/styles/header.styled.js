@@ -28,6 +28,9 @@ export const HeaderArea = styled.div`
     @media screen and (max-width: ${({ theme }) => theme.mobile.minLap}) {
       gap: 0.5rem;
     }
+    @media screen and (max-width: ${({ theme }) => theme.mobile.minLap}) {
+      display: none;
+    }
     .li {
       font-weight: 400;
       font-size: 14px;
@@ -51,6 +54,20 @@ export const HeaderArea = styled.div`
           width: 100%;
         }
       }
+    }
+  }
+  .contactNumber {
+    @media screen and (max-width: ${({ theme }) => theme.mobile.minLap}) {
+      display: none;
+    }
+  }
+  .Toggle {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (min-width: 1181px) {
+      display: none;
     }
   }
 `;
