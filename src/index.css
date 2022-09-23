@@ -13,3 +13,11 @@
 .active div {
   opacity: 1 !important;
 }
+
+a {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  gap: inherit;
+  width: inherit;
+}

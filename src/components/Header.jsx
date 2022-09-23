@@ -22,6 +22,8 @@ const Header = () => {
     "conference hall",
     "contacts",
   ];
+
+  const SocialLinks = ["Facebook", "Instagram", "twitter"];
   return (
     <HeaderContainer>
       <Container>
@@ -43,11 +45,38 @@ const Header = () => {
               </li>
             ))}
           </ul>
+          <ul className="mobileUl">
+            {Links.map((link, index) => (
+              <li
+                className={`li ${active === index ? "active" : ""}`}
+                onClick={() => selectProduct(index)}
+                key={index}
+              >
+                {link}{" "}
+                <div>
+                  <img src={Star} alt="/" />
+                </div>
+              </li>
+            ))}
+            <div className="MobilecontactNumber">
+              <p>+234 803 4559 3477</p>
+              <p>8 Lystopadovoho Chynu,Lviv</p>
+              <div>
+                {SocialLinks.map((link) => (
+                  <p key={link}>{link}</p>
+                ))}
+              </div>
+            </div>
+          </ul>
           <div className="contactNumber">
             <p>+234 803 4559 3477</p>
           </div>
-          <button className="Toggle">
-            <img src={Bar} alt="icon" />
+          <button className="Toggle" onClick={() => setOpen((prev) => !prev)}>
+            {open ? (
+              <img src={Bar} alt="icon" />
+            ) : (
+              <img src={Close} alt="icon" />
+            )}
           </button>
         </HeaderArea>
       </Container>

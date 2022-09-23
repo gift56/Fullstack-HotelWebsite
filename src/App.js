@@ -13,7 +13,8 @@ const App = () => {
     mobile: {
       minLap: "1180px",
       tab: "982px",
-      phone: "768px",
+      phone2: "768px",
+      phone: "400px",
     },
   };
   return (
