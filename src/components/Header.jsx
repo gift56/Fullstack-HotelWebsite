@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import Star from "../assets/star.svg";
+import Bar from "../assets/openIcon.svg";
+import Close from "../assets/closeIcon.svg";
 import { Container } from "../styles/container.styled";
 import { HeaderContainer, HeaderArea } from "../styles/header.styled";
 import "../index.css";
 
 const Header = () => {
   const [active, setActive] = useState(0);
+  const [open, setOpen] = useState(false);
 
   const selectProduct = (index) => {
     setActive(index);
@@ -26,7 +29,7 @@ const Header = () => {
           <div>
             <h2>BankHotel</h2>
           </div>
-          <ul>
+          <ul className="desktopUl">
             {Links.map((link, index) => (
               <li
                 className={`li ${active === index ? "active" : ""}`}
@@ -40,6 +43,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
+
           <div className="contactNuber">
             <p>+234 803 4559 3477</p>
           </div>

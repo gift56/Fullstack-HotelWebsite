@@ -20,11 +20,14 @@ export const HeaderArea = styled.div`
       text-transform: capitalize;
     }
   }
-  ul {
+  .desktopUl {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    @media screen and (max-width: ${({ theme }) => theme.mobile.minLap}) {
+      gap: 0.5rem;
+    }
     .li {
       font-weight: 400;
       font-size: 14px;
