@@ -1,6 +1,9 @@
 import React from "react";
 import Label from "../assets/Alabel.svg";
 import Image1 from "../assets/aboutMI.svg";
+import Image2 from "../assets/desktopAImg.svg";
+import RamP from "../assets/RAMP.svg";
+
 import {
   AboutArea,
   AboutContainer,
