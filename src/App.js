@@ -11,6 +11,7 @@ const App = () => {
     darkColor: "#313F38",
     fontStack: "Miracle', sans-serif",
     mobile: {
+      BigLap: "1490px",
       minLap: "1180px",
       tab: "982px",
       phone2: "768px",

@@ -21,7 +21,7 @@ const Hero = () => {
           <LeftSide>
             <LeftSideTitle>
               <div className="heading">
-                <h1>BankHotel</h1>
+                <h1>Bank<span>Hotel</span></h1>
                 <p>rooms // restaurant // congress hall // wine bar</p>
               </div>
               <div className="details">
@@ -51,10 +51,12 @@ const Hero = () => {
               <div className="image">
                 <img src={Desktophero} alt="heroImg" />
               </div>
-              <BookForm></BookForm>
+              <BookForm>
+                
+              </BookForm>
             </div>
             <div className="book">
-              <p>Art & Congress hall</p>
+              <p>Art & Congress <br /> hall</p>
               <div className="contact">
                 <p>+38 032 297 50 20</p>
                 <p className="address">8 Lystopadovoho Chynu,Lviv</p>
