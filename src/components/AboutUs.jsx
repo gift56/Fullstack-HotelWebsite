@@ -23,7 +23,7 @@ const AboutUs = () => {
           <AboutLeft>
             <AboutTitleArea>
               <h2>
-                About <span>US</span>
+                About <br /> <span>US</span>
               </h2>
             </AboutTitleArea>
           </AboutLeft>

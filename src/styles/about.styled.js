@@ -13,8 +13,8 @@ export const AboutArea = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   background-image: url(${({ bg }) => bg});
-  background-position: 601% -7%;
-  background-size: 229% 70%;
+  background-position: 589% -26%;
+  background-size: 159% 63%;
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
     padding-top: 20px;
     padding-bottom: 50px;
@@ -23,8 +23,19 @@ export const AboutArea = styled.div`
 
 export const AboutLeft = styled.div`
   width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  h2 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: right;
+    text-transform: uppercase;
+    color: ${({ theme }) => theme.spanText};
+  }
 `;
-
+// font-family: "Open Sans", sans-serif !important;
 export const AboutRight = styled.div`
   position: relative;
   width: 100%;
@@ -72,6 +83,4 @@ export const AboutRight = styled.div`
   }
 `;
 
-export const AboutTitleArea = styled.div`
-
-`;
+export const AboutTitleArea = styled.div``;
