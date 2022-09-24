@@ -72,6 +72,7 @@ export const LeftSideTitle = styled.div`
       }
     }
     p {
+      font-family: "Open Sans", sans-serif !important;
       text-transform: uppercase;
       color: ${({ theme }) => theme.spanText};
       font-weight: 500;
@@ -150,6 +151,7 @@ export const LeftSideTitle = styled.div`
             }
           }
           span {
+            font-family: "Open Sans", sans-serif !important;
             font-weight: 400;
             font-size: 18px;
             line-height: 26px;
@@ -160,6 +162,7 @@ export const LeftSideTitle = styled.div`
       }
     }
     .text {
+      font-family: "Open Sans", sans-serif !important;
       font-weight: 400;
       font-size: 14px;
       line-height: 23px;
@@ -188,7 +191,6 @@ export const BookForm = styled.div`
     display: none;
   }
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
-    
   }
 `;
 
@@ -237,6 +239,7 @@ export const RightSide = styled.div`
       flex-direction: row-reverse;
     }
     p {
+      font-family: "Open Sans", sans-serif !important;
       font-weight: 400;
       font-size: 12px;
       line-height: 14px;
