@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { AboutContainer } from '../styles/about.styled';
+import { Container } from '../styles/container.styled';
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+    <AboutContainer>
+        <Container>
+            
+        </Container>
+    </AboutContainer>
   )
 }
 
