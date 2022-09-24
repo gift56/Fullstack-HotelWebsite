@@ -12,13 +12,18 @@ export const AboutArea = styled.div`
   gap: 2rem;
   justify-content: flex-start;
   align-items: flex-start;
+  background-image: url(${({ bg }) => bg});
+  background-position: 601% -7%;
+  background-size: 229% 70%;
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
     padding-top: 20px;
     padding-bottom: 50px;
   }
 `;
 
-export const AboutLeft = styled.div``;
+export const AboutLeft = styled.div`
+  width: 100%;
+`;
 
 export const AboutRight = styled.div`
   position: relative;
@@ -67,4 +72,6 @@ export const AboutRight = styled.div`
   }
 `;
 
-export const AboutTitleArea = styled.div``;
+export const AboutTitleArea = styled.div`
+
+`;

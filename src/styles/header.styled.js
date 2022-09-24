@@ -22,6 +22,7 @@ export const HeaderArea = styled.div`
       font-size: 20px;
       line-height: 24px;
       text-transform: capitalize;
+      font-family: "Open Sans", sans-serif !important;
     }
   }
   .mobileUl {
@@ -37,6 +38,7 @@ export const HeaderArea = styled.div`
     border-bottom: 1px solid gray;
     padding: 1rem 1.8rem;
     gap: 2rem;
+    font-family: "Open Sans", sans-serif !important;
     @media screen and (min-width: 1181px) {
       display: none;
     }
@@ -74,7 +76,8 @@ export const HeaderArea = styled.div`
       margin-top: 10px;
       justify-content: center;
       align-items: center;
-      p{
+      p {
+        font-family: "Open Sans", sans-serif !important;
         text-transform: uppercase;
       }
       div {
@@ -98,6 +101,7 @@ export const HeaderArea = styled.div`
       display: none;
     }
     .li {
+      font-family: "Open Sans", sans-serif !important;
       font-weight: 400;
       font-size: 14px;
       line-height: 20px;
@@ -123,8 +127,12 @@ export const HeaderArea = styled.div`
     }
   }
   .contactNumber {
+    font-family: "Open Sans", sans-serif !important;
     @media screen and (max-width: ${({ theme }) => theme.mobile.minLap}) {
       display: none;
+    }
+    p{
+      font-family: inherit;
     }
   }
   .Toggle {

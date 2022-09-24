@@ -22,7 +22,9 @@ const AboutUs = () => {
         <AboutArea bg={BgLine}>
           <AboutLeft>
             <AboutTitleArea>
-              <h2>About US</h2>
+              <h2>
+                About <span>US</span>
+              </h2>
             </AboutTitleArea>
           </AboutLeft>
           <AboutRight>
