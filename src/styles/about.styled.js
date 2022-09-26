@@ -18,6 +18,9 @@ export const AboutArea = styled.div`
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
     padding-top: 20px;
     padding-bottom: 50px;
+    background-position: 366% -2%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 `;
 
@@ -165,6 +168,17 @@ export const AboutRight = styled.div`
     display: none;
     @media screen and (min-width: 983px) {
       display: block;
+      position: relative;
+      top: -130px;
+      .tabsideImg {
+        transform: translateY(-20px);
+      }
+      .labelImg {
+        position: absolute;
+        top: -85px;
+        left: -70px;
+        transform: rotate(-85deg);
+      }
     }
     .bookRoom {
       display: none;
