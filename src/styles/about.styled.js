@@ -185,6 +185,8 @@ export const AboutRight = styled.div`
       display: none;
       @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
         display: block;
+        position: absolute;
+        bottom: -244px;
       }
     }
   }
