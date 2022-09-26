@@ -16,8 +16,40 @@ const RoomandApartment = () => {
     <RoomContainer>
       <Container>
         <RoomArea>
-          <RoomLeft></RoomLeft>
-          <RoomRight></RoomRight>
+          <RoomLeft>
+            <h2>Rooms & apartments</h2>
+            <p>
+              All room decoration was made with ecological certified and safe
+              materials.
+            </p>
+            <span>70 rooms</span>
+          </RoomLeft>
+          <RoomRight>
+            <div className="arrowSide">
+              <div className="minImg">
+                <img src={MiniRightImg} alt="/" />
+              </div>
+              <div className="arrow">
+                <img src={NextArrow} alt="icon" />
+              </div>
+            </div>
+            <div className="text">
+              <Button color="#1B3B36" />
+              <div className="textArea">
+                <h2>Superior twin</h2>
+                <p className="desktopP">
+                  The Superior twin is perfect for those who plan to stay long.
+                  The spacious and bright room is equipped with deluxe Italian
+                  furniture and has a beautiful view to the historical part of
+                  the city. Stylish interior design and comfortable beds will
+                  make your stay cozy and pleasant.
+                </p>
+                <p className="ratio">
+                  1<span>/4</span>
+                </p>
+              </div>
+            </div>
+          </RoomRight>
         </RoomArea>
       </Container>
     </RoomContainer>
