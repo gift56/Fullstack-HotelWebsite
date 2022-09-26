@@ -20,6 +20,7 @@ export const RoomLeft = styled.div`
   flex-direction: column;
   gap: 2rem;
   position: relative;
+  padding-top: 30px;
 
   h2 {
     font-weight: 400;
@@ -41,7 +42,8 @@ export const RoomLeft = styled.div`
   }
   .rooms {
     position: absolute;
-    top: 0;
+    top: -10px;
+    right: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -51,6 +53,11 @@ export const RoomLeft = styled.div`
 `;
 
 export const RoomRight = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
   .arrowSide {
     .minImg {
       display: none;
@@ -63,6 +70,7 @@ export const RoomRight = styled.div`
   }
   .mainImg {
     width: 294px;
+
     img {
       width: 100%;
     }
