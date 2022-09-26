@@ -50,4 +50,21 @@ export const RoomLeft = styled.div`
   }
 `;
 
-export const RoomRight = styled.div``;
+export const RoomRight = styled.div`
+  .arrowSide {
+    .minImg {
+      display: none;
+    }
+  }
+  .text {
+    button {
+      display: none;
+    }
+  }
+  .mainImg {
+    width: 294px;
+    img {
+      width: 100%;
+    }
+  }
+`;
