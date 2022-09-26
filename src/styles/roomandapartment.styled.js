@@ -117,7 +117,12 @@ export const RoomRight = styled.div`
   }
   .mainImg {
     width: 294px;
-
+    @media screen and (min-width: 583px) {
+      width: 90%;
+    }
+    @media screen and (max-width: 313px) {
+      width: 100%;
+    }
     img {
       width: 100%;
     }
