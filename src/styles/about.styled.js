@@ -98,7 +98,9 @@ export const AboutRight = styled.div`
     justify-content: flex-start;
     position: relative;
     width: 100%;
-
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      bottom: -167px;
+    }
     h3 {
       color: ${({ theme }) => theme.whiteColor};
       font-weight: 400;
@@ -153,7 +155,9 @@ export const AboutRight = styled.div`
       display: none;
       @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
         display: block;
-        
+        span {
+          display: block;
+        }
       }
     }
   }
