@@ -227,6 +227,9 @@ export const RightSide = styled.div`
     @media screen and (min-width: 583px) {
       width: 90%;
     }
+    @media screen and (max-width: 313px) {
+      width: 100%;
+    }
   }
   .book {
     display: flex;
