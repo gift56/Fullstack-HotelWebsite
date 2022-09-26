@@ -12,6 +12,7 @@ import {
   LeftSideTitle,
   RightSide,
 } from "../styles/hero.styled";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -28,12 +29,7 @@ const Hero = () => {
               </div>
               <div className="details">
                 <div className="tabs">
-                  <button>
-                    <div>
-                      <img src={Star} alt="/" />
-                    </div>
-                    <span>since 1973</span>
-                  </button>
+                  <Button />
                   <div className="dowdrop">
                     <img src={DownArrow} alt="/" />
                   </div>

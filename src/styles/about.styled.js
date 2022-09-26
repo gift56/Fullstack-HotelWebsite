@@ -17,7 +17,7 @@ export const AboutArea = styled.div`
   background-size: 159% 63%;
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     background-position: 366% -2%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,6 +57,7 @@ export const AboutLeft = styled.div`
     }
     @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
       left: 399px;
+      font-size: 90px;
     }
   }
 `;
