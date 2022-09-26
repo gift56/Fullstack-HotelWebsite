@@ -55,6 +55,9 @@ export const AboutLeft = styled.div`
         color: ${({ theme }) => theme.whiteColor};
       }
     }
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      left: 399px;
+    }
   }
 `;
 // font-family: "Open Sans", sans-serif !important;
@@ -187,6 +190,7 @@ export const AboutRight = styled.div`
         display: block;
         position: absolute;
         bottom: -244px;
+        cursor: pointer;
       }
     }
   }
