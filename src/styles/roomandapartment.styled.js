@@ -54,18 +54,49 @@ export const RoomLeft = styled.div`
 
 export const RoomRight = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  .leftSide {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-top: 90px;
+  }
   .arrowSide {
     .minImg {
       display: none;
+    }
+    .arrow {
+      width: 60px;
+      img {
+        width: 100%;
+      }
     }
   }
   .text {
     button {
       display: none;
+    }
+    .textArea {
+      h2 {
+        position: absolute;
+        top: 29px;
+        left: 0;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: ${({ theme }) => theme.darkColor2};
+      }
+      .ratio {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-family: "Open Sans", sans-serif !important;
+      }
     }
   }
   .mainImg {
