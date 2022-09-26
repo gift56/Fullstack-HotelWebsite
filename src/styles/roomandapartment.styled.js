@@ -12,8 +12,42 @@ export const RoomArea = styled.div`
   gap: 2rem;
   justify-content: flex-start;
   align-items: flex-start;
+  position: relative;
 `;
 
-export const RoomLeft = styled.div``;
+export const RoomLeft = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+
+  h2 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: ${({ theme }) => theme.darkColor2};
+  }
+  p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: ${({ theme }) => theme.darkColor2};
+    span {
+      font-family: "Open Sans", sans-serif !important;
+      display: block;
+    }
+  }
+  .rooms {
+    position: absolute;
+    top: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: "Open Sans", sans-serif !important;
+    text-transform: capitalize;
+  }
+`;
 
 export const RoomRight = styled.div``;

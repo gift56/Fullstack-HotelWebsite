@@ -19,10 +19,12 @@ const RoomandApartment = () => {
           <RoomLeft>
             <h2>Rooms & apartments</h2>
             <p>
-              All room decoration was made with ecological certified and safe
-              materials.
+              <span>All room decoration </span>
+              <span>was made with </span>
+              <span>ecological certified</span>
+              <span> and safe materials.</span>
             </p>
-            <span>70 rooms</span>
+            <span className="rooms">70 rooms</span>
           </RoomLeft>
           <RoomRight>
             <div className="arrowSide">
