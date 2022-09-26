@@ -96,6 +96,21 @@ export const RoomRight = styled.div`
         top: 0;
         right: 0;
         font-family: "Open Sans", sans-serif !important;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 15px;
+        span {
+          color: #1b3b3699;
+        }
+      }
+      .desktopP {
+        font-family: "Open Sans", sans-serif !important;
+        font-weight: 400;
+        font-size: 13px;
+        color: ${({ theme }) => theme.darkColor2};
+        line-height: 23px;
+        opacity: 0.8;
       }
     }
   }
