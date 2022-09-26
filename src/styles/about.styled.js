@@ -103,6 +103,7 @@ export const AboutRight = styled.div`
     width: 100%;
     @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
       bottom: -167px;
+      right: -73px;
     }
     h3 {
       color: ${({ theme }) => theme.whiteColor};
@@ -169,7 +170,7 @@ export const AboutRight = styled.div`
     @media screen and (min-width: 983px) {
       display: block;
       position: relative;
-      top: -130px;
+      top: -105px;
       .tabsideImg {
         transform: translateY(-20px);
       }
@@ -177,7 +178,7 @@ export const AboutRight = styled.div`
         position: absolute;
         top: -85px;
         left: -70px;
-        transform: rotate(-85deg);
+        transform: rotate(-98deg);
       }
     }
     .bookRoom {
