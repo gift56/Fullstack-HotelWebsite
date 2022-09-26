@@ -49,6 +49,9 @@ const RoomandApartment = () => {
                 </p>
               </div>
             </div>
+            <div className="mainImg">
+              <img src={RightImge} alt="Roomsimage" />
+            </div>
           </RoomRight>
         </RoomArea>
       </Container>
