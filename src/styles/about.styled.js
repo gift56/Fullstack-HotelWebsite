@@ -153,6 +153,7 @@ export const AboutRight = styled.div`
       display: none;
       @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
         display: block;
+        
       }
     }
   }
@@ -161,8 +162,11 @@ export const AboutRight = styled.div`
     @media screen and (min-width: 983px) {
       display: block;
     }
-    @media screen and  {
-        
+    .bookRoom {
+      display: none;
+      @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        display: block;
+      }
     }
   }
 `;

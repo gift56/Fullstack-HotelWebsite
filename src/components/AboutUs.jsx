@@ -46,10 +46,12 @@ const AboutUs = () => {
                 <span>those who travel for business and travel purposes.</span>
               </p>
               <p className="deskP">
-                The hotel was reopened to visitors in 2016. The building was
-                renovated and modernized to meet the expectations of the most
-                demanding guests. We offer luxurious rooms, numerous facilities,
-                and exceptional service.
+                <span>The hotel was reopened to visitors in 2016.</span>{" "}
+                <span>The building was renovated and</span>{" "}
+                <span>modernized to meet the expectations of</span>{" "}
+                <span>the most demanding guests. We offer</span>
+                <span>luxurious rooms, numerous facilities, and</span>
+                <span> exceptional service.</span>
               </p>
               <img src={Label} alt="/" />
             </div>
@@ -58,7 +60,7 @@ const AboutUs = () => {
                 <img src={sideImg} alt="/" />
               </div>
               <img src={Label} alt="/" className="labelImg" />
-              <img src={RamP} alt="rooms" />
+              <img src={RamP} alt="rooms" className="bookRoom" />
             </div>
           </AboutRight>
         </AboutArea>
