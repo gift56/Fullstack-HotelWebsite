@@ -39,6 +39,10 @@ export const RoomLeft = styled.div`
       font-family: "Open Sans", sans-serif !important;
       display: block;
     }
+    @media screen and (min-width: 583px) {
+      font-size: 15px;
+      line-height: 20px;
+    }
   }
   .rooms {
     position: absolute;
@@ -67,6 +71,9 @@ export const RoomRight = styled.div`
     padding-bottom: 40px;
   }
   .arrowSide {
+    @media screen and (min-width: 583px) {
+      width: 100%;
+    }
     .minImg {
       display: none;
     }
@@ -112,6 +119,10 @@ export const RoomRight = styled.div`
         color: ${({ theme }) => theme.darkColor2};
         line-height: 23px;
         opacity: 0.8;
+        @media screen and (min-width: 583px) {
+          font-size: 15px;
+          text-align: justify;
+        }
       }
     }
   }
