@@ -2,9 +2,9 @@ import React from "react";
 import Star from "../assets/star.svg";
 import { ButtonsStar } from "../styles/button.styled";
 
-const Button = () => {
+const Button = ({ color }) => {
   return (
-    <ButtonsStar color="#FFFCF6">
+    <ButtonsStar color={color}>
       <div>
         <img src={Star} alt="/" />
       </div>

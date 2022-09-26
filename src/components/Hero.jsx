@@ -29,7 +29,7 @@ const Hero = () => {
               </div>
               <div className="details">
                 <div className="tabs">
-                  <Button />
+                  <Button color="#FFFCF6" />
                   <div className="dowdrop">
                     <img src={DownArrow} alt="/" />
                   </div>
