@@ -64,6 +64,7 @@ export const RoomRight = styled.div`
     align-items: flex-start;
     gap: 1rem;
     padding-top: 90px;
+    padding-bottom: 40px;
   }
   .arrowSide {
     .minImg {
