@@ -138,7 +138,7 @@ export const AboutRight = styled.div`
     img {
       position: absolute;
       top: -5px;
-      right: 0;
+      right: 2px;
       width: 72px;
       transform: rotate(-17deg);
       @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {

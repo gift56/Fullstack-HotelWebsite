@@ -127,7 +127,7 @@ export const RoomRight = styled.div`
     }
   }
   .mainImg {
-    width: 294px;
+    width: 285px;
     @media screen and (min-width: 583px) {
       width: 90%;
     }
