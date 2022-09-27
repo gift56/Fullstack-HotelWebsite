@@ -38,7 +38,7 @@ const Header = () => {
                 onClick={() => selectProduct(index)}
                 key={index}
               >
-                {link}{" "}
+                {link}
                 <div>
                   <img src={Star} alt="/" />
                 </div>
