@@ -121,6 +121,12 @@ export const RoomRight = styled.div`
       display: none;
     }
     .textArea {
+      @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 70%;
+      }
       h2 {
         position: absolute;
         top: 29px;
@@ -130,6 +136,10 @@ export const RoomRight = styled.div`
         line-height: 30px;
         text-transform: capitalize;
         color: ${({ theme }) => theme.darkColor2};
+        @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+          position: relative;
+          top: 0;
+        }
       }
       .ratio {
         position: absolute;
@@ -140,6 +150,10 @@ export const RoomRight = styled.div`
         font-size: 16px;
         line-height: 19px;
         letter-spacing: 15px;
+        @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+          position: relative;
+          top: 0;
+        }
         span {
           color: #1b3b3699;
         }
@@ -163,11 +177,16 @@ export const RoomRight = styled.div`
     @media screen and (min-width: 583px) {
       width: 90%;
     }
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      height: 377px;
+    }
     @media screen and (max-width: 313px) {
       width: 100%;
     }
     img {
       width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 `;
