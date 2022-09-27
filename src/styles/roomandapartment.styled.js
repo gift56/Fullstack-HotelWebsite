@@ -21,6 +21,7 @@ export const RoomLeft = styled.div`
   gap: 2rem;
   position: relative;
   padding-top: 30px;
+  width: 100%;
 
   h2 {
     font-weight: 400;
@@ -53,6 +54,8 @@ export const RoomLeft = styled.div`
     line-height: 19px;
     font-family: "Open Sans", sans-serif !important;
     text-transform: capitalize;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+    }
   }
 `;
 
@@ -62,6 +65,9 @@ export const RoomRight = styled.div`
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+    flex-direction: row;
+  }
   .leftSide {
     position: relative;
     display: flex;
@@ -76,6 +82,9 @@ export const RoomRight = styled.div`
     }
     .minImg {
       display: none;
+      @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        display: block;
+      }
     }
     .arrow {
       width: 60px;
