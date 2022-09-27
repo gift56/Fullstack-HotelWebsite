@@ -1,6 +1,7 @@
 import React from "react";
 import RightImge from "../assets/rmMain.svg";
 import MiniRightImg from "../assets/dRM.svg";
+import DesktopImg from "../assets/desktopPM.svg";
 import NextArrow from "../assets/nextBtn.svg";
 import Button from "./Button";
 import { Container } from "../styles/container.styled";
@@ -57,6 +58,9 @@ const RoomandApartment = () => {
             </div>
             <div className="mainImg">
               <img src={RightImge} alt="Roomsimage" />
+            </div>
+            <div className="deskImg">
+              <img src={DesktopImg} alt="Roomsimage" />
             </div>
           </RoomRight>
         </RoomArea>

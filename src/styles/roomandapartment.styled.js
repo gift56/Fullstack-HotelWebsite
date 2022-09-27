@@ -95,10 +95,24 @@ export const RoomRight = styled.div`
     gap: 1rem;
     padding-top: 90px;
     padding-bottom: 40px;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      padding: 0;
+    }
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      flex: 1;
+    }
   }
   .arrowSide {
     @media screen and (min-width: 583px) {
       width: 100%;
+    }
+
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 71%;
     }
     .minImg {
       display: none;
@@ -117,6 +131,9 @@ export const RoomRight = styled.div`
     }
   }
   .text {
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      width: 100%;
+    }
     button {
       display: none;
     }
@@ -187,6 +204,9 @@ export const RoomRight = styled.div`
     @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
       height: 377px;
     }
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      display: none;
+    }
     @media screen and (max-width: 313px) {
       width: 100%;
     }
@@ -194,6 +214,16 @@ export const RoomRight = styled.div`
       width: 100%;
       height: 100%;
       object-fit: cover;
+    }
+  }
+  .deskImg {
+    display: none;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      display: block;
+      width: 40%;
+      img {
+        width: 100%;
+      }
     }
   }
 `;
