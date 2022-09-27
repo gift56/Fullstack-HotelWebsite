@@ -13,6 +13,10 @@ export const RoomArea = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+    gap: 5rem;
+    padding: 80px 0;
+  }
 `;
 
 export const RoomLeft = styled.div`
@@ -22,6 +26,11 @@ export const RoomLeft = styled.div`
   position: relative;
   padding-top: 30px;
   width: 100%;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 
   h2 {
     font-weight: 400;
@@ -29,6 +38,13 @@ export const RoomLeft = styled.div`
     line-height: 60px;
     text-transform: uppercase;
     color: ${({ theme }) => theme.darkColor2};
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      font-size: 90px;
+      line-height: 80px;
+      span {
+        display: block;
+      }
+    }
   }
   p {
     font-weight: 400;
@@ -44,6 +60,9 @@ export const RoomLeft = styled.div`
       font-size: 15px;
       line-height: 20px;
     }
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      font-size: 16px;
+    }
   }
   .rooms {
     position: absolute;
@@ -55,6 +74,7 @@ export const RoomLeft = styled.div`
     font-family: "Open Sans", sans-serif !important;
     text-transform: capitalize;
     @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      display: none;
     }
   }
 `;
