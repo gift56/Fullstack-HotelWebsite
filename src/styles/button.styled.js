@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ButtonsStar = styled.button`
   @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
     background-color: transparent;
-    border: 1px solid #fffcf64d;
+    border: 1px solid ${({ color }) => color};
     border-radius: 99px;
     padding: 7px 24px;
     display: flex !important;

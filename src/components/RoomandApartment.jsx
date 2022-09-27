@@ -17,7 +17,9 @@ const RoomandApartment = () => {
       <Container>
         <RoomArea>
           <RoomLeft>
-            <h2>Rooms <span>& apartments</span></h2>
+            <h2>
+              Rooms <span>& apartments</span>
+            </h2>
             <p>
               <span>All room decoration </span>
               <span>was made with </span>

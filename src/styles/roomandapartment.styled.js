@@ -139,6 +139,9 @@ export const RoomRight = styled.div`
         @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
           position: relative;
           top: 0;
+          font-size: 36px;
+          line-height: 44px;
+          letter-spacing: 0.03em;
         }
       }
       .ratio {
@@ -153,6 +156,7 @@ export const RoomRight = styled.div`
         @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
           position: relative;
           top: 0;
+          margin-top: 3rem;
         }
         span {
           color: #1b3b3699;
@@ -168,6 +172,9 @@ export const RoomRight = styled.div`
         @media screen and (min-width: 583px) {
           font-size: 15px;
           text-align: justify;
+        }
+        @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+          text-align: left;
         }
       }
     }
