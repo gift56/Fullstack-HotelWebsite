@@ -113,6 +113,7 @@ export const RoomRight = styled.div`
       justify-content: space-between;
       align-items: flex-start;
       width: 71%;
+      gap: 11rem;
     }
     .minImg {
       display: none;
@@ -133,6 +134,10 @@ export const RoomRight = styled.div`
   .text {
     @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
       width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 11rem;
     }
     button {
       display: none;
@@ -143,6 +148,9 @@ export const RoomRight = styled.div`
         flex-direction: column;
         gap: 1.5rem;
         width: 70%;
+      }
+      @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        width: 85%;
       }
       h2 {
         position: absolute;
@@ -224,6 +232,9 @@ export const RoomRight = styled.div`
       img {
         width: 100%;
       }
+    }
+    @media screen and (min-width: 1300px) {
+      width: 30%;
     }
   }
 `;
