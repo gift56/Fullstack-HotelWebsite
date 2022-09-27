@@ -79,6 +79,9 @@ export const RoomRight = styled.div`
     }
     .arrow {
       width: 60px;
+      @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+        width: 105px;
+      }
       img {
         width: 100%;
       }
