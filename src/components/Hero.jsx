@@ -32,7 +32,6 @@ const Hero = () => {
                   <Button color="#FFFCF6" />
                   <div className="dowdrop">
                     <img src={DownArrow} alt="/" />
-                    
                   </div>
                 </div>
                 <h4 className="text">
