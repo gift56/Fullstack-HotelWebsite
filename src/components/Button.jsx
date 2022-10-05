@@ -8,6 +8,7 @@ const Button = ({ color }) => {
       <div>
         <img src={Star} alt="/" />
       </div>
+      
       <span>since 1973</span>
     </ButtonsStar>
   );
