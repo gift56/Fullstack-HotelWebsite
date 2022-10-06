@@ -231,7 +231,6 @@ export const FacilitiesRightside = styled.div`
               top: 0;
               font-size: 36px;
               line-height: 44px;
-              letter-spacing: 0.03em;
             }
           }
           .desktopP {
@@ -253,11 +252,10 @@ export const FacilitiesRightside = styled.div`
             position: absolute;
             top: 0;
             left: 0;
-            font-family: "Open Sans", sans-serif !important;
             font-weight: 400;
-            font-size: 16px;
-            line-height: 19px;
-            letter-spacing: 15px;
+            font-size: 30px;
+            line-height: 30px;
+            color: ${({ theme }) => theme.darkColor2};
             @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
               position: relative;
               top: 0;
