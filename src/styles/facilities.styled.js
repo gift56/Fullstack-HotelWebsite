@@ -21,6 +21,7 @@ export const FacilitiesLeftside = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 1rem;
+  width: 100%;
   .image {
     position: absolute;
     top: 208px;
@@ -39,6 +40,7 @@ export const FacilitiesLeftside = styled.div`
     display: flex;
     flex-direction: column;
     gap: 12rem;
+    width: 100%;
     .textdetail {
       font-weight: 400;
       font-size: 13px;
@@ -47,6 +49,10 @@ export const FacilitiesLeftside = styled.div`
       font-family: "Open Sans", sans-serif !important;
       @media screen and (min-width: 405px) {
         font-size: 15px;
+      }
+      @media screen and (min-width: 607px) {
+        margin-top: 30px;
+        width: 90%;
       }
     }
   }
