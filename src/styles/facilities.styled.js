@@ -45,6 +45,9 @@ export const FacilitiesLeftside = styled.div`
       line-height: 23px;
       opacity: 0.8;
       font-family: "Open Sans", sans-serif !important;
+      @media screen and (min-width: 405px) {
+        font-size: 15px;
+      }
     }
   }
 `;
