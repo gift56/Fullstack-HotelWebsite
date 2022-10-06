@@ -38,11 +38,16 @@ export const FacilitiesLeftside = styled.div`
     }
     @media screen and (min-width: 983px) {
       position: relative;
+      top: 0;
     }
     .label {
       display: none;
       @media screen and (min-width: 983px) {
         display: block;
+        position: absolute;
+        top: -32px;
+        right: -32px;
+        width: 80px;
       }
     }
   }
