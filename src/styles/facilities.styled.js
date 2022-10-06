@@ -24,6 +24,13 @@ export const FacilitiesLeftside = styled.div`
   .image {
     position: absolute;
     top: 208px;
+    @media screen and (min-width: 375px) {
+      width: 253px;
+      top: 200px;
+      img {
+        width: 100%;
+      }
+    }
     .label {
       display: none;
     }
@@ -46,6 +53,9 @@ export const FacilitiesLeftsideTitle = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  @media screen and (min-width: 375px) {
+    justify-content: space-between;
+  }
   h2 {
     font-weight: 400;
     font-size: 53px;
@@ -67,6 +77,9 @@ export const FacilitiesLeftsideTitle = styled.div`
     text-transform: capitalize;
     font-family: "Open Sans", sans-serif !important;
     color: ${({ theme }) => theme.darkColor2};
+    span {
+      display: block;
+    }
   }
 `;
 
