@@ -24,15 +24,15 @@ const Facilities = () => {
             <div className="textArea">
               <FacilitiesLeftsideTitle>
                 <h2>
-                  Our faci{" "}
+                  Our <br /> faci
                   <span>
                     <img src={FacilityStar} alt="/" />
-                  </span>{" "}
-                  lities
+                    lities
+                  </span>
                 </h2>
                 <p>Art & Congress halls</p>
               </FacilitiesLeftsideTitle>
-              <p>
+              <p className="textdetail">
                 Bank Hotel offers you a wide range of additional services and
                 facilities. Visit our restaurant to try exclusive meals, book a
                 conference hall to organize a business meeting, or relax in the
