@@ -181,6 +181,37 @@ export const FacilitiesRightside = styled.div`
   flex-direction: column;
   gap: 2rem;
   .firstSide {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      flex-direction: row;
+    }
+    .leftside {
+      position: relative;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+        padding: 0;
+      }
+      @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        flex: 1;
+      }
+      .textArea {
+        .arrowSide {
+          width: 60px;
+          @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+            width: 105px;
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
     .mainImg {
       width: 285px;
       @media screen and (min-width: 583px) {
