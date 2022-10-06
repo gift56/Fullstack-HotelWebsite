@@ -57,7 +57,9 @@ const Facilities = () => {
                     <img src={NextArrow} alt="arrow" />
                   </div>
                   <div className="text">
-                    <h2>Ice restaurant</h2>
+                    <h2>
+                      Ice <br /> restaurant
+                    </h2>
                     <p className="desktopP">
                       The hotel’s exclusive infrastructure is complemented by
                       the unique atmosphere of the Safe Restaurant. Author’s
@@ -68,7 +70,9 @@ const Facilities = () => {
                   </div>
                 </div>
               </div>
-              <div className="rightside"></div>
+              <div className="mainImg">
+                <img src={FacilityImg} alt="facilities_image" />
+              </div>
             </div>
           </FacilitiesRightside>
         </FacilitiesArea>
