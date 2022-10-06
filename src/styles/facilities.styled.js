@@ -191,9 +191,6 @@ export const FacilitiesRightside = styled.div`
     }
     .leftside {
       position: relative;
-      display: flex;
-      align-items: flex-start;
-      gap: 1rem;
       @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
         padding: 0;
       }
@@ -201,8 +198,11 @@ export const FacilitiesRightside = styled.div`
         flex: 1;
       }
       .textArea {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
         .arrowSide {
-          width: 60px;
+          width: 30%;
           @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
             width: 105px;
           }
@@ -215,6 +215,7 @@ export const FacilitiesRightside = styled.div`
           flex-direction: column;
           align-items: flex-start;
           gap: 1rem;
+          width: 70%;
           @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
             gap: 11rem;
           }
@@ -230,6 +231,39 @@ export const FacilitiesRightside = styled.div`
               font-size: 36px;
               line-height: 44px;
               letter-spacing: 0.03em;
+            }
+          }
+          .desktopP {
+            font-family: "Open Sans", sans-serif !important;
+            font-weight: 400;
+            font-size: 13px;
+            color: ${({ theme }) => theme.darkColor2};
+            line-height: 23px;
+            opacity: 0.8;
+            @media screen and (min-width: 583px) {
+              font-size: 15px;
+              text-align: justify;
+            }
+            @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+              text-align: left;
+            }
+          }
+          .ratio {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-family: "Open Sans", sans-serif !important;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 15px;
+            @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+              position: relative;
+              top: 0;
+              margin-top: 3rem;
+            }
+            span {
+              color: #1b3b3699;
             }
           }
         }
