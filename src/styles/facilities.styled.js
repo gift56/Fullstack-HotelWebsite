@@ -70,6 +70,7 @@ export const FacilitiesLeftside = styled.div`
       }
       @media screen and (min-width: 983px) {
         margin-top: 0;
+        width: 250px;
       }
     }
   }
@@ -112,6 +113,9 @@ export const FacilitiesLeftsideTitle = styled.div`
     color: ${({ theme }) => theme.darkColor2};
     span {
       display: block;
+    }
+    @media screen and (min-width: 983px) {
+      font-size: 18px;
     }
   }
 `;
