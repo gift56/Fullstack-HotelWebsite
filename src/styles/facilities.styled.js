@@ -199,10 +199,10 @@ export const FacilitiesRightside = styled.div`
       }
       .textArea {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         gap: 1rem;
         .arrowSide {
-          width: 30%;
+          width: 25%;
           @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
             width: 105px;
           }
