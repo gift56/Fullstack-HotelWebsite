@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeaderContainer = styled.header`
+export const HeaderContainer = styled.nav`
   position: relative;
   background-color: ${({ theme }) => theme.darkColor};
   .left {
@@ -8,7 +8,7 @@ export const HeaderContainer = styled.header`
   }
 `;
 
-export const HeaderArea = styled.nav`
+export const HeaderArea = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -131,7 +131,7 @@ export const HeaderArea = styled.nav`
     @media screen and (max-width: ${({ theme }) => theme.mobile.minLap}) {
       display: none;
     }
-    p{
+    p {
       font-family: inherit;
     }
   }
