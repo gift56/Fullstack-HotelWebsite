@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const FacilitiesCon = styled.section`
   border-top: 1px solid #313f388f;
   position: relative;
+  @media screen and (min-width: 1203px) {
+    background-color: ${({ theme }) => theme.whiteColor};
+  }
 `;
 
 export const FacilitiesArea = styled.div`
