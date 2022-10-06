@@ -287,9 +287,9 @@ export const FacilitiesRightside = styled.div`
       @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
         height: 377px;
       }
-      /* @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
-        display: none;
-      } */
+      @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        height: 503.74px;
+      }
       @media screen and (max-width: 313px) {
         width: 100%;
       }
