@@ -203,6 +203,7 @@ export const FacilitiesRightside = styled.div`
         gap: 1rem;
         .arrowSide {
           width: 25%;
+          transform: rotate(90deg);
           @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
             width: 105px;
           }
