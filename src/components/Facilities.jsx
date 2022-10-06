@@ -57,15 +57,17 @@ const Facilities = () => {
                     <img src={NextArrow} alt="arrow" />
                   </div>
                   <div className="text">
-                    <h2>
-                      Ice <br /> restaurant
-                    </h2>
-                    <p className="desktopP">
-                      The hotel’s exclusive infrastructure is complemented by
-                      the unique atmosphere of the Safe Restaurant. Author’s
-                      menu, extensive wine card, and live music will set you for
-                      the correct mood.
-                    </p>
+                    <div>
+                      <h2>
+                        Ice <br /> restaurant
+                      </h2>
+                      <p className="desktopP">
+                        The hotel’s exclusive infrastructure is complemented by
+                        the unique atmosphere of the Safe Restaurant. Author’s
+                        menu, extensive wine card, and live music will set you
+                        for the correct mood.
+                      </p>
+                    </div>
                     <p className="ratio">01</p>
                   </div>
                 </div>

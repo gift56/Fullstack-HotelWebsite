@@ -224,6 +224,10 @@ export const FacilitiesRightside = styled.div`
           align-items: flex-start;
           gap: 1rem;
           width: 70%;
+          @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+            flex-direction: column-reverse;
+            gap: 4rem;
+          }
           @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
             gap: 11rem;
           }
