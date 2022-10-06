@@ -24,6 +24,7 @@ const Header = () => {
   ];
 
   const SocialLinks = ["Facebook", "Instagram", "twitter"];
+  
   return (
     <HeaderContainer>
       <Container>
