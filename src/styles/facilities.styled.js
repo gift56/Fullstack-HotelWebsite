@@ -53,7 +53,7 @@ export const FacilitiesLeftside = styled.div`
     width: 100%;
     @media screen and (min-width: 983px) {
       gap: 4rem;
-      width: 50%;
+      width: 65%;
     }
     .textdetail {
       font-weight: 400;
@@ -67,6 +67,9 @@ export const FacilitiesLeftside = styled.div`
       @media screen and (min-width: 607px) {
         margin-top: 30px;
         width: 90%;
+      }
+      @media screen and (min-width: 983px) {
+        margin-top: 0;
       }
     }
   }
@@ -90,6 +93,13 @@ export const FacilitiesLeftsideTitle = styled.div`
     span {
       display: flex;
       gap: 0.5rem;
+      @media screen and (min-width: 983px) {
+        transform: translateX(119px);
+      }
+    }
+    @media screen and (min-width: 983px) {
+      font-size: 90px;
+      line-height: 80px;
     }
   }
   p {
