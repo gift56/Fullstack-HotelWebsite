@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Star from "../assets/star.svg";
 import Bar from "../assets/openIcon.svg";
 import Close from "../assets/closeIcon.svg";
@@ -24,7 +24,22 @@ const Header = () => {
   ];
 
   const SocialLinks = ["Facebook", "Instagram", "twitter"];
-  
+
+  useEffect(() => {
+    const handleScroll = (e) => {
+      const nav = document.querySelector("nav");
+      if (e.currentTarget.scrollY > 50) {
+        nav.classList.add("nav__scrolled");
+      } else {
+        nav.classList.remove("nav__scrolled");
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <HeaderContainer>
       <Container>

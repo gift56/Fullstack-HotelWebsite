@@ -8,7 +8,7 @@ export const HeaderContainer = styled.header`
   }
 `;
 
-export const HeaderArea = styled.div`
+export const HeaderArea = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
