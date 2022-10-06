@@ -204,6 +204,9 @@ export const FacilitiesRightside = styled.div`
         .arrowSide {
           width: 25%;
           transform: rotate(90deg);
+          @media screen and (min-width: 450px) {
+            width: 87px;
+          }
           @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
             width: 105px;
           }
