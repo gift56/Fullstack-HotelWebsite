@@ -201,11 +201,15 @@ export const FacilitiesRightside = styled.div`
         display: flex;
         align-items: center;
         gap: 1rem;
+        @media screen and (min-width: 500px) {
+          justify-content: space-between;
+        }
         .arrowSide {
           width: 25%;
           transform: rotate(90deg);
           @media screen and (min-width: 450px) {
             width: 87px;
+            margin-top: 40px;
           }
           @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
             width: 105px;
