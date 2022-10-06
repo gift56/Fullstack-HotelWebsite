@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
-export const FacilitiesCon = styled.section``;
+
+export const FacilitiesCon = styled.section`
+  border-top: 1px solid;
+`;
 
 export const FacilitiesArea = styled.div``;
 

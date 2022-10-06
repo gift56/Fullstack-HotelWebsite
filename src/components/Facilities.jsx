@@ -8,6 +8,7 @@ import {
   FacilitiesArea,
   FacilitiesCon,
   FacilitiesLeftside,
+  FacilitiesLeftsideTitle,
   FacilitiesRightside,
 } from "../styles/facilities.styled";
 
@@ -16,7 +17,19 @@ const Facilities = () => {
     <FacilitiesCon>
       <Container>
         <FacilitiesArea>
-          <FacilitiesLeftside></FacilitiesLeftside>
+          <FacilitiesLeftside>
+            <div className="textArea">
+              <FacilitiesLeftsideTitle>
+                <h2>
+                  Our faci{" "}
+                  <span>
+                    <img src={FacilityStar} alt="/" />
+                  </span>{" "}
+                  lities
+                </h2>
+              </FacilitiesLeftsideTitle>
+            </div>
+          </FacilitiesLeftside>
           <FacilitiesRightside></FacilitiesRightside>
         </FacilitiesArea>
       </Container>
