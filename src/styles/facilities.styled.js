@@ -176,4 +176,30 @@ export const FacilitiesLeftsideTitle = styled.div`
   }
 `;
 
-export const FacilitiesRightside = styled.div``;
+export const FacilitiesRightside = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  .firstSide {
+    .mainImg {
+      width: 285px;
+      @media screen and (min-width: 583px) {
+        width: 90%;
+      }
+      @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+        height: 377px;
+      }
+      /* @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        display: none;
+      } */
+      @media screen and (max-width: 313px) {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+`;
