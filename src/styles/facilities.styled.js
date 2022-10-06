@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-
 export const FacilitiesCon = styled.section`
-  border-top: 1px solid;
+  border-top: 1px solid #313f388f;
 `;
 
 export const FacilitiesArea = styled.div``;

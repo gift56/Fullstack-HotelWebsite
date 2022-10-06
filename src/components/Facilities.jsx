@@ -18,6 +18,9 @@ const Facilities = () => {
       <Container>
         <FacilitiesArea>
           <FacilitiesLeftside>
+            <div className="image">
+              <img src={FacilitySmallImg} alt="minImg" />
+            </div>
             <div className="textArea">
               <FacilitiesLeftsideTitle>
                 <h2>
@@ -27,7 +30,14 @@ const Facilities = () => {
                   </span>{" "}
                   lities
                 </h2>
+                <p>Art & Congress halls</p>
               </FacilitiesLeftsideTitle>
+              <p>
+                Bank Hotel offers you a wide range of additional services and
+                facilities. Visit our restaurant to try exclusive meals, book a
+                conference hall to organize a business meeting, or relax in the
+                art-bar.
+              </p>
             </div>
           </FacilitiesLeftside>
           <FacilitiesRightside></FacilitiesRightside>
