@@ -210,6 +210,29 @@ export const FacilitiesRightside = styled.div`
             width: 100%;
           }
         }
+        .text {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 1rem;
+          @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+            gap: 11rem;
+          }
+          h2 {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: ${({ theme }) => theme.darkColor2};
+            @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+              position: relative;
+              top: 0;
+              font-size: 36px;
+              line-height: 44px;
+              letter-spacing: 0.03em;
+            }
+          }
+        }
       }
     }
     .mainImg {
