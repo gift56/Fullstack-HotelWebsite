@@ -44,6 +44,7 @@ export const FacilitiesLeftside = styled.div`
       top: 0;
     }
     @media screen and (min-width: 1203px) {
+      top: 150px;
       width: 300px;
     }
     .label {
@@ -68,6 +69,9 @@ export const FacilitiesLeftside = styled.div`
     @media screen and (min-width: 983px) {
       gap: 4rem;
       width: 65%;
+    }
+    @media screen and (min-width: 1203px) {
+      gap: 6rem;
     }
     .textdetail {
       font-weight: 400;
