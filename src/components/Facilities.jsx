@@ -1,4 +1,8 @@
 import React from "react";
+import FacilityImg from "../assets/facilityH.svg";
+import FacilitySmallImg from "../assets/facilitySmI.svg";
+import FacilityStar from "../assets/facilityStar.svg";
+import FacilityDesImg from "../assets/facilityDesImg.svg";
 import { Container } from "../styles/container.styled";
 import {
   FacilitiesArea,
