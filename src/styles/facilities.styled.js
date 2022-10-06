@@ -14,7 +14,22 @@ export const FacilitiesArea = styled.div`
   padding: 40px 0;
 `;
 
-export const FacilitiesLeftside = styled.div``;
+export const FacilitiesLeftside = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  .image {
+    position: absolute;
+  }
+  .textArea {
+    display: flex;
+    flex-direction: column;
+    gap: 12rem;
+  }
+`;
 
 export const FacilitiesLeftsideTitle = styled.div``;
 
