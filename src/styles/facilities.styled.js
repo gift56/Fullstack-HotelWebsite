@@ -22,6 +22,10 @@ export const FacilitiesLeftside = styled.div`
   flex-direction: column;
   gap: 1rem;
   width: 100%;
+  @media screen and (min-width: 983px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .image {
     position: absolute;
     top: 208px;
@@ -32,8 +36,14 @@ export const FacilitiesLeftside = styled.div`
         width: 100%;
       }
     }
+    @media screen and (min-width: 983px) {
+      position: relative;
+    }
     .label {
       display: none;
+      @media screen and (min-width: 983px) {
+        display: block;
+      }
     }
   }
   .textArea {
@@ -41,6 +51,10 @@ export const FacilitiesLeftside = styled.div`
     flex-direction: column;
     gap: 12rem;
     width: 100%;
+    @media screen and (min-width: 983px) {
+      gap: 4rem;
+      width: 50%;
+    }
     .textdetail {
       font-weight: 400;
       font-size: 13px;
