@@ -12,6 +12,9 @@ export const FacilitiesArea = styled.div`
   flex-direction: column;
   gap: 2rem;
   padding: 40px 0;
+  @media screen and (min-width: 983px) {
+    padding: 60px 0;
+  }
 `;
 
 export const FacilitiesLeftside = styled.div`
@@ -40,6 +43,9 @@ export const FacilitiesLeftside = styled.div`
       position: relative;
       top: 0;
     }
+    @media screen and (min-width: 1203px) {
+      width: 300px;
+    }
     .label {
       display: none;
       @media screen and (min-width: 983px) {
@@ -48,6 +54,9 @@ export const FacilitiesLeftside = styled.div`
         top: -32px;
         right: -32px;
         width: 80px;
+      }
+      @media screen and (min-width: 1203px) {
+        display: none;
       }
     }
   }
@@ -87,6 +96,7 @@ export const FacilitiesLeftsideTitle = styled.div`
   align-items: flex-start;
   @media screen and (min-width: 375px) {
     justify-content: space-between;
+    align-items: flex-end;
   }
   h2 {
     font-weight: 400;
@@ -138,6 +148,7 @@ export const FacilitiesLeftsideTitle = styled.div`
     }
     @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
       position: absolute;
+      top: 0;
       left: 0;
       width: 125px;
       text-align: left;
