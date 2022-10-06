@@ -118,6 +118,7 @@ export const FacilitiesLeftsideTitle = styled.div`
     color: ${({ theme }) => theme.darkColor2};
     span {
       display: block;
+      font-family: "Open Sans", sans-serif !important;
     }
     @media screen and (min-width: 983px) {
       font-size: 18px;

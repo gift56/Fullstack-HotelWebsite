@@ -1,5 +1,4 @@
 import React from "react";
-import Star from "../assets/star.svg";
 import DownArrow from "../assets/downdrop.svg";
 import Mobilehero from "../assets/Hmobile.svg";
 import Desktophero from "../assets/desktopH.svg";
@@ -53,7 +52,7 @@ const Hero = () => {
             </div>
             <div className="book">
               <p>
-                Art & Congress <br /> hall
+                Art &amp; Congress <br /> hall
               </p>
               <div className="contact">
                 <p>+38 032 297 50 20</p>

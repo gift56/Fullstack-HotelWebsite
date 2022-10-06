@@ -19,7 +19,7 @@ const RoomandApartment = () => {
         <RoomArea>
           <RoomLeft>
             <h2>
-              Rooms <span>& apartments</span>
+              Rooms <span>&amp; apartments</span>
             </h2>
             <p>
               <span>All room decoration </span>

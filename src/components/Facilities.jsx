@@ -32,7 +32,7 @@ const Facilities = () => {
                     lities
                   </span>
                 </h2>
-                <p>Art & Congress <span>halls</span></p>
+                <p>Art &amp; Congress <span>halls</span></p>
               </FacilitiesLeftsideTitle>
               <p className="textdetail">
                 Bank Hotel offers you a wide range of additional services and
