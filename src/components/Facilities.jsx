@@ -4,6 +4,8 @@ import FacilitySmallImg from "../assets/facilitySmI.svg";
 import FacilityStar from "../assets/facilityStar.svg";
 import FacilityLabel from "../assets/facilityLabel.svg";
 import FacilityDesImg from "../assets/facilityDesImg.svg";
+import NextArrow from "../assets/nextBtn.svg";
+import Arrow from "../assets/arrow.svg";
 import { Container } from "../styles/container.styled";
 import {
   FacilitiesArea,
@@ -47,7 +49,26 @@ const Facilities = () => {
               </p>
             </div>
           </FacilitiesLeftside>
-          <FacilitiesRightside></FacilitiesRightside>
+          <FacilitiesRightside>
+            <div className="leftside">
+              <div className="textArea">
+                <div className="arrowSide">
+                  <img src={NextArrow} alt="arrow" />
+                </div>
+                <div className="text">
+                  <h2>Ice restaurant</h2>
+                  <p className="desktopP">
+                    The hotel’s exclusive infrastructure is complemented by the
+                    unique atmosphere of the Safe Restaurant. Author’s menu,
+                    extensive wine card, and live music will set you for the
+                    correct mood.
+                  </p>
+                  <p className="ratio">01</p>
+                </div>
+              </div>
+            </div>
+            <div className="rightside"></div>
+          </FacilitiesRightside>
         </FacilitiesArea>
       </Container>
     </FacilitiesCon>
