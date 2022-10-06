@@ -24,6 +24,9 @@ export const FacilitiesLeftside = styled.div`
   .image {
     position: absolute;
     top: 208px;
+    .label {
+      display: none;
+    }
   }
   .textArea {
     display: flex;

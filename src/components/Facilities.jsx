@@ -2,6 +2,7 @@ import React from "react";
 import FacilityImg from "../assets/facilityH.svg";
 import FacilitySmallImg from "../assets/facilitySmI.svg";
 import FacilityStar from "../assets/facilityStar.svg";
+import FacilityLabel from "../assets/facilityLabel.svg";
 import FacilityDesImg from "../assets/facilityDesImg.svg";
 import { Container } from "../styles/container.styled";
 import {
@@ -20,6 +21,7 @@ const Facilities = () => {
           <FacilitiesLeftside>
             <div className="image">
               <img src={FacilitySmallImg} alt="minImg" />
+              <img src={FacilityLabel} alt="label" className="label" />
             </div>
             <div className="textArea">
               <FacilitiesLeftsideTitle>
