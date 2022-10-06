@@ -123,6 +123,25 @@ export const FacilitiesLeftsideTitle = styled.div`
     @media screen and (min-width: 983px) {
       font-size: 18px;
     }
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      position: absolute;
+      left: 0;
+      width: 125px;
+      text-align: left;
+      span {
+        display: inline;
+      }
+    }
+  }
+  .img {
+    display: none;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      display: block;
+      width: 282px;
+      img {
+        width: 100%;
+      }
+    }
   }
 `;
 

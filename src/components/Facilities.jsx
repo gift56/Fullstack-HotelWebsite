@@ -35,6 +35,9 @@ const Facilities = () => {
                 <p>
                   Art &amp; Congress <span>halls</span>
                 </p>
+                <div className="img">
+                  <img src={FacilityDesImg} alt="facilitiesImg" />
+                </div>
               </FacilitiesLeftsideTitle>
               <p className="textdetail">
                 Bank Hotel offers you a wide range of additional services and
