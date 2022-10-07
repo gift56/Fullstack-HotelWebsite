@@ -163,7 +163,7 @@ export const GalleryRightSideDesktop = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 2rem;
+    gap: 5rem;
     width: 100%;
     .details {
       justify-content: center;
@@ -172,8 +172,31 @@ export const GalleryRightSideDesktop = styled.div`
     .images {
       &:nth-child(2),
       &:nth-child(3),
-      &:nth-child(4) {
+      &:nth-child(4),
+      &:nth-child(5) {
         position: absolute;
+      }
+      &:nth-child(2) {
+        top: 0;
+        right: 0;
+      }
+      &:nth-child(3) {
+        top: 0;
+        left: 0;
+      }
+      &:nth-child(4) {
+        bottom: 0;
+        left: 0;
+      }
+      &:nth-child(5) {
+        bottom: 0;
+        right: 0;
+        width: 190px;
+        height: 204px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
       }
     }
   }

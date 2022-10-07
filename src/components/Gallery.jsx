@@ -35,6 +35,7 @@ const Gallery = () => {
     DesktopGalleyTwo,
     DesktopGalleyThree,
     DesktopGalleyFour,
+    MobileGalleyOne,
   ];
   return (
     <GalleryCon>
