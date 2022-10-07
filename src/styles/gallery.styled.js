@@ -23,7 +23,13 @@ export const GalleryleftSide = styled.div`
   }
 `;
 
-export const GalleryTitle = styled.div``;
+export const GalleryTitle = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+`;
 
 export const GalleryrightSide = styled.div``;
 
