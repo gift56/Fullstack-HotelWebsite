@@ -273,8 +273,7 @@ export const FacilitiesRightside = styled.div`
             @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
               text-align: left;
             }
-            @media screen and (min-width: ${({ theme }) =>
-                theme.mobile.minLap}) {
+            @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
               width: 250px;
             }
           }
@@ -393,6 +392,7 @@ export const FacilitiesRightside = styled.div`
             line-height: 20px;
             text-align: center;
             text-transform: capitalize;
+            color: ${({ theme }) => theme.darkColor2};
             @media screen and (min-width: 983px) {
               font-size: 36px;
               line-height: 44px;
