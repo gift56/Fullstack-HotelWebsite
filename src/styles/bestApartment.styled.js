@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const BestApartmentCon = styled.section``;
+export const BestApartmentCon = styled.section`
+  background-image: url(${({ bg }) => bg[1]});
+`;
 
 export const BestApartmentArea = styled.div``;
 

@@ -9,14 +9,9 @@ import {
 import { Container } from "../styles/container.styled";
 
 const BestApartment = () => {
-  const Bg = [
-    {
-      deskImg: DesktopBg,
-      mobileImg: MobileBg,
-    },
-  ];
+  const Bg = [DesktopBg, MobileBg];
   return (
-    <BestApartmentCon>
+    <BestApartmentCon bg={Bg}>
       <Container>
         <BestApartmentArea>
           <BestApartmentTexts>Hello world</BestApartmentTexts>
