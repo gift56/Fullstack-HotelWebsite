@@ -55,7 +55,9 @@ const Gallery = () => {
                 </div>
               ))}
               <div className="details">
-                
+                <h3>
+                  It is our pleasure to meet your most unrealistic expectations.
+                </h3>
               </div>
             </GalleryRightSideMobile>
             <GalleryRightSideMobile></GalleryRightSideMobile>
