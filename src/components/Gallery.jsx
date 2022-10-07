@@ -6,6 +6,7 @@ import DesktopGalleyOne from "../assets/Dgallery1.svg";
 import DesktopGalleyTwo from "../assets/Dgallery2.svg";
 import DesktopGalleyThree from "../assets/Dgallery3.svg";
 import DesktopGalleyFour from "../assets/Dgallery4.svg";
+import Label from "../assets/Alabel.svg";
 import {
   GalleryArea,
   GalleryCon,
