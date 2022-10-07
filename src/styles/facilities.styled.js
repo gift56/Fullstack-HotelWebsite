@@ -232,6 +232,11 @@ export const FacilitiesRightside = styled.div`
           @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
             gap: 11rem;
           }
+          div{
+            display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          }
           h2 {
             font-weight: 400;
             font-size: 30px;
@@ -290,6 +295,7 @@ export const FacilitiesRightside = styled.div`
         height: 474px;
       }
       @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        width: 378px;
         height: 503.74px;
       }
       @media screen and (max-width: 313px) {
