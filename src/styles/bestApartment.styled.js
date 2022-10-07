@@ -10,6 +10,8 @@ export const BestApartmentCon = styled.section`
   }
 `;
 
-export const BestApartmentArea = styled.div``;
+export const BestApartmentArea = styled.div`
+  padding: 40px 0;
+`;
 
 export const BestApartmentTexts = styled.div``;

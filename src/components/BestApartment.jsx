@@ -14,7 +14,15 @@ const BestApartment = () => {
     <BestApartmentCon bg={Bg}>
       <Container>
         <BestApartmentArea>
-          <BestApartmentTexts>Hello world</BestApartmentTexts>
+          <BestApartmentTexts>
+            <h2>
+              Best <br /> apartments
+            </h2>
+            <p>
+              All room decoration was made with ecological certified and safe
+              materials.
+            </p>
+          </BestApartmentTexts>
         </BestApartmentArea>
       </Container>
     </BestApartmentCon>
