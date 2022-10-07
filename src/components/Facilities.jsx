@@ -97,6 +97,11 @@ const Facilities = () => {
                     <div className="img">
                       <img src={img} alt={title} />
                     </div>
+                    <div className="textside">
+                      <p>{number}</p>
+                      <h2>{title}</h2>
+                    </div>
+                    <img src={Arrow} alt="right_arrow" className="arrow" />
                   </div>
                 ))}
               </div>

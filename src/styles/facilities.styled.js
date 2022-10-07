@@ -270,8 +270,8 @@ export const FacilitiesRightside = styled.div`
             @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
               text-align: left;
             }
-
-            @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+            @media screen and (min-width: ${({ theme }) =>
+                theme.mobile.minLap}) {
               width: 250px;
             }
           }
@@ -316,6 +316,19 @@ export const FacilitiesRightside = styled.div`
         height: 100%;
         object-fit: cover;
       }
+    }
+  }
+  .secondSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .contentArea {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
     }
   }
 `;
