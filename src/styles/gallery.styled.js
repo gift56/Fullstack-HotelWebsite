@@ -16,10 +16,19 @@ export const GalleryArea = styled.div`
 `;
 
 export const GalleryleftSide = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
   .artC {
     display: none;
     @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
       display: block;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: uppercase;
+      color: ${({ theme }) => theme.whiteColor};
+      font-family: "Open Sans", sans-serif !important;
     }
   }
 `;
@@ -32,6 +41,9 @@ export const GalleryTitle = styled.div`
   gap: 1rem;
   .image {
     transform: rotate(-45deg) translateY(20px);
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      transform: rotate(-45deg) translateY(0);
+    }
   }
   h2 {
     color: ${({ theme }) => theme.spanText};
@@ -40,6 +52,10 @@ export const GalleryTitle = styled.div`
     line-height: 60px;
     text-align: center;
     text-transform: uppercase;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      font-size: 80px;
+      line-height: 80px;
+    }
   }
   p {
     color: ${({ theme }) => theme.whiteColor};
