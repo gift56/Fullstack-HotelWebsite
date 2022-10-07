@@ -5,6 +5,9 @@ export const BestApartmentCon = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+    background-image: url(${({ bg }) => bg[0]});
+  }
 `;
 
 export const BestApartmentArea = styled.div``;
