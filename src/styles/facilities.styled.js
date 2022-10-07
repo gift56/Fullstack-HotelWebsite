@@ -181,12 +181,14 @@ export const FacilitiesRightside = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 100%;
   .firstSide {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    width: 100%;
     @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
       flex-direction: row;
     }
@@ -230,12 +232,16 @@ export const FacilitiesRightside = styled.div`
             gap: 4rem;
           }
           @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
-            gap: 11rem;
+            gap: 13rem;
           }
-          div{
+          div {
             display: flex;
-          flex-direction: column;
-          align-items: flex-start;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+            @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+              gap: 2rem;
+            }
           }
           h2 {
             font-weight: 400;
@@ -263,6 +269,10 @@ export const FacilitiesRightside = styled.div`
             }
             @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
               text-align: left;
+            }
+
+            @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+              width: 250px;
             }
           }
           .ratio {
