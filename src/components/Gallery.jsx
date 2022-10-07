@@ -18,6 +18,14 @@ import {
 import { Container } from "../styles/container.styled";
 
 const Gallery = () => {
+  const MobileImgs = [MobileGalleyOne, MobileGalleyTwo, MobileGalleyThree];
+
+  const DesktopImgs = [
+    DesktopGalleyOne,
+    DesktopGalleyTwo,
+    DesktopGalleyThree,
+    DesktopGalleyFour,
+  ];
   return (
     <GalleryCon>
       <Container>
