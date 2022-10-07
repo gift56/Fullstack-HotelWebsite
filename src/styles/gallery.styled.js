@@ -29,6 +29,9 @@ export const GalleryTitle = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  .image {
+    transform: rotate(-45deg) translateY(20px);
+  }
   h2 {
     color: ${({ theme }) => theme.spanText};
     font-weight: 400;
