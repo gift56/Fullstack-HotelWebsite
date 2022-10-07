@@ -182,6 +182,9 @@ export const FacilitiesRightside = styled.div`
   flex-direction: column;
   gap: 2rem;
   width: 100%;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+    gap: 4rem;
+  }
   .firstSide {
     display: flex;
     flex-direction: column-reverse;
@@ -341,8 +344,19 @@ export const FacilitiesRightside = styled.div`
         border-bottom: 1px solid #313f388f;
         position: relative;
         padding: 20px 0;
+        @media screen and (min-width: 983px) {
+          flex-direction: row;
+        }
         &:last-child {
           border-bottom: none;
+        }
+        .img {
+          @media screen and (min-width: ${({ theme }) => theme.mobile.phone}) {
+            width: 50%;
+          }
+          img {
+            width: 100%;
+          }
         }
         .textside {
           p {
@@ -365,6 +379,9 @@ export const FacilitiesRightside = styled.div`
         }
         .arrow {
           display: none;
+          @media screen and (min-width: 983px) {
+            display: block;
+          }
         }
       }
     }
