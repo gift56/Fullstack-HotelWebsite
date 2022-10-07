@@ -81,7 +81,8 @@ const Gallery = () => {
               <div className="details">
                 <img src={Polygon} alt="polygon" />
                 <h3>
-                  It is our pleasure to meet your <br /> most unrealistic expectations.
+                  It is our pleasure to meet your <br /> most unrealistic
+                  expectations.
                 </h3>
               </div>
             </GalleryRightSideDesktop>
