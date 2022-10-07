@@ -30,6 +30,13 @@ const Gallery = () => {
               <div className="image">
                 <img src={Label} alt="label" />
               </div>
+              <h2>our Gallery</h2>
+              <p>
+                Explore our spacious rooms with the gorgeous view to the
+                historical part of the city. Each room has an exclusive interior
+                design decorated with modern art pieces that will make your stay
+                unforgettable.
+              </p>
             </GalleryTitle>
           </GalleryleftSide>
           <GalleryrightSide>
