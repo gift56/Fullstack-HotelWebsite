@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
-export const GalleryCon = styled.section``;
+export const GalleryCon = styled.section`
+  position: relative;
+  background-color: ${({ theme }) => theme.darkColor};
+`;
 
 export const GalleryArea = styled.div``;
 
