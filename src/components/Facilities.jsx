@@ -5,9 +5,6 @@ import FacilityStar from "../assets/facilityStar.svg";
 import FacilityLabel from "../assets/facilityLabel.svg";
 import FacilityDesImg from "../assets/facilityDesImg.svg";
 import NextArrow from "../assets/nextBtn.svg";
-import Arrow from "../assets/arrow.svg";
-import ConferenceImg from "../assets/conferenceImg.svg";
-import ConferenceImg2 from "../assets/conferenceImg2.svg";
 import { Container } from "../styles/container.styled";
 import {
   FacilitiesArea,
@@ -16,20 +13,9 @@ import {
   FacilitiesLeftsideTitle,
   FacilitiesRightside,
 } from "../styles/facilities.styled";
+import FacilityRooms from "./FacilityRooms";
 
 const Facilities = () => {
-  const ConferenceData = [
-    {
-      img: ConferenceImg,
-      number: "02",
-      title: "conference hall",
-    },
-    {
-      img: ConferenceImg2,
-      number: "03",
-      title: "Wine bar “reserve”",
-    },
-  ];
   return (
     <FacilitiesCon>
       <Container>
@@ -91,20 +77,7 @@ const Facilities = () => {
               </div>
             </div>
             <div className="secondSide">
-              <div className="contentArea">
-                {ConferenceData.map(({ img, title, number }, index) => (
-                  <div key={index} className="conferenceArea">
-                    <div className="img">
-                      <img src={img} alt={title} />
-                    </div>
-                    <div className="textside">
-                      <p>{number}</p>
-                      <h2>{title}</h2>
-                    </div>
-                    <img src={Arrow} alt="right_arrow" className="arrow" />
-                  </div>
-                ))}
-              </div>
+              <FacilityRooms />
             </div>
           </FacilitiesRightside>
         </FacilitiesArea>
