@@ -59,6 +59,16 @@ export const GalleryrightSide = styled.div`
     align-items: center;
     justify-content: flex-start;
     gap: 1rem;
+    width: 100%;
+    h3 {
+      color: ${({ theme }) => theme.whiteColor};
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      font-family: "Open Sans", sans-serif !important;
+      opacity: 0.8;
+    }
   }
 `;
 
