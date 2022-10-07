@@ -68,7 +68,7 @@ export const GalleryRightSideMobile = styled.div`
     }
     &:nth-child(2) {
       position: absolute;
-      top: 0;
+      top: 50px;
       left: 0;
     }
     &:nth-child(3) {
