@@ -13,6 +13,7 @@ import {
   GalleryCon,
   GalleryleftSide,
   GalleryrightSide,
+  GalleryRightSideDesktop,
   GalleryRightSideMobile,
   GalleryTitle,
 } from "../styles/gallery.styled";
@@ -62,7 +63,19 @@ const Gallery = () => {
                 </h3>
               </div>
             </GalleryRightSideMobile>
-            <GalleryRightSideMobile></GalleryRightSideMobile>
+            <GalleryRightSideDesktop>
+              {DesktopImgs.map((imgs, index) => (
+                <div className="images" key={index}>
+                  <img src={imgs} alt={`${index} gallery_img`} />
+                </div>
+              ))}
+              <div className="details">
+                <img src={Polygon} alt="polygon" />
+                <h3>
+                  It is our pleasure to meet your most unrealistic expectations.
+                </h3>
+              </div>
+            </GalleryRightSideDesktop>
           </GalleryrightSide>
         </GalleryArea>
       </Container>

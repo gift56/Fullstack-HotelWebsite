@@ -16,4 +16,9 @@ export const GalleryRightSideMobile = styled.div`
   }
 `;
 
-export const GalleryRightSideDesktop = styled.div``;
+export const GalleryRightSideDesktop = styled.div`
+  display: none;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+    display: block;
+  }
+`;
