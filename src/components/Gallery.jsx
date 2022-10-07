@@ -13,6 +13,7 @@ import {
   GalleryleftSide,
   GalleryrightSide,
   GalleryRightSideMobile,
+  GalleryTitle,
 } from "../styles/gallery.styled";
 import { Container } from "../styles/container.styled";
 
@@ -21,7 +22,12 @@ const Gallery = () => {
     <GalleryCon>
       <Container>
         <GalleryArea>
-          <GalleryleftSide></GalleryleftSide>
+          <GalleryleftSide>
+            <p className="artC">
+              Art &amp; Congress <br /> hall
+            </p>
+            <GalleryTitle>Hello World</GalleryTitle>
+          </GalleryleftSide>
           <GalleryrightSide>
             <GalleryRightSideMobile></GalleryRightSideMobile>
             <GalleryRightSideMobile></GalleryRightSideMobile>
