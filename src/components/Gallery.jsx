@@ -26,7 +26,11 @@ const Gallery = () => {
             <p className="artC">
               Art &amp; Congress <br /> hall
             </p>
-            <GalleryTitle>Hello World</GalleryTitle>
+            <GalleryTitle>
+              <div className="image">
+                <img src={Label} alt="label" />
+              </div>
+            </GalleryTitle>
           </GalleryleftSide>
           <GalleryrightSide>
             <GalleryRightSideMobile></GalleryRightSideMobile>
