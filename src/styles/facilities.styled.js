@@ -328,7 +328,45 @@ export const FacilitiesRightside = styled.div`
       width: 100%;
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
       gap: 1rem;
+      .conferenceArea {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+        border-bottom: 1px solid #313f388f;
+        position: relative;
+        padding: 20px 0;
+        &:last-child {
+          border-bottom: none;
+        }
+        .textside {
+          p {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 30px;
+            text-transform: uppercase;
+            color: ${({ theme }) => theme.darkColor2};
+            position: absolute;
+            top: 0;
+            right: 0;
+          }
+          h2 {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 20px;
+            text-align: center;
+            text-transform: capitalize;
+          }
+        }
+        .arrow {
+          display: none;
+        }
+      }
     }
   }
 `;
