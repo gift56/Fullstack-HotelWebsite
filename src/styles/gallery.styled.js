@@ -83,7 +83,9 @@ export const GalleryRightSideMobile = styled.div`
   width: 100%;
   .images {
     &:first-child {
-      transform: translateX(80px) translateY(-30px);
+      position: relative;
+      z-index: 10;
+      transform: translateX(99px) translateY(-31px);
     }
     &:nth-child(2) {
       position: absolute;
@@ -93,6 +95,16 @@ export const GalleryRightSideMobile = styled.div`
     &:nth-child(3) {
       position: relative;
       z-index: 10;
+    }
+    &:nth-child(4) {
+      position: absolute;
+      top: 50px;
+      right: -48px;
+    }
+    &:nth-child(5) {
+      position: absolute;
+      bottom: 43px;
+      left: -29px;
     }
   }
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
