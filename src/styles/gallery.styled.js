@@ -52,9 +52,25 @@ export const GalleryTitle = styled.div`
   }
 `;
 
-export const GalleryrightSide = styled.div``;
+export const GalleryrightSide = styled.div`
+  position: relative;
+`;
 
 export const GalleryRightSideMobile = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  .images {
+    &:first-child {
+      transform: translateX(80px);
+    }
+    &:nth-child(2) {
+      position: absolute;
+      left: 0;
+    }
+  }
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
     display: none;
   }
