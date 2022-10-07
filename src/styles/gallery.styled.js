@@ -12,6 +12,7 @@ export const GalleryArea = styled.div`
   justify-content: center;
   align-items: center;
   gap: 4rem;
+  overflow: hidden;
 `;
 
 export const GalleryleftSide = styled.div`
