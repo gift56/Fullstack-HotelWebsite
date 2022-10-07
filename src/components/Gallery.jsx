@@ -2,6 +2,8 @@ import React from "react";
 import MobileGalleyOne from "../assets/Mgallery1.svg";
 import MobileGalleyTwo from "../assets/Mgallery2.svg";
 import MobileGalleyThree from "../assets/Mgallery3.svg";
+import MobileGalleyFour from "../assets/Mgallery4.svg";
+import MobileGalleyFive from "../assets/Mgallery5.svg";
 import DesktopGalleyOne from "../assets/Dgallery1.svg";
 import DesktopGalleyTwo from "../assets/Dgallery2.svg";
 import DesktopGalleyThree from "../assets/Dgallery3.svg";
@@ -20,7 +22,13 @@ import {
 import { Container } from "../styles/container.styled";
 
 const Gallery = () => {
-  const MobileImgs = [MobileGalleyOne, MobileGalleyTwo, MobileGalleyThree];
+  const MobileImgs = [
+    MobileGalleyOne,
+    MobileGalleyTwo,
+    MobileGalleyThree,
+    MobileGalleyFour,
+    MobileGalleyFive,
+  ];
 
   const DesktopImgs = [
     DesktopGalleyOne,
