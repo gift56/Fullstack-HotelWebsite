@@ -41,10 +41,11 @@ export const GalleryTitle = styled.div`
     color: ${({ theme }) => theme.whiteColor};
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 12.5px;
     line-height: 23px;
     text-align: center;
     font-family: "Open Sans", sans-serif !important;
+    opacity: 0.8;
   }
 `;
 
