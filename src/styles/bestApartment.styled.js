@@ -29,4 +29,11 @@ export const BestApartmentTexts = styled.div`
     line-height: 60px;
     text-transform: uppercase;
   }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: ${({ theme }) => theme.spanText};
+  }
 `;
