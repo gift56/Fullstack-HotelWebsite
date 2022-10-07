@@ -14,7 +14,14 @@ export const GalleryArea = styled.div`
   gap: 2rem;
 `;
 
-export const GalleryleftSide = styled.div``;
+export const GalleryleftSide = styled.div`
+  .artC {
+    display: none;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      display: block;
+    }
+  }
+`;
 
 export const GalleryTitle = styled.div``;
 
