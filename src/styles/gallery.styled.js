@@ -177,11 +177,11 @@ export const GalleryRightSideDesktop = styled.div`
         position: absolute;
       }
       &:nth-child(2) {
-        top: 0;
+        top: -50px;
         right: 0;
       }
       &:nth-child(3) {
-        top: 0;
+        top: -90px;
         left: 0;
       }
       &:nth-child(4) {
