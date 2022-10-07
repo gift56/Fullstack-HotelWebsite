@@ -12,6 +12,12 @@ export const BestApartmentCon = styled.section`
 
 export const BestApartmentArea = styled.div`
   padding: 40px 0;
+  height: 98vh;
 `;
 
-export const BestApartmentTexts = styled.div``;
+export const BestApartmentTexts = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+`;
