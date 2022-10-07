@@ -15,6 +15,7 @@ export const FacilitiesArea = styled.div`
   padding: 40px 0;
   @media screen and (min-width: 983px) {
     padding: 60px 0;
+    gap: 4rem;
   }
 `;
 
@@ -285,7 +286,8 @@ export const FacilitiesRightside = styled.div`
         width: 90%;
       }
       @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
-        height: 377px;
+        width: 80%;
+        height: 474px;
       }
       @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
         height: 503.74px;
