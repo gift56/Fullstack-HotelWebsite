@@ -48,7 +48,13 @@ const Gallery = () => {
             </GalleryTitle>
           </GalleryleftSide>
           <GalleryrightSide>
-            <GalleryRightSideMobile></GalleryRightSideMobile>
+            <GalleryRightSideMobile>
+              {MobileImgs.map((imgs, index) => (
+                <div className="images" key={index}>
+                  <img src={imgs} alt={`${index} gallery_img`} />
+                </div>
+              ))}
+            </GalleryRightSideMobile>
             <GalleryRightSideMobile></GalleryRightSideMobile>
           </GalleryrightSide>
         </GalleryArea>
