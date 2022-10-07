@@ -159,6 +159,14 @@ export const GalleryRightSideMobile = styled.div`
 export const GalleryRightSideDesktop = styled.div`
   display: none;
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    width: 100%;
+    .images{
+        
+    }
   }
 `;
