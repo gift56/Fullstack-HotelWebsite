@@ -6,6 +6,8 @@ import FacilityLabel from "../assets/facilityLabel.svg";
 import FacilityDesImg from "../assets/facilityDesImg.svg";
 import NextArrow from "../assets/nextBtn.svg";
 import Arrow from "../assets/arrow.svg";
+import ConferenceImg from "../assets/conferenceImg.svg";
+import conferenceImg2 from "../assets/conferenceImg2.svg";
 import { Container } from "../styles/container.styled";
 import {
   FacilitiesArea,
@@ -72,6 +74,7 @@ const Facilities = () => {
                   </div>
                 </div>
               </div>
+              <div className="rightSide"></div>
               <div className="mainImg">
                 <img src={FacilityImg} alt="facilities_image" />
               </div>
