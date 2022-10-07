@@ -163,10 +163,18 @@ export const GalleryRightSideDesktop = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
     width: 100%;
-    .images{
-        
+    .details {
+      justify-content: center;
+      transform: translateX(-100px);
+    }
+    .images {
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4) {
+        position: absolute;
+      }
     }
   }
 `;
