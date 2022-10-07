@@ -11,7 +11,7 @@ export const GalleryArea = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
 `;
 
 export const GalleryleftSide = styled.div`
@@ -64,7 +64,7 @@ export const GalleryRightSideMobile = styled.div`
   gap: 2rem;
   .images {
     &:first-child {
-      transform: translateX(80px);
+      transform: translateX(80px) translateY(-30px);
     }
     &:nth-child(2) {
       position: absolute;
