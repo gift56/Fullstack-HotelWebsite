@@ -5,7 +5,14 @@ export const GalleryCon = styled.section`
   background-color: ${({ theme }) => theme.darkColor};
 `;
 
-export const GalleryArea = styled.div``;
+export const GalleryArea = styled.div`
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+`;
 
 export const GalleryleftSide = styled.div``;
 
