@@ -81,30 +81,53 @@ export const GalleryRightSideMobile = styled.div`
   flex-direction: column;
   gap: 4rem;
   width: 100%;
+  .details {
+    @media screen and (min-width: 510px) {
+      transform: translateY(20px);
+    }
+  }
   .images {
     &:first-child {
       position: relative;
       z-index: 10;
       transform: translateX(99px) translateY(-31px);
+      @media screen and (min-width: 510px) {
+        width: 35%;
+      }
     }
     &:nth-child(2) {
       position: absolute;
       top: 50px;
       left: 0;
+      @media screen and (min-width: 510px) {
+        width: 35%;
+      }
     }
     &:nth-child(3) {
       position: relative;
       z-index: 10;
+      @media screen and (min-width: 510px) {
+        width: 50%;
+      }
     }
     &:nth-child(4) {
       position: absolute;
       top: 50px;
       right: -48px;
+      @media screen and (min-width: 510px) {
+        width: 50%;
+      }
     }
     &:nth-child(5) {
       position: absolute;
       bottom: 43px;
       left: -29px;
+      @media screen and (min-width: 510px) {
+        width: 35%;
+      }
+    }
+    img {
+      width: 100%;
     }
   }
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
