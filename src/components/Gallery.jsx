@@ -7,6 +7,7 @@ import DesktopGalleyTwo from "../assets/Dgallery2.svg";
 import DesktopGalleyThree from "../assets/Dgallery3.svg";
 import DesktopGalleyFour from "../assets/Dgallery4.svg";
 import Label from "../assets/Alabel.svg";
+import Polygon from "../assets/polygon.svg";
 import {
   GalleryArea,
   GalleryCon,
@@ -55,6 +56,7 @@ const Gallery = () => {
                 </div>
               ))}
               <div className="details">
+                <img src={Polygon} alt="polygon" />
                 <h3>
                   It is our pleasure to meet your most unrealistic expectations.
                 </h3>
