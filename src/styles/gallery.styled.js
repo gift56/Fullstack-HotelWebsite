@@ -54,6 +54,7 @@ export const GalleryTitle = styled.div`
 
 export const GalleryrightSide = styled.div`
   position: relative;
+  width: 100%;
   .details {
     display: flex;
     align-items: center;
@@ -78,6 +79,7 @@ export const GalleryRightSideMobile = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 2rem;
+  width: 100%;
   .images {
     &:first-child {
       transform: translateX(80px) translateY(-30px);
