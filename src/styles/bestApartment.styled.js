@@ -4,7 +4,7 @@ export const BestApartmentCon = styled.section`
   background-image: url(${({ bg }) => bg[1]});
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 844px;
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
     background-image: url(${({ bg }) => bg[0]});
   }
@@ -13,7 +13,7 @@ export const BestApartmentCon = styled.section`
 export const BestApartmentArea = styled.div`
   padding: 40px 0;
   width: 100%;
-  height: 98vh;
+  height: 810px;
 `;
 
 export const BestApartmentTexts = styled.div`
@@ -30,6 +30,7 @@ export const BestApartmentTexts = styled.div`
     text-transform: uppercase;
   }
   p {
+    width: 209px;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
