@@ -29,6 +29,22 @@ export const GalleryTitle = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  h2 {
+    color: ${({ theme }) => theme.spanText};
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p {
+    color: ${({ theme }) => theme.whiteColor};
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+  }
 `;
 
 export const GalleryrightSide = styled.div``;
