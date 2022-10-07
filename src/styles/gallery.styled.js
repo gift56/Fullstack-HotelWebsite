@@ -44,6 +44,7 @@ export const GalleryTitle = styled.div`
     font-size: 15px;
     line-height: 23px;
     text-align: center;
+    font-family: "Open Sans", sans-serif !important;
   }
 `;
 

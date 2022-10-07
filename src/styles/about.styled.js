@@ -61,7 +61,6 @@ export const AboutLeft = styled.div`
     }
   }
 `;
-// font-family: "Open Sans", sans-serif !important;
 export const AboutRight = styled.div`
   position: relative;
   width: 100%;
