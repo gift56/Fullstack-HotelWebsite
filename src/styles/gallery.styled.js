@@ -79,7 +79,7 @@ export const GalleryRightSideMobile = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
   width: 100%;
   .images {
     &:first-child {
