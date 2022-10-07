@@ -54,6 +54,12 @@ export const GalleryTitle = styled.div`
 
 export const GalleryrightSide = styled.div`
   position: relative;
+  .details {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
 `;
 
 export const GalleryRightSideMobile = styled.div`
