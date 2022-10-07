@@ -346,19 +346,32 @@ export const FacilitiesRightside = styled.div`
         padding: 20px 0;
         @media screen and (min-width: 983px) {
           flex-direction: row;
+          justify-content: space-between;
         }
         &:last-child {
           border-bottom: none;
+          @media screen and (min-width: 983px) {
+            border-bottom: 1px solid #313f388f;
+          }
         }
         .img {
           @media screen and (min-width: ${({ theme }) => theme.mobile.phone}) {
             width: 50%;
+          }
+          @media screen and (min-width: 983px) {
+            width: 189.51px;
           }
           img {
             width: 100%;
           }
         }
         .textside {
+          @media screen and (min-width: 983px) {
+            display: flex;
+            align-items: center;
+            gap: 8rem;
+            width: 50%;
+          }
           p {
             font-weight: 400;
             font-size: 30px;
@@ -368,6 +381,11 @@ export const FacilitiesRightside = styled.div`
             position: absolute;
             top: 0;
             right: 0;
+            @media screen and (min-width: 983px) {
+              position: initial;
+              font-size: 36px;
+              line-height: 44px;
+            }
           }
           h2 {
             font-weight: 400;
@@ -375,6 +393,10 @@ export const FacilitiesRightside = styled.div`
             line-height: 20px;
             text-align: center;
             text-transform: capitalize;
+            @media screen and (min-width: 983px) {
+              font-size: 36px;
+              line-height: 44px;
+            }
           }
         }
         .arrow {
