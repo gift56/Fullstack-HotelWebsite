@@ -54,6 +54,9 @@ const Gallery = () => {
                   <img src={imgs} alt={`${index} gallery_img`} />
                 </div>
               ))}
+              <div className="details">
+                
+              </div>
             </GalleryRightSideMobile>
             <GalleryRightSideMobile></GalleryRightSideMobile>
           </GalleryrightSide>
