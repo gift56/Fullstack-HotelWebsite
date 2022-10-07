@@ -68,7 +68,12 @@ export const GalleryRightSideMobile = styled.div`
     }
     &:nth-child(2) {
       position: absolute;
+      top: 0;
       left: 0;
+    }
+    &:nth-child(3) {
+      position: relative;
+      z-index: 10;
     }
   }
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
