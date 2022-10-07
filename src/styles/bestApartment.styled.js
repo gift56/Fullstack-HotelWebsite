@@ -36,5 +36,6 @@ export const BestApartmentTexts = styled.div`
     line-height: 22px;
     text-transform: uppercase;
     color: ${({ theme }) => theme.spanText};
+    transform: translateX(93px);
   }
 `;
