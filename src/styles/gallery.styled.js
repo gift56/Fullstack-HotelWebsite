@@ -167,7 +167,7 @@ export const GalleryRightSideDesktop = styled.div`
     width: 100%;
     .details {
       justify-content: center;
-      transform: translateX(-100px);
+      transform: translateX(-100px) translateY(-50px);
     }
     .images {
       &:nth-child(2),
