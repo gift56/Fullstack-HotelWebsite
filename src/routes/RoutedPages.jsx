@@ -1,10 +1,8 @@
-import React from 'react';
-import {} from 'react-router-dom';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 
 const RoutedPages = () => {
-  return (
-    <div>RoutedPages</div>
-  )
-}
+  return <div>RoutedPages</div>;
+};
 
-export default RoutedPages
+export default RoutedPages;
