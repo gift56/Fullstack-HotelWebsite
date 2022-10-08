@@ -16,6 +16,14 @@ export const FooterMobileFooter = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  p {
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: ${({ theme }) => theme.darkColor};
+    text-transform: uppercase;
+  }
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
     display: none;
   }
@@ -77,19 +85,22 @@ export const FooterRows = styled.div`
           align-items: center;
           border: 1px solid #313f38;
           backdrop-filter: blur(20px);
+          padding: 0 10px;
           input {
-              height: 100%;
-              width: 88%;
-              font-weight: 400;
-              font-size: 16px;
-              line-height: 20px;
-              text-transform: uppercase;
-              opacity: 0.48;
-              padding-left: 12px;
-              font-family: "Open Sans", sans-serif !important;
+            height: 100%;
+            width: 88%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-transform: uppercase;
+            opacity: 0.48;
+            padding-left: 12px;
+            font-family: "Open Sans", sans-serif !important;
           }
-          .btn{
+          button {
             background-color: transparent;
+            height: 100%;
+            cursor: pointer;
           }
         }
       }
