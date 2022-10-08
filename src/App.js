@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import Home from "./pages/Home";
+import RoutedPages from "./routes/RoutedPages";
 
 const App = () => {
   const theme = {
@@ -21,7 +21,7 @@ const App = () => {
   return (
     <div>
       <ThemeProvider theme={theme}>
-        <Home />
+        <RoutedPages />
       </ThemeProvider>
     </div>
   );
