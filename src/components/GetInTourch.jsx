@@ -1,9 +1,9 @@
 import React from "react";
 import BookNow from "../assets/bookNow.svg";
-import SubImg from "../assets/facilitySmI.svg";
-// import SubImg from "../assets/subscribeImg.svg";
+import SubImg from "../assets/subscribeImg.svg";
 import Star from "../assets/facilityStar.svg";
 import Dropdown from "../assets/dropdown.svg";
+import Curve from "../assets/curve.svg";
 import { Container } from "../styles/container.styled";
 import {
   FormArea,
@@ -30,21 +30,24 @@ const GetInTourch = () => {
               <span>touch</span>
             </h2>
           </GetInTourchLeft>
+          <img src={Curve} alt="arrow" className="curve" />
           <GetInTourchRight>
             <div className="bookImg">
               <img src={BookNow} alt="bookNow" className="book" />
               <FormArea>
                 <h2>Find a room</h2>
-                <div className="form">
-                  <div className="checkIn input">
-                    <h4>Check in</h4>
-                    <img src={Dropdown} alt="dropdown" />
+                <div className="formArea">
+                  <div className="form">
+                      <div className="checkIn input">
+                        <h4>Check in</h4>
+                        <img src={Dropdown} alt="dropdown" />
+                      </div>
+                      <div className="checkOut input">
+                        <h4>Check Out</h4>
+                        <img src={Dropdown} alt="dropdown" />
+                      </div>
                   </div>
-                  <div className="checkOut input">
-                    <h4>Check in</h4>
-                    <img src={Dropdown} alt="dropdown" />
-                  </div>
-                  <button>book room</button>
+                  <button className="btn">book room</button>
                 </div>
               </FormArea>
             </div>
