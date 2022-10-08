@@ -71,7 +71,7 @@ export const FooterRows = styled.div`
         width: 100%;
         form {
           display: flex;
-          width: 285px;
+          width: 100%;
           height: 65px;
           gap: 1rem;
           align-items: center;
