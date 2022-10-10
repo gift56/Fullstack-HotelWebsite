@@ -401,6 +401,7 @@ export const FacilitiesRightside = styled.div`
         }
         .arrow {
           display: none;
+          cursor: pointer;
           @media screen and (min-width: 983px) {
             display: block;
           }
