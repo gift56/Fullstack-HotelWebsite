@@ -164,17 +164,7 @@ export const BookForm = styled.div`
   display: none;
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
     align-items: flex-start;
-    h2 {
-      font-family: "Open Sans", sans-serif !important;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 22px;
-      text-transform: uppercase;
-      color: ${({ theme }) => theme.darkColor2};
-    }
     .formArea {
       display: flex;
       align-items: center;
