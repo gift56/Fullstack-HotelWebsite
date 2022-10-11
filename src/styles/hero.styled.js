@@ -224,6 +224,10 @@ export const BookForm = styled.div`
       }
     }
   }
+  @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+    bottom: 0;
+    top: 20px;
+  }
 `;
 
 export const RightSide = styled.div`
