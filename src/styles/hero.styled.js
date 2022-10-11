@@ -161,10 +161,74 @@ export const LeftSideTitle = styled.div`
 `;
 
 export const BookForm = styled.div`
-  @media screen and (max-width: 981px) {
-    display: none;
-  }
+  display: none;
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    h2 {
+      font-family: "Open Sans", sans-serif !important;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: uppercase;
+      color: ${({ theme }) => theme.darkColor2};
+    }
+    .formArea {
+      display: flex;
+      align-items: center;
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 231px;
+        height: 100px;
+        background-color: ${({ theme }) => theme.darkColor};
+        color: ${({ theme }) => theme.whiteColor};
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Open Sans", sans-serif !important;
+      }
+      .form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 378px;
+        height: 100px;
+        border: 1px solid ${({ theme }) => theme.darkColor};
+        backdrop-filter: blur(20px);
+        @media screen and (min-width: ${({ theme }) => theme.mobile.BigLap}) {
+          width: 592px;
+        }
+        .input {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0 25px;
+          cursor: pointer;
+        }
+        .checkIn {
+          border-right: 2px solid rgba(0, 0, 0, 0.2);
+        }
+        .checkIn,
+        .checkOut {
+          width: 50%;
+          height: 35px;
+          h4 {
+            font-family: "Open Sans", sans-serif !important;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: ${({ theme }) => theme.darkColor2};
+          }
+        }
+      }
+    }
   }
 `;
 
