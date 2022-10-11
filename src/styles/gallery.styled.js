@@ -4,6 +4,7 @@ export const GalleryCon = styled.section`
   position: relative;
   background-color: ${({ theme }) => theme.darkColor};
   overflow: hidden;
+  z-index: 2;
 `;
 
 export const GalleryArea = styled.div`

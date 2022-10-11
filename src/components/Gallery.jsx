@@ -20,6 +20,7 @@ import {
   GalleryTitle,
 } from "../styles/gallery.styled";
 import { Container } from "../styles/container.styled";
+import GalleryBookAnimation from "./GalleryBookAnimation";
 
 const Gallery = () => {
   const MobileImgs = [
@@ -90,6 +91,7 @@ const Gallery = () => {
           </GalleryrightSide>
         </GalleryArea>
       </Container>
+      <GalleryBookAnimation />
     </GalleryCon>
   );
 };
