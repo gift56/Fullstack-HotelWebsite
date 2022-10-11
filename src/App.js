@@ -19,11 +19,11 @@ const App = () => {
     },
   };
   return (
-    <div>
+    <>
       <ThemeProvider theme={theme}>
         <RoutedPages />
       </ThemeProvider>
-    </div>
+    </>
   );
 };
 
