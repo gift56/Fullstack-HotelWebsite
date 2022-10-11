@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const GalleryCon = styled.section`
   position: relative;
@@ -204,7 +204,16 @@ export const GalleryRightSideDesktop = styled.div`
   }
 `;
 
+export const moving = keyframes`
+0%{
+  transform: translateX(0%);
+}
+100%{
+  transform: translateX(-100%);
+}
+
+`;
+
+// animation: ${moving} 2s linear infinite;
 export const GalleryAnimationArea = styled.div`
-  width: 90%;
-  margin: 0 auto;
 `;
