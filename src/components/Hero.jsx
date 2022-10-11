@@ -48,7 +48,9 @@ const Hero = () => {
               <div className="image">
                 <img src={Desktophero} alt="heroImg" />
               </div>
-              <BookForm></BookForm>
+              <BookForm>
+                
+              </BookForm>
             </div>
             <div className="book">
               <p>
