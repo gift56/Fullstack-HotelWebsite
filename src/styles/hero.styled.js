@@ -165,6 +165,10 @@ export const BookForm = styled.div`
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
     display: flex;
     align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 105px;
+    width: 100%;
     .formArea {
       display: flex;
       align-items: center;
@@ -175,7 +179,7 @@ export const BookForm = styled.div`
         width: 231px;
         height: 100px;
         background-color: ${({ theme }) => theme.spanText};
-        color: ${({ theme }) => theme.whiteColor};
+        color: ${({ theme }) => theme.darkColor2};
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
@@ -189,7 +193,7 @@ export const BookForm = styled.div`
         align-items: center;
         width: 378px;
         height: 100px;
-        border: 1px solid ${({ theme }) => theme.darkColor};
+        background-color: rgba(49, 63, 56, 0.48);
         backdrop-filter: blur(20px);
         @media screen and (min-width: ${({ theme }) => theme.mobile.BigLap}) {
           width: 592px;
@@ -214,7 +218,7 @@ export const BookForm = styled.div`
             font-size: 14px;
             line-height: 20px;
             text-transform: uppercase;
-            color: ${({ theme }) => theme.darkColor2};
+            color: ${({ theme }) => theme.whiteColor};
           }
         }
       }
