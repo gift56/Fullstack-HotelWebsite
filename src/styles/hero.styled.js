@@ -174,7 +174,7 @@ export const BookForm = styled.div`
         align-items: center;
         width: 231px;
         height: 100px;
-        background-color: ${({ theme }) => theme.darkColor};
+        background-color: ${({ theme }) => theme.spanText};
         color: ${({ theme }) => theme.whiteColor};
         font-weight: 500;
         font-size: 14px;
