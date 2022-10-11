@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const GalleryCon = styled.section`
   position: relative;
   background-color: ${({ theme }) => theme.darkColor};
+  overflow: hidden;
 `;
 
 export const GalleryArea = styled.div`
