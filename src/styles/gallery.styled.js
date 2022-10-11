@@ -203,3 +203,8 @@ export const GalleryRightSideDesktop = styled.div`
     }
   }
 `;
+
+export const GalleryAnimationArea = styled.div`
+  width: 90%;
+  margin: 0 auto;
+`;

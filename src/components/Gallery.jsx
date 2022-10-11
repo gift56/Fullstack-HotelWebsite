@@ -11,6 +11,7 @@ import DesktopGalleyFour from "../assets/Dgallery4.svg";
 import Label from "../assets/Alabel.svg";
 import Polygon from "../assets/polygon.svg";
 import {
+  GalleryAnimationArea,
   GalleryArea,
   GalleryCon,
   GalleryleftSide,
@@ -91,7 +92,9 @@ const Gallery = () => {
           </GalleryrightSide>
         </GalleryArea>
       </Container>
-      <GalleryBookAnimation />
+      <GalleryAnimationArea>
+        <GalleryBookAnimation />
+      </GalleryAnimationArea>
     </GalleryCon>
   );
 };
