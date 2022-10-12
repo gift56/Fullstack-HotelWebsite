@@ -2,7 +2,7 @@ import React from 'react';
 
 const GalleryBookAnimation = () => {
   return (
-    <div>GalleryBookAnimation</div>
+    <div className=''></div>
   )
 }
 
