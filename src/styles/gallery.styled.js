@@ -206,10 +206,10 @@ export const GalleryRightSideDesktop = styled.div`
 
 export const moving = keyframes`
 0%{
-  transform: translateX(0%);
+  transform: translate(0, 0);
 }
 100%{
-  transform: translateX(-100%);
+  transform: translate(-100%,0);
 }
 `;
 
@@ -224,6 +224,16 @@ export const GalleryAnimationArea = styled.div`
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    .repeat {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transform: translateX(8%);
+      /* animation: ${moving} 18s linear infinite; */
+      .page4 {
+        animation-duration: 39s;
+      }
+    }
     .firstP,
     .secondP {
       display: flex;
@@ -235,19 +245,6 @@ export const GalleryAnimationArea = styled.div`
       line-height: 120px;
       white-space: nowrap;
       overflow: hidden;
-      animation: ${moving} 18s linear infinite;
-      &:first-child {
-        animation-duration: 19s;
-      }
-      &:nth-child(2) {
-        animation-duration: 29s;
-      }
-      &:nth-child(3) {
-        animation-duration: 20s;
-      }
-      &:nth-child(4) {
-        animation-duration: 25s;
-      }
     }
     .secondP {
       animation-duration: 20s;

@@ -13,16 +13,29 @@ const GalleryBookAnimation = () => {
   ];
   return (
     <div className="movement">
-      <div className="firstP">
-        {pageMovement.map((page, index) => (
-          <p key={index}>{page}</p>
-        ))}
+      <div className="repeat">
+        <div className="firstP">
+          {pageMovement.map((page, index) => (
+            <p key={index}>{page}</p>
+          ))}
+        </div>
+        <div className="firstP page4">
+          {pageMovement.map((page, index) => (
+            <p key={index}>{page}</p>
+          ))}
+        </div>
       </div>
-
-      <div className="secondP">
-        {pageMovement.map((page, index) => (
-          <p key={index}>{page}</p>
-        ))}
+      <div className="repeat">
+        <div className="secondP">
+          {pageMovement.map((page, index) => (
+            <p key={index}>{page}</p>
+          ))}
+        </div>
+        <div className="secondP page4">
+          {pageMovement.map((page, index) => (
+            <p key={index}>{page}</p>
+          ))}
+        </div>
       </div>
     </div>
   );
