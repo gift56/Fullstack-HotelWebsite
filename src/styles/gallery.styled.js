@@ -214,7 +214,27 @@ export const moving = keyframes`
 
 `;
 
-// animation: ${moving} 2s linear infinite;
 export const GalleryAnimationArea = styled.div`
-
+  display: none;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+    display: flex;
+  }
+  .movement {
+    animation: ${moving} 2s linear infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    .firstP,
+    .secondP {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      font-weight: 400;
+      font-size: 100px;
+      line-height: 120px;
+    }
+  }
 `;
