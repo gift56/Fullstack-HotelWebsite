@@ -211,7 +211,6 @@ export const moving = keyframes`
 100%{
   transform: translateX(-100%);
 }
-
 `;
 
 export const GalleryAnimationArea = styled.div`
@@ -220,7 +219,7 @@ export const GalleryAnimationArea = styled.div`
     display: flex;
   }
   .movement {
-    animation: ${moving} 2s linear infinite;
+    animation: ${moving} 8s linear infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -235,6 +234,8 @@ export const GalleryAnimationArea = styled.div`
       font-weight: 400;
       font-size: 100px;
       line-height: 120px;
+      white-space: nowrap;
+      overflow: hidden;
     }
   }
 `;
