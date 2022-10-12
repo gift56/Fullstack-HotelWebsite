@@ -10,6 +10,10 @@ const GalleryBookAnimation = () => {
     "Bank hotel Bank hotel",
     "Bank hotel  Bank hotel",
     "Bank hotel Bank hotel",
+    "Bank hotel Bank hotel",
+    "Bank hotel  Bank hotel",
+    "Bank hotel Bank hotel",
+    "Bank hotel Bank__hotel©",
   ];
   return (
     <div className="movement">

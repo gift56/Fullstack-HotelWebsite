@@ -206,7 +206,7 @@ export const GalleryRightSideDesktop = styled.div`
 
 export const moving = keyframes`
 0%{
-  transform: translate(0, 0);
+  transform: translate(8%, 0);
 }
 100%{
   transform: translate(-100%,0);
@@ -228,10 +228,11 @@ export const GalleryAnimationArea = styled.div`
       display: flex;
       align-items: center;
       justify-content: space-between;
-      transform: translateX(8%);
-      /* animation: ${moving} 18s linear infinite; */
+      position: relative;
       .page4 {
-        animation-duration: 39s;
+        position: absolute;
+        left: -8241px;
+        animation-duration: 42s;
       }
     }
     .firstP,
@@ -245,9 +246,13 @@ export const GalleryAnimationArea = styled.div`
       line-height: 120px;
       white-space: nowrap;
       overflow: hidden;
+      transform: translateX(8%);
+      animation: ${moving} 20s linear infinite;
+    }
+    .firstP {
     }
     .secondP {
-      animation-duration: 20s;
+      animation-duration: 25s;
     }
   }
 `;
