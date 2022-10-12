@@ -189,12 +189,14 @@ export const GalleryRightSideDesktop = styled.div`
       &:nth-child(4) {
         bottom: 0;
         left: 0;
+        z-index: 10;
       }
       &:nth-child(5) {
         bottom: 0;
         right: 0;
         width: 190px;
         height: 204px;
+        z-index: 10;
       }
       img {
         width: 100%;
@@ -217,6 +219,7 @@ export const GalleryAnimationArea = styled.div`
   display: none;
   @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
     display: flex;
+    transform: translateY(-80px);
   }
   .movement {
     display: flex;
@@ -246,7 +249,7 @@ export const GalleryAnimationArea = styled.div`
       white-space: nowrap;
       overflow: hidden;
       transform: translateX(8%);
-      animation: ${moving} 20s linear infinite;
+      animation: ${moving} 30s linear infinite;
     }
     .firstP {
       p {
