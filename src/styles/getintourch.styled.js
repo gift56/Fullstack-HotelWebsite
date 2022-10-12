@@ -125,7 +125,6 @@ export const FormArea = styled.div`
         width: 378px;
         height: 100px;
         border: 1px solid ${({ theme }) => theme.darkColor};
-        backdrop-filter: blur(20px);
         @media screen and (min-width: ${({ theme }) => theme.mobile.BigLap}) {
           width: 592px;
         }
