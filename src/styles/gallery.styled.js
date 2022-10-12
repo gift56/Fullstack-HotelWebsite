@@ -252,7 +252,9 @@ export const GalleryAnimationArea = styled.div`
       p {
         color: rgba(255, 252, 246, 0.12);
         &:first-child,
-        &:last-child {
+        &:nth-child(5),
+        &:nth-child(9),
+        &:nth-child(11) {
           color: ${({ theme }) => theme.whiteColor} !important;
         }
       }
