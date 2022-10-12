@@ -233,9 +233,6 @@ export const GalleryAnimationArea = styled.div`
       justify-content: space-between;
       gap: 1rem;
       position: relative;
-      .page4 {
-        animation-duration: 192s;
-      }
     }
     .firstP,
     .secondP {
