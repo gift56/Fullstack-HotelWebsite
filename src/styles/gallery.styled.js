@@ -216,4 +216,5 @@ export const moving = keyframes`
 
 // animation: ${moving} 2s linear infinite;
 export const GalleryAnimationArea = styled.div`
+
 `;
