@@ -5,7 +5,7 @@ const GalleryBookAnimation = () => {
     "Bank hotel Bank__hotel©",
     "Bank hotel Bank hotel",
     "Bank hotel  Bank hotel",
-    "Bank  hotel Bank hote",
+    "Bank  hotel Bank hotel",
     "Bank hotel Bank__hotel©",
     "Bank hotel Bank hotel",
     "Bank hotel  Bank hotel",

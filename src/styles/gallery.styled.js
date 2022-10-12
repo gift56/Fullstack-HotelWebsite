@@ -254,13 +254,16 @@ export const GalleryAnimationArea = styled.div`
         &:first-child,
         &:nth-child(5),
         &:nth-child(9),
-        &:nth-child(11) {
+        &:nth-child(12) {
           color: ${({ theme }) => theme.whiteColor} !important;
         }
       }
     }
     .secondP {
       animation-duration: 25s;
+      p {
+        color: rgba(255, 252, 246, 0.12);
+      }
     }
   }
 `;
