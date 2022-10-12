@@ -12,16 +12,16 @@ const GalleryBookAnimation = () => {
     "Bank  hotel Bank hote",
     "Bank hotel Bank__hotel©",
     "Bank hotel Bank hotel",
-    "Bank hotel  Bank hotel",
-    "Bank  hotel Bank hote",
-    "Bank hotel Bank__hotel©",
-    "Bank hotel Bank hotel",
-    "Bank hotel  Bank hotel",
-    "Bank  hotel Bank hote",
   ];
   return (
     <div className="Movement">
       <div className="firstP">
+        {pageMovement.map((page, index) => (
+          <p key={index}>{page}</p>
+        ))}
+      </div>
+      
+      <div className="secondP">
         {pageMovement.map((page, index) => (
           <p key={index}>{page}</p>
         ))}
