@@ -228,11 +228,10 @@ export const GalleryAnimationArea = styled.div`
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 1rem;
       position: relative;
       .page4 {
-        position: absolute;
-        left: -8241px;
-        animation-duration: 42s;
+        animation-duration: 192s;
       }
     }
     .firstP,
@@ -250,6 +249,13 @@ export const GalleryAnimationArea = styled.div`
       animation: ${moving} 20s linear infinite;
     }
     .firstP {
+      p {
+        color: rgba(255, 252, 246, 0.12);
+        &:first-child,
+        &:last-child {
+          color: ${({ theme }) => theme.whiteColor} !important;
+        }
+      }
     }
     .secondP {
       animation-duration: 25s;
