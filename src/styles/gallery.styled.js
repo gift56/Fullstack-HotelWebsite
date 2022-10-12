@@ -219,7 +219,6 @@ export const GalleryAnimationArea = styled.div`
     display: flex;
   }
   .movement {
-    animation: ${moving} 8s linear infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -236,6 +235,22 @@ export const GalleryAnimationArea = styled.div`
       line-height: 120px;
       white-space: nowrap;
       overflow: hidden;
+      animation: ${moving} 18s linear infinite;
+      &:first-child {
+        animation-duration: 19s;
+      }
+      &:nth-child(2) {
+        animation-duration: 29s;
+      }
+      &:nth-child(3) {
+        animation-duration: 20s;
+      }
+      &:nth-child(4) {
+        animation-duration: 25s;
+      }
+    }
+    .secondP {
+      animation-duration: 20s;
     }
   }
 `;
