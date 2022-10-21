@@ -1,10 +1,8 @@
-import React from 'react'
-import Layout from '../components/Layout/Layout'
+import React from "react";
+import Layout from "../components/Layout/Layout";
 
 const Room = () => {
-  return (
-    <Layout></Layout>
-  )
-}
+  return <Layout></Layout>;
+};
 
-export default Room
+export default Room;

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { NavLink as Link } from "react-router-dom";
-import Star from "../assets/star.svg";
-import Bar from "../assets/openIcon.svg";
-import Close from "../assets/closeIcon.svg";
+import Star from "../../assets/star.svg";
+import Bar from "../../assets/openIcon.svg";
+import Close from "../../assets/closeIcon.svg";
 import { Container } from "../../styles/container.styled";
 import { HeaderContainer, HeaderArea } from "../../styles/header.styled";
 
