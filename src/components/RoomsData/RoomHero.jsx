@@ -1,11 +1,12 @@
 import React from "react";
 import Polygon from "../../assets/bookNow.svg";
+import HeroBg from "../../assets/Roombg.png";
 import { HeroArea, HeroCon } from "../../styles/RoomStyle/RoomHero.styled";
 import { Container } from "../../styles/Container/container.styled";
 
 const RoomHero = () => {
   return (
-    <HeroCon>
+    <HeroCon bg={HeroBg}>
       <Container>
         <HeroArea>
           <div className="leftSide">
