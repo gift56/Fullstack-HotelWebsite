@@ -1,12 +1,12 @@
 import React from "react";
 import Arrow from "../assets/arrow.svg";
-import { Container } from "../styles/container.styled";
+import { Container } from "../../styles/container.styled";
 import {
   FooterArea,
   FooterCon,
   FooterMobileFooter,
   FooterRows,
-} from "../styles/footer.styled";
+} from "../../styles/footer.styled";
 
 const Footer = () => {
   const SocialLinks = [

@@ -1,6 +1,6 @@
 import React from "react";
 import Star from "../assets/star.svg";
-import { ButtonsStar } from "../styles/button.styled";
+import { ButtonsStar } from "../../styles/button.styled";
 
 const Button = ({ color }) => {
   return (
@@ -8,7 +8,6 @@ const Button = ({ color }) => {
       <div>
         <img src={Star} alt="/" />
       </div>
-      
       <span>since 1973</span>
     </ButtonsStar>
   );
