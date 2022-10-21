@@ -49,6 +49,7 @@ export const HeroArea = styled.div`
         text-transform: uppercase;
         color: ${({ theme }) => theme.spanText};
         transform: translateY(90px);
+        font-family: "Open Sans", sans-serif !important;
       }
     }
   }
