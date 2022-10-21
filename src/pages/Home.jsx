@@ -1,5 +1,5 @@
 import React from "react";
-import AboutUs from "../components/Home/AboutUs";
+import AboutUs from '../components/Home/AboutUs'
 import BestApartment from "../components/Home/BestApartment";
 import Facilities from "../components/Home/Facilities";
 import Gallery from "../components/Home/Gallery";
