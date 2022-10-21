@@ -10,7 +10,9 @@ const RoomHero = () => {
       <Container>
         <HeroArea>
           <div className="leftSide">
-            <h2>Superior twin</h2>
+            <h2>
+              Superior <br /> twin
+            </h2>
             <p>
               All room decoration was made with ecological certified and safe
               materials.
