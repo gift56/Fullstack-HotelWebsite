@@ -12,8 +12,8 @@ import {
   AboutLeft,
   AboutRight,
   AboutTitleArea,
-} from "../styles/about.styled";
-import { Container } from "../styles/container.styled";
+} from "../../styles/HomeStyle/about.styled";
+import { Container } from "../../styles/Container/container.styled";
 
 const AboutUs = () => {
   return (
