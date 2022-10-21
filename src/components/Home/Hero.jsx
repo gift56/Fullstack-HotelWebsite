@@ -3,7 +3,7 @@ import DownArrow from "../../assets/downdrop.svg";
 import Dropdown from "../../assets/dropdown.svg";
 import Mobilehero from "../../assets/Hmobile.svg";
 import Desktophero from "../../assets/desktopH.svg";
-import { Container } from "../styles/container.styled";
+import { Container } from "../../styles/Container/container.styled";
 import {
   BookForm,
   HeroArea,
@@ -11,7 +11,7 @@ import {
   LeftSide,
   LeftSideTitle,
   RightSide,
-} from "../styles/hero.styled";
+} from "../../styles/HomeStyle/hero.styled";
 import Button from "../Button/Button";
 
 const Hero = () => {
