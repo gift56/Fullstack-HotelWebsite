@@ -2,17 +2,15 @@ import React from "react";
 import AboutUs from "../components/AboutUs";
 import BestApartment from "../components/BestApartment";
 import Facilities from "../components/Facilities";
-import Footer from "../components/Footer";
 import Gallery from "../components/Gallery";
 import GetInTourch from "../components/GetInTourch";
-import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Layout from "../components/Layout";
 import RoomandApartment from "../components/RoomandApartment";
 
 const Home = () => {
   return (
-    <>
-      <Header />
+    <Layout>
       <Hero />
       <AboutUs />
       <RoomandApartment />
@@ -20,8 +18,7 @@ const Home = () => {
       <BestApartment />
       <Gallery />
       <GetInTourch />
-      <Footer />
-    </>
+    </Layout>
   );
 };
 
