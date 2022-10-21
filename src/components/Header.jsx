@@ -15,12 +15,30 @@ const Header = () => {
   };
 
   const Links = [
-    "home",
-    "about",
-    "rooms",
-    "restaurant",
-    "conference hall",
-    "contacts",
+    {
+      to: "/",
+      link: "home",
+    },
+    {
+      to: "about",
+      link: "about",
+    },
+    {
+      to: "rooms",
+      link: "rooms",
+    },
+    {
+      to: "restaurant",
+      link: "restaurant",
+    },
+    {
+      to: "conferencehall",
+      link: "conference hall",
+    },
+    {
+      to: "contacts",
+      link: "contacts",
+    },
   ];
 
   const SocialLinks = ["Facebook", "Instagram", "twitter"];
@@ -48,15 +66,13 @@ const Header = () => {
             <h2>BankHotel</h2>
           </div>
           <ul className="desktopUl">
-            {Links.map((link, index) => (
+            {Links.map(({ to, link }, index) => (
               <li
                 className={`li ${active === index ? "active" : ""}`}
                 onClick={() => selectProduct(index)}
                 key={index}
               >
-                <Link to={`/${link}`}>
-                  <a href={`#${link}`}>{link}</a>
-                </Link>
+                <Link to={`/${to}`}>{link}</Link>
                 <div>
                   <img src={Star} alt="/" />
                 </div>
