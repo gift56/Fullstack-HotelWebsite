@@ -7,6 +7,7 @@ import {
   DetailLeftArea,
   DetailRightArea,
 } from "../../styles/RoomStyle/RoomDetail.styled";
+import Button from "../Button/Button";
 import { Container } from "../../styles/Container/container.styled";
 
 const RoomDetail = () => {
