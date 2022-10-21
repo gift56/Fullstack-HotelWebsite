@@ -14,4 +14,6 @@ export const HeroArea = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  width: 100%;
+  min-height: 453px;
 `;
