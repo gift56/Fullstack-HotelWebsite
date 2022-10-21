@@ -4,14 +4,14 @@ import SubImg from "../../assets/subscribeImg.svg";
 import Star from "../../assets/facilityStar.svg";
 import Dropdown from "../../assets/dropdown.svg";
 import Curve from "../../assets/curve.svg";
-import { Container } from "../styles/container.styled";
+import { Container } from "../../styles/Container/container.styled";
 import {
   FormArea,
   GetInTourchArea,
   GetInTourchCon,
   GetInTourchLeft,
   GetInTourchRight,
-} from "../styles/getintourch.styled";
+} from "../../styles/HomeStyle/getintourch.styled";
 
 const GetInTourch = () => {
   return (

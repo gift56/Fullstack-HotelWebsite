@@ -4,13 +4,13 @@ import MiniRightImg from "../../assets/dRM.svg";
 import DesktopImg from "../../assets/desktopPM.svg";
 import NextArrow from "../../assets/nextBtn.svg";
 import Button from "../Button/Button";
-import { Container } from "../styles/container.styled";
+import { Container } from "../../styles/Container/container.styled";
 import {
   RoomArea,
   RoomContainer,
   RoomLeft,
   RoomRight,
-} from "../styles/roomandapartment.styled";
+} from "../../styles/HomeStyle/roomandapartment.styled";
 
 const RoomandApartment = () => {
   return (
