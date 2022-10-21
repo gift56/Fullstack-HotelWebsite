@@ -9,4 +9,9 @@ export const HeroCon = styled.section`
   width: 100%;
 `;
 
-export const HeroArea = styled.div``;
+export const HeroArea = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+`;
