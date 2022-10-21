@@ -4,40 +4,35 @@ import Bar from "../assets/openIcon.svg";
 import Close from "../assets/closeIcon.svg";
 import { Container } from "../styles/container.styled";
 import { HeaderContainer, HeaderArea } from "../styles/header.styled";
-import { Link } from "react-router-dom";
+import { NavLink as Link } from "react-router-dom";
 
 const Header = () => {
-  const [active, setActive] = useState(0);
   const [open, setOpen] = useState(false);
 
-  const selectProduct = (index) => {
-    setActive(index);
-  };
-
-  const Links = [
+  const navLinks = [
     {
+      text: "home",
       to: "/",
-      link: "home",
     },
     {
-      to: "about",
-      link: "about",
+      text: "about",
+      to: "/about",
     },
     {
-      to: "rooms",
-      link: "rooms",
+      text: "rooms",
+      to: "/rooms",
     },
     {
-      to: "restaurant",
-      link: "restaurant",
+      text: "restaurant",
+      to: "/restaurant",
     },
     {
-      to: "conferencehall",
-      link: "conference hall",
+      text: "conference hall",
+      to: "/conferencehall",
     },
     {
-      to: "contacts",
-      link: "contacts",
+      text: "contacts",
+      to: "/contacts",
     },
   ];
 
@@ -66,30 +61,26 @@ const Header = () => {
             <h2>BankHotel</h2>
           </div>
           <ul className="desktopUl">
-            {Links.map(({ to, link }, index) => (
-              <li
-                className={`li ${active === index ? "active" : ""}`}
-                onClick={() => selectProduct(index)}
-                key={index}
-              >
-                <Link to={`/${to}`}>{link}</Link>
-                <div>
-                  <img src={Star} alt="/" />
-                </div>
+            {navLinks.map(({ text, to }) => (
+              <li className={`li`} key={text}>
+                <Link to={to}>
+                  {text}
+                  <div>
+                    <img src={Star} alt="/" />
+                  </div>
+                </Link>
               </li>
             ))}
           </ul>
           <ul className={`mobileUl ${open ? "left" : ""}`}>
-            {Links.map((link, index) => (
-              <li
-                className={`li ${active === index ? "active" : ""}`}
-                onClick={() => selectProduct(index)}
-                key={index}
-              >
-                {link}{" "}
-                <div>
-                  <img src={Star} alt="/" />
-                </div>
+            {navLinks.map(({ text, to }) => (
+              <li className={`li`} key={text}>
+                <Link to={to}>
+                  {text}
+                  <div>
+                    <img src={Star} alt="/" />
+                  </div>
+                </Link>
               </li>
             ))}
             <div className="MobilecontactNumber">
