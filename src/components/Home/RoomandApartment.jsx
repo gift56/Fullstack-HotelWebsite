@@ -1,9 +1,9 @@
 import React from "react";
-import RightImge from "../assets/rmMain.svg";
-import MiniRightImg from "../assets/dRM.svg";
-import DesktopImg from "../assets/desktopPM.svg";
-import NextArrow from "../assets/nextBtn.svg";
-import Button from "./Button";
+import RightImge from "../../assets/rmMain.svg";
+import MiniRightImg from "../../assets/dRM.svg";
+import DesktopImg from "../../assets/desktopPM.svg";
+import NextArrow from "../../assets/nextBtn.svg";
+import Button from "../Button/Button";
 import { Container } from "../styles/container.styled";
 import {
   RoomArea,

@@ -1,7 +1,7 @@
 import React from "react";
-import Arrow from "../assets/arrow.svg";
-import ConferenceImg from "../assets/conferenceImg.svg";
-import ConferenceImg2 from "../assets/conferenceImg2.svg";
+import Arrow from "../../assets/arrow.svg";
+import ConferenceImg from "../../assets/conferenceImg.svg";
+import ConferenceImg2 from "../../assets/conferenceImg2.svg";
 
 const FacilityRooms = () => {
   const ConferenceData = [

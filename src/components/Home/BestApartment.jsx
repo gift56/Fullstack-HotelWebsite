@@ -1,6 +1,6 @@
 import React from "react";
-import DesktopBg from "../assets/BSAbgDesk.svg";
-import MobileBg from "../assets/BSAbgMobile.svg";
+import DesktopBg from "../../assets/BSAbgDesk.svg";
+import MobileBg from "../../assets/BSAbgMobile.svg";
 import {
   BestApartmentArea,
   BestApartmentCon,

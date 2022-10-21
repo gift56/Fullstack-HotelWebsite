@@ -1,10 +1,10 @@
 import React from "react";
-import Label from "../assets/Alabel.svg";
-import Image1 from "../assets/aboutMI.svg";
-import Image2 from "../assets/desktopAImg.svg";
-import sideImg from "../assets/sideImg.svg";
-import BgLine from "../assets/Bglines.svg";
-import RamP from "../assets/RAMP.svg";
+import Label from "../../assets/Alabel.svg";
+import Image1 from "../../assets/aboutMI.svg";
+import Image2 from "../../assets/desktopAImg.svg";
+import sideImg from "../../assets/sideImg.svg";
+import BgLine from "../../assets/Bglines.svg";
+import RamP from "../../assets/RAMP.svg";
 
 import {
   AboutArea,

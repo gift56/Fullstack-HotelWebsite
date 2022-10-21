@@ -1,9 +1,9 @@
 import React from "react";
-import BookNow from "../assets/bookNow.svg";
-import SubImg from "../assets/subscribeImg.svg";
-import Star from "../assets/facilityStar.svg";
-import Dropdown from "../assets/dropdown.svg";
-import Curve from "../assets/curve.svg";
+import BookNow from "../../assets/bookNow.svg";
+import SubImg from "../../assets/subscribeImg.svg";
+import Star from "../../assets/facilityStar.svg";
+import Dropdown from "../../assets/dropdown.svg";
+import Curve from "../../assets/curve.svg";
 import { Container } from "../styles/container.styled";
 import {
   FormArea,
