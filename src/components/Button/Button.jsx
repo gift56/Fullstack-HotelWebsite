@@ -1,6 +1,6 @@
 import React from "react";
 import Star from "../../assets/star.svg";
-import { ButtonsStar } from "../../styles/button.styled";
+import { ButtonsStar } from "../../styles/ButtonStyle/button.styled";
 
 const Button = ({ color }) => {
   return (
