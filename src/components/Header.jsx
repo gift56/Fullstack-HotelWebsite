@@ -4,7 +4,7 @@ import Bar from "../assets/openIcon.svg";
 import Close from "../assets/closeIcon.svg";
 import { Container } from "../styles/container.styled";
 import { HeaderContainer, HeaderArea } from "../styles/header.styled";
-import "../index.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [active, setActive] = useState(0);
