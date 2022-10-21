@@ -14,8 +14,8 @@ const RoomHero = () => {
               Superior <br /> twin
             </h2>
             <p>
-              All room decoration was made with ecological certified and safe
-              materials.
+              All room decoration was made <br /> with ecological certified and{" "}
+              <br /> safe materials.
             </p>
           </div>
           <div className="rightSide">
