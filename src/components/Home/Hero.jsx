@@ -1,8 +1,8 @@
 import React from "react";
-import DownArrow from "../assets/downdrop.svg";
-import Dropdown from "../assets/dropdown.svg";
-import Mobilehero from "../assets/Hmobile.svg";
-import Desktophero from "../assets/desktopH.svg";
+import DownArrow from "../../assets/downdrop.svg";
+import Dropdown from "../../assets/dropdown.svg";
+import Mobilehero from "../../assets/Hmobile.svg";
+import Desktophero from "../../assets/desktopH.svg";
 import { Container } from "../styles/container.styled";
 import {
   BookForm,
@@ -12,7 +12,7 @@ import {
   LeftSideTitle,
   RightSide,
 } from "../styles/hero.styled";
-import Button from "./Button";
+import Button from "../Button/Button";
 
 const Hero = () => {
   return (
