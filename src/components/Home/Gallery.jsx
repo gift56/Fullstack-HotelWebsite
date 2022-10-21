@@ -19,8 +19,8 @@ import {
   GalleryRightSideDesktop,
   GalleryRightSideMobile,
   GalleryTitle,
-} from "../styles/gallery.styled";
-import { Container } from "../styles/container.styled";
+} from "../../styles/HomeStyle/gallery.styled";
+import { Container } from "../../styles/Container/container.styled";
 import GalleryBookAnimation from "./GalleryBookAnimation";
 
 const Gallery = () => {

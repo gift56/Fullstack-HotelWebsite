@@ -5,14 +5,14 @@ import FacilityStar from "../../assets/facilityStar.svg";
 import FacilityLabel from "../../assets/facilityLabel.svg";
 import FacilityDesImg from "../../assets/facilityDesImg.svg";
 import NextArrow from "../../assets/nextBtn.svg";
-import { Container } from "../styles/container.styled";
+import { Container } from "../../styles/Container/container.styled";
 import {
   FacilitiesArea,
   FacilitiesCon,
   FacilitiesLeftside,
   FacilitiesLeftsideTitle,
   FacilitiesRightside,
-} from "../styles/facilities.styled";
+} from "../../styles/HomeStyle/facilities.styled";
 import FacilityRooms from "./FacilityRooms";
 
 const Facilities = () => {
