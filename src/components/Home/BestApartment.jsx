@@ -5,8 +5,8 @@ import {
   BestApartmentArea,
   BestApartmentCon,
   BestApartmentTexts,
-} from "../styles/bestApartment.styled";
-import { Container } from "../styles/container.styled";
+} from "../../styles/HomeStyle/bestApartment.styled";
+import { Container } from "../../styles/Container/container.styled";
 
 const BestApartment = () => {
   const Bg = [DesktopBg, MobileBg];
