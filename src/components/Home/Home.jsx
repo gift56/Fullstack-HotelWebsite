@@ -5,7 +5,7 @@ import Facilities from "../components/Facilities";
 import Gallery from "../components/Gallery";
 import GetInTourch from "../components/GetInTourch";
 import Hero from "../components/Hero";
-import Layout from "../components/Layout";
+import Layout from "../Layout";
 import RoomandApartment from "../components/RoomandApartment";
 
 const Home = () => {
