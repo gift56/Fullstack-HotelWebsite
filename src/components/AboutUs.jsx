@@ -17,7 +17,7 @@ import { Container } from "../styles/container.styled";
 
 const AboutUs = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <Container>
         <AboutArea bg={BgLine}>
           <AboutLeft>
