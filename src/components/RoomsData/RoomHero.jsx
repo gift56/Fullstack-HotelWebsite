@@ -8,7 +8,13 @@ const RoomHero = () => {
     <HeroCon>
       <Container>
         <HeroArea>
-          <div className="leftSide"></div>
+          <div className="leftSide">
+            <h2>Superior twin</h2>
+            <p>
+              All room decoration was made with ecological certified and safe
+              materials.
+            </p>
+          </div>
           <div className="rightSide">
             <div className="image">
               <img src={Polygon} alt="book_now_img" />
