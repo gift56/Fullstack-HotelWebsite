@@ -1,5 +1,5 @@
 import React from "react";
-import Arrow from "../assets/arrow.svg";
+import Arrow from "../../assets/arrow.svg";
 import { Container } from "../../styles/container.styled";
 import {
   FooterArea,
