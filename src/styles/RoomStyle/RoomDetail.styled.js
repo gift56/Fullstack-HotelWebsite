@@ -19,6 +19,7 @@ export const DetailArea = styled.div`
   gap: 3rem;
   @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
     padding: 120px 0;
+    gap: 4rem;
   }
 `;
 
@@ -97,6 +98,11 @@ export const DetailLeftArea = styled.div`
 export const DetailRightArea = styled.div`
   width: 100%;
   padding-bottom: 60px;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
   p {
     font-weight: 400;
     font-size: 15px;
@@ -104,5 +110,8 @@ export const DetailRightArea = styled.div`
     color: ${({ theme }) => theme.whiteColor};
     opacity: 0.8;
     font-family: "Open Sans", sans-serif !important;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+      width: 357px;
+    }
   }
 `;
