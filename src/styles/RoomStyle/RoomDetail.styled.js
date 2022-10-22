@@ -76,4 +76,14 @@ export const DetailLeftArea = styled.div`
   }
 `;
 
-export const DetailRightArea = styled.div``;
+export const DetailRightArea = styled.div`
+  width: 100%;
+  p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: ${({ theme }) => theme.whiteColor};
+    opacity: 0.8;
+    font-family: "Open Sans", sans-serif !important;
+  }
+`;
