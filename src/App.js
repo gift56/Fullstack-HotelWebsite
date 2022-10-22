@@ -9,7 +9,7 @@ const App = () => {
     whiteColor: "#FFFCF6",
     textColor: "#333333",
     darkColor: "#313F38",
-    darkColor2: "#2c332f",
+    darkColor2: "#485a50",
     mobile: {
       BigLap: "1490px",
       minLap: "1180px",
