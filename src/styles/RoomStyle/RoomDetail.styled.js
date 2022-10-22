@@ -3,10 +3,6 @@ import styled from "styled-components";
 export const DetailCon = styled.section`
   position: relative;
   background-color: ${({ theme }) => theme.darkColor};
-  background-image: url(${({ bg }) => bg});
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
 `;
 
 export const DetailArea = styled.div`
