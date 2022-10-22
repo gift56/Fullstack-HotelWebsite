@@ -62,6 +62,18 @@ export const OptionLeftArea = styled.div`
         letter-spacing: 0.03em;
         text-transform: capitalize;
       }
+      p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        opacity: 0.8;
+        color: ${({ theme }) => theme.darkColor2};
+        font-family: "Open Sans", sans-serif !important;
+        span {
+          display: block;
+          font-family: inherit;
+        }
+      }
     }
     button {
       display: none;
