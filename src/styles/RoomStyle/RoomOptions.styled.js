@@ -47,6 +47,10 @@ export const OptionLeftArea = styled.div`
     align-items: flex-start;
     justify-content: center;
     width: 100%;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+      gap: 2rem;
+      justify-content: space-between;
+    }
     .textArea {
       display: flex;
       flex-direction: column;
@@ -61,6 +65,10 @@ export const OptionLeftArea = styled.div`
         color: ${({ theme }) => theme.darkColor2};
         letter-spacing: 0.03em;
         text-transform: capitalize;
+        @media screen and (min-width: ${({ theme }) => theme.mobile.phone}) {
+          font-size: 36px;
+          line-height: 44px;
+        }
       }
       p {
         font-weight: 400;
@@ -72,6 +80,15 @@ export const OptionLeftArea = styled.div`
         span {
           display: block;
           font-family: inherit;
+          @media screen and (min-width: ${({ theme }) => theme.mobile.phone}) {
+            display: inline;
+          }
+          @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+            display: block;
+          }
+        }
+        @media screen and (min-width: ${({ theme }) => theme.mobile.phone}) {
+          font-size: 16px;
         }
       }
     }
