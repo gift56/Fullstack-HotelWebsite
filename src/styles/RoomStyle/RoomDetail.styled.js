@@ -6,6 +6,7 @@ export const DetailCon = styled.section`
   background-image: url(${({ bg }) => bg});
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: contain;
   z-index: 1;
 `;
 
