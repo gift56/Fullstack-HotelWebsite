@@ -20,6 +20,9 @@ const RoomOptions = () => {
               <div className="label">
                 <img src={Label} alt="label_img" />
               </div>
+              <div className="leftImg">
+                <img src={LeftImg} alt="leftImg" />
+              </div>
             </div>
           </OptionLeftArea>
           <OptionRightArea></OptionRightArea>
