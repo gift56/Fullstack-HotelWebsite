@@ -52,7 +52,7 @@ export const OptionLeftArea = styled.div`
       .label {
         position: absolute;
         top: -66px;
-        right: 0;
+        right: -11px;
       }
       .leftImg {
         width: 100%;
