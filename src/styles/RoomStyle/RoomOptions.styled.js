@@ -15,6 +15,7 @@ export const OptionArea = styled.div`
   gap: 2rem;
   @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
     flex-direction: row;
+    align-items: flex-start;
     justify-content: space-between;
   }
   button {
@@ -33,10 +34,24 @@ export const OptionArea = styled.div`
 `;
 
 export const OptionLeftArea = styled.div`
+  width: 100%;
   .imageCon {
     display: none;
     @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+      display: block;
+    }
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    button {
       display: none;
+      @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+        display: block;
+      }
     }
   }
 `;
@@ -90,6 +105,9 @@ export const OptionRightArea = styled.div`
       display: flex;
       justify-content: flex-end;
       align-items: center;
+      @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+        display: none;
+      }
     }
   }
 `;
