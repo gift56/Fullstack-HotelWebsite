@@ -37,7 +37,27 @@ const RoomOptions = () => {
               <button>Book room</button>
             </div>
           </OptionLeftArea>
-          <OptionRightArea></OptionRightArea>
+          <OptionRightArea>
+            <div className="leftImg">
+              <img src={LeftImg} alt="leftImg" />
+            </div>
+            <div className="text">
+              <div className="textArea">
+                <div className="label">
+                  <img src={MainImg} alt="room_img" />
+                </div>
+                <p>
+                  The Superior twin includes two functional zones: a living room
+                  with the best Italian furniture, and an isolated cozy bedroom
+                  with a large bed. Here, you will find space both for work and
+                  comfortable rest. Hotel offers supreme comfort and outstanding
+                  24-hour room service to make sure that the time you spend here
+                  is enjoyable and pleasant.
+                </p>
+              </div>
+              <button>Book room</button>
+            </div>
+          </OptionRightArea>
         </OptionArea>
       </Container>
     </OptionCon>
