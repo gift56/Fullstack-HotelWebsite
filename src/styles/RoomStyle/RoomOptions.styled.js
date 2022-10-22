@@ -135,6 +135,10 @@ export const OptionRightArea = styled.div`
   justify-content: center;
   gap: 4rem;
   width: 100%;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
   .Images {
     width: 98%;
     @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
