@@ -53,5 +53,11 @@ export const OptionRightArea = styled.div`
     justify-content: flex-start;
     gap: 2rem;
     width: 100%;
+    .btn {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
   }
 `;

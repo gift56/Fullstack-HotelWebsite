@@ -55,7 +55,9 @@ const RoomOptions = () => {
                   is enjoyable and pleasant.
                 </p>
               </div>
-              <button>Book room</button>
+              <div className="btn">
+                <button>Book room</button>
+              </div>
             </div>
           </OptionRightArea>
         </OptionArea>
