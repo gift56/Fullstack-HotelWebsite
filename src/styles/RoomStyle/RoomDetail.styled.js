@@ -75,6 +75,10 @@ export const DetailLeftArea = styled.div`
             font-family: inherit;
           }
         }
+        @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+          font-size: 40px;
+          line-height: 40px;
+        }
       }
     }
     h4 {
@@ -111,6 +115,9 @@ export const DetailRightArea = styled.div`
     font-family: "Open Sans", sans-serif !important;
     @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
       width: 357px;
+    }
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      transform: translateX(40%);
     }
   }
 `;
