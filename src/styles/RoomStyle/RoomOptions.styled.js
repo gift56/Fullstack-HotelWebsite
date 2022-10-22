@@ -21,9 +21,10 @@ export const OptionArea = styled.div`
     font-family: "Open Sans", sans-serif !important;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     cursor: pointer;
+    background: transparent;
   }
   .imageCon {
     display: none;
