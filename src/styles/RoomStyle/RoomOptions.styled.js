@@ -13,6 +13,10 @@ export const OptionArea = styled.div`
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
   button {
     border: 1px solid ${({ theme }) => theme.darkColor};
     border-radius: 99px;
@@ -57,6 +61,8 @@ export const OptionRightArea = styled.div`
     .textArea {
       display: flex;
       flex-direction: row-reverse;
+      align-items: flex-end;
+      justify-content: flex-end;
       .label {
         position: absolute;
         top: -41px;
@@ -69,7 +75,7 @@ export const OptionRightArea = styled.div`
         line-height: 23px;
         opacity: 0.8;
         color: ${({ theme }) => theme.darkColor2};
-        width: 250px;
+        width: 90%;
       }
     }
     .btn {
