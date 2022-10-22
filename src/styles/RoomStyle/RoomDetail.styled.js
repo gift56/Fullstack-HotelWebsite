@@ -17,6 +17,9 @@ export const DetailArea = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   gap: 3rem;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+    padding: 120px 0;
+  }
 `;
 
 export const DetailLeftArea = styled.div`
@@ -35,6 +38,9 @@ export const DetailLeftArea = styled.div`
       align-items: flex-start;
       justify-content: flex-start;
       gap: 2rem;
+      @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+        flex-direction: column;
+      }
       button {
         display: flex;
         align-items: center;
@@ -66,6 +72,12 @@ export const DetailLeftArea = styled.div`
         line-height: 30px;
         letter-spacing: 0.03em;
         color: ${({ theme }) => theme.whiteColor};
+        @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+          span {
+            display: block;
+            font-family: inherit;
+          }
+        }
       }
     }
     h4 {

@@ -21,7 +21,9 @@ const RoomDetail = () => {
                 <Button color="#FFFCF6" />
                 <h3>
                   <span>All suites have a unique design</span>
+                  {` `}
                   <span>because we want our every guest</span>
+                  {` `}
                   <span> to feel special.</span>
                 </h3>
               </div>
