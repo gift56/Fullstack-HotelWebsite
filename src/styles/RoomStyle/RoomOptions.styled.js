@@ -23,6 +23,7 @@ export const OptionArea = styled.div`
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    cursor: pointer;
   }
   .imageCon {
     display: none;
