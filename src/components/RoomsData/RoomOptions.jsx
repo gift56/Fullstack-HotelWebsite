@@ -38,13 +38,13 @@ const RoomOptions = () => {
             </div>
           </OptionLeftArea>
           <OptionRightArea>
-            <div className="leftImg">
-              <img src={LeftImg} alt="leftImg" />
+            <div className="Images">
+              <img src={MainImg} alt="main_Img" />
             </div>
             <div className="text">
               <div className="textArea">
                 <div className="label">
-                  <img src={MainImg} alt="room_img" />
+                  <img src={Label} alt="label_img" />
                 </div>
                 <p>
                   The Superior twin includes two functional zones: a living room
