@@ -26,10 +26,19 @@ export const OptionRightArea = styled.div`
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  width: 100%;
   .Images {
     width: 98%;
     img {
       width: 100%;
     }
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 100%;
   }
 `;
