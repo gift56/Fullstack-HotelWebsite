@@ -6,4 +6,7 @@ export const Container = styled.div`
   @media screen and (max-width: ${({ theme }) => theme.mobile.minLap}) {
     width: 95%;
   }
+  @media screen and (max-width: ${({ theme }) => theme.mobile.phone}) {
+    width: 92%;
+  }
 `;

@@ -64,7 +64,7 @@ export const OptionLeftArea = styled.div`
       }
       p {
         font-weight: 400;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 23px;
         opacity: 0.8;
         color: ${({ theme }) => theme.darkColor2};
