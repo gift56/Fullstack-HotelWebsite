@@ -1,4 +1,5 @@
 import React from "react";
+import GetInTourch from "../components/Home/GetInTourch";
 import Layout from "../components/Layout/Layout";
 import DetailImage from "../components/RoomsData/DetailImage";
 import RoomDetail from "../components/RoomsData/RoomDetail";
@@ -12,6 +13,7 @@ const Room = () => {
       <RoomDetail />
       <DetailImage />
       <RoomOptions />
+      <GetInTourch />
     </Layout>
   );
 };
