@@ -47,6 +47,9 @@ export const DetailLeftArea = styled.div`
         border-radius: 99px;
         width: 175px;
         height: 50px;
+        @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+          width: 185px;
+        }
         div {
           width: 35px;
           height: 35px;
