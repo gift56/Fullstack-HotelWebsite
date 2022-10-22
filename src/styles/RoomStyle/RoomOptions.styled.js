@@ -30,12 +30,16 @@ export const OptionArea = styled.div`
     cursor: pointer;
     background: transparent;
   }
-  .imageCon {
-    display: none;
-  }
 `;
 
-export const OptionLeftArea = styled.div``;
+export const OptionLeftArea = styled.div`
+  .imageCon {
+    display: none;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+      display: none;
+    }
+  }
+`;
 
 export const OptionRightArea = styled.div`
   display: flex;
@@ -67,6 +71,9 @@ export const OptionRightArea = styled.div`
         position: absolute;
         top: -41px;
         right: 0;
+        @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+          display: none;
+        }
       }
       p {
         font-weight: 400;
