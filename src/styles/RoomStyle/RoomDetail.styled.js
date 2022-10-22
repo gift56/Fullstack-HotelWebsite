@@ -72,12 +72,16 @@ export const DetailLeftArea = styled.div`
       line-height: 24px;
       text-transform: capitalize;
       color: ${({ theme }) => theme.spanText};
+      position: absolute;
+      bottom: 50px;
+      left: 10px;
     }
   }
 `;
 
 export const DetailRightArea = styled.div`
   width: 100%;
+  padding-bottom: 60px;
   p {
     font-weight: 400;
     font-size: 15px;
