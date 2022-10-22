@@ -14,6 +14,7 @@ export const OptionArea = styled.div`
   justify-content: center;
   gap: 2rem;
   @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+    padding: 80px 0;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
@@ -35,10 +36,30 @@ export const OptionArea = styled.div`
 
 export const OptionLeftArea = styled.div`
   width: 100%;
+  position: relative;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
   .imageCon {
     display: none;
     @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
       display: block;
+      width: 311px;
+      .label {
+        position: absolute;
+        top: -66px;
+        right: 0;
+      }
+      .leftImg {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
     }
   }
   .text {
