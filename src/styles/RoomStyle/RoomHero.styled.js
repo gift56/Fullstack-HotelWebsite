@@ -59,6 +59,7 @@ export const HeroArea = styled.div`
     justify-content: flex-end;
     width: 100%;
     transform: translateY(80px);
+    z-index: 5;
     @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
       transform: none;
     }
