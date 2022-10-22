@@ -11,7 +11,7 @@ export const OptionArea = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 2rem;
   .imageCon {
     display: none;
@@ -20,4 +20,16 @@ export const OptionArea = styled.div`
 
 export const OptionLeftArea = styled.div``;
 
-export const OptionRightArea = styled.div``;
+export const OptionRightArea = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  .Images {
+    width: 98%;
+    img {
+      width: 100%;
+    }
+  }
+`;
