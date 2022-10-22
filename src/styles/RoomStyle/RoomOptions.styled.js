@@ -38,7 +38,7 @@ export const OptionRightArea = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
   width: 100%;
   .Images {
     width: 98%;
@@ -53,6 +53,25 @@ export const OptionRightArea = styled.div`
     justify-content: flex-start;
     gap: 2rem;
     width: 100%;
+    position: relative;
+    .textArea {
+      display: flex;
+      flex-direction: row-reverse;
+      .label {
+        position: absolute;
+        top: -41px;
+        right: 0;
+      }
+      p {
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif !important;
+        font-size: 15px;
+        line-height: 23px;
+        opacity: 0.8;
+        color: ${({ theme }) => theme.darkColor2};
+        width: 250px;
+      }
+    }
     .btn {
       width: 100%;
       display: flex;
