@@ -6,7 +6,9 @@ import { ImageCon } from '../../styles/RoomStyle/RoomImage.styled';
 const DetailImage = () => {
   return (
     <ImageCon>
-        <Container></Container>
+        <Container>
+            
+        </Container>
     </ImageCon>
   )
 }
