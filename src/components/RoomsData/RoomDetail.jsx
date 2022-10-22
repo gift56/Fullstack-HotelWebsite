@@ -1,5 +1,5 @@
 import React from "react";
-import Curve from "../../assets/curve.svg";
+import Curve from "../../assets/curve2.png";
 import {
   DetailArea,
   DetailCon,
