@@ -5,6 +5,7 @@ export const DetailCon = styled.section`
   background-color: ${({ theme }) => theme.darkColor};
   background-image: url(${({ bg }) => bg});
   background-repeat: no-repeat;
+  background-position: bottom;
   z-index: 1;
 `;
 
