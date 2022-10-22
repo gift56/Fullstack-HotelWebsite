@@ -8,6 +8,11 @@ export const DetailCon = styled.section`
 
 export const DetailArea = styled.div`
   padding: 60px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 `;
 
 export const DetailLeftArea = styled.div``;
