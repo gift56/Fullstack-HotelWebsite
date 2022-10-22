@@ -14,6 +14,10 @@ export const DetailArea = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   gap: 3rem;
+`;
+
+export const DetailLeftArea = styled.div`
+  width: 100%;
   .leftSide {
     width: 100%;
     display: flex;
@@ -71,7 +75,5 @@ export const DetailArea = styled.div`
     }
   }
 `;
-
-export const DetailLeftArea = styled.div``;
 
 export const DetailRightArea = styled.div``;
