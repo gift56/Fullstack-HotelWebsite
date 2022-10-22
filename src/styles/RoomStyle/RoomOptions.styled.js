@@ -71,6 +71,7 @@ export const OptionLeftArea = styled.div`
     @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
       gap: 2rem;
       justify-content: space-between;
+      height: 326px;
     }
     .textArea {
       display: flex;
