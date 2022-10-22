@@ -13,6 +13,9 @@ export const OptionArea = styled.div`
   align-items: center;
   justify-content: flex-start;
   gap: 2rem;
+  .imageCon {
+    display: none;
+  }
 `;
 
 export const OptionLeftArea = styled.div``;
