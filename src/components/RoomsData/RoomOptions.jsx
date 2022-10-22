@@ -15,7 +15,9 @@ const RoomOptions = () => {
     <OptionCon>
       <Container>
         <OptionArea>
-          <OptionLeftArea></OptionLeftArea>
+          <OptionLeftArea>
+            
+          </OptionLeftArea>
           <OptionRightArea></OptionRightArea>
         </OptionArea>
       </Container>
