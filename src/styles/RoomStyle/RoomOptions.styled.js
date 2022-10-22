@@ -47,6 +47,22 @@ export const OptionLeftArea = styled.div`
     align-items: flex-start;
     justify-content: center;
     width: 100%;
+    .textArea {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 100%;
+      gap: 1rem;
+      h2 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+        color: ${({ theme }) => theme.darkColor2};
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+      }
+    }
     button {
       display: none;
       @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
