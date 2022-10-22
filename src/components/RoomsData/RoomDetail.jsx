@@ -12,7 +12,7 @@ import { Container } from "../../styles/Container/container.styled";
 
 const RoomDetail = () => {
   return (
-    <DetailCon>
+    <DetailCon bg={Curve}>
       <Container>
         <DetailArea>
           <DetailLeftArea>
