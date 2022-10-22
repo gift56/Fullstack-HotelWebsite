@@ -53,6 +53,21 @@ export const DetailArea = styled.div`
           color: #fffcf6;
         }
       }
+      h3 {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        color: ${({ theme }) => theme.whiteColor};
+      }
+    }
+    h4 {
+      font-family: "Open Sans", sans-serif !important;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      text-transform: capitalize;
+      color: ${({ theme }) => theme.spanText};
     }
   }
 `;
