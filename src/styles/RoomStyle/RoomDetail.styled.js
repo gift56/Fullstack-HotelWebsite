@@ -87,6 +87,9 @@ export const DetailLeftArea = styled.div`
       position: absolute;
       bottom: 50px;
       left: 10px;
+      @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+        left: 2%;
+      }
     }
   }
 `;
