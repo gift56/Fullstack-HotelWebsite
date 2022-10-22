@@ -34,6 +34,9 @@ export const OptionArea = styled.div`
     line-height: 22px;
     cursor: pointer;
     background: transparent;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 `;
 
