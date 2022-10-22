@@ -29,6 +29,14 @@ const RoomDetail = () => {
               </div>
               <h4>Premier Standard</h4>
             </div>
+            <p>
+              The Superior twin would perfectly match the needs of those who
+              plan to stay long. The bright and airy room is equipped with
+              superior soft Italian furniture. Large windows open a beautiful
+              view to the historical part of the city. Contemporary interior
+              design and comfortable beds will make your stay cozy and
+              delightful.
+            </p>
           </DetailLeftArea>
           <DetailRightArea>
             <p>

@@ -17,10 +17,31 @@ export const DetailArea = styled.div`
     padding: 120px 0;
     gap: 4rem;
   }
+  @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+    padding: 100px 0;
+  }
 `;
 
 export const DetailLeftArea = styled.div`
   width: 100%;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  p {
+    display: none;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      display: block;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 23px;
+      color: ${({ theme }) => theme.whiteColor};
+      opacity: 0.8;
+      font-family: "Open Sans", sans-serif !important;
+      width: 357px;
+    }
+  }
   .leftSide {
     width: 100%;
     display: flex;
@@ -82,6 +103,10 @@ export const DetailLeftArea = styled.div`
           font-size: 40px;
           line-height: 40px;
         }
+        @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+          font-size: 50px;
+          line-height: 50px;
+        }
       }
     }
     h4 {
@@ -96,6 +121,9 @@ export const DetailLeftArea = styled.div`
       left: 10px;
       @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
         left: 2%;
+      }
+      @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        left: 5%;
       }
     }
   }
@@ -121,6 +149,9 @@ export const DetailRightArea = styled.div`
     }
     @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
       transform: translateX(40%);
+    }
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      display: none;
     }
   }
 `;
