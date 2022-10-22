@@ -13,6 +13,20 @@ export const DetailArea = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  gap: 3rem;
+  .leftSide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3rem;
+    .detail {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+  }
 `;
 
 export const DetailLeftArea = styled.div``;
