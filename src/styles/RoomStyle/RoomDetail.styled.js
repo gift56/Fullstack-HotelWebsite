@@ -54,7 +54,7 @@ export const DetailLeftArea = styled.div`
           font-size: 16px;
           line-height: 19px;
           text-transform: capitalize;
-          color: #fffcf6;
+          color: ${({ theme }) => theme.whiteColor};
         }
       }
       h3 {
