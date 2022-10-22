@@ -34,7 +34,7 @@ const RoomOptions = () => {
                   <span>century layout.</span>
                 </p>
               </div>
-              <button></button>
+              <button>Book room</button>
             </div>
           </OptionLeftArea>
           <OptionRightArea></OptionRightArea>
