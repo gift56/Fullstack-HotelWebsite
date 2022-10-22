@@ -7,7 +7,7 @@ const DetailImage = () => {
   return (
     <ImageCon bg={DetailImg}>
       <Container>
-        <ImageArea></ImageArea>
+        <ImageArea bg={DetailImg}></ImageArea>
       </Container>
     </ImageCon>
   );
