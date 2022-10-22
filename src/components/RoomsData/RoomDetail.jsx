@@ -20,8 +20,9 @@ const RoomDetail = () => {
               <div className="detail">
                 <Button color="#FFFCF6" />
                 <h3>
-                  All suites have a unique design because we want our every
-                  guest to feel special.
+                  <span>All suites have a unique design</span>
+                  <span>because we want our every guest</span>
+                  <span> to feel special.</span>
                 </h3>
               </div>
               <h4>Premier Standard</h4>
