@@ -13,6 +13,17 @@ export const OptionArea = styled.div`
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  button {
+    border: 1px solid ${({ theme }) => theme.darkColor};
+    border-radius: 99px;
+    width: 171px;
+    height: 50px;
+    font-family: "Open Sans", sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
   .imageCon {
     display: none;
   }
