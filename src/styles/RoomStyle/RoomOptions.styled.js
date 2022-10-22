@@ -19,6 +19,9 @@ export const OptionArea = styled.div`
     align-items: flex-start;
     justify-content: space-between;
   }
+  @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+    justify-content: center;
+  }
   button {
     border: 1px solid ${({ theme }) => theme.darkColor};
     border-radius: 99px;
@@ -49,10 +52,12 @@ export const OptionLeftArea = styled.div`
     @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
       display: block;
       width: 311px;
+      position: relative;
+
       .label {
         position: absolute;
-        top: -66px;
-        right: -11px;
+        top: -67px;
+        right: -62px;
       }
       .leftImg {
         width: 100%;
@@ -132,6 +137,9 @@ export const OptionRightArea = styled.div`
   width: 100%;
   .Images {
     width: 98%;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      width: 356px;
+    }
     img {
       width: 100%;
     }
@@ -144,6 +152,9 @@ export const OptionRightArea = styled.div`
     gap: 2rem;
     width: 100%;
     position: relative;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      width: 356px;
+    }
     .textArea {
       display: flex;
       flex-direction: row-reverse;
