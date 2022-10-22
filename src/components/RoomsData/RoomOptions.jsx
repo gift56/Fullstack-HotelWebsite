@@ -24,6 +24,15 @@ const RoomOptions = () => {
                 <img src={LeftImg} alt="leftImg" />
               </div>
             </div>
+            <div className="textArea">
+              <h2>Superior twin</h2>
+              <p>
+                <span>All rooms in Bank Hotel have a special</span>{" "}
+                <span>charm achieved through a combination of</span>{" "}
+                <span>modern functional design and original 20th</span>{" "}
+                <span>century layout.</span>
+              </p>
+            </div>
           </OptionLeftArea>
           <OptionRightArea></OptionRightArea>
         </OptionArea>
