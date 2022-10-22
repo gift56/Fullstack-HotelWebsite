@@ -26,7 +26,7 @@ export const DetailLeftArea = styled.div`
   width: 100%;
   @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
   }
   p {
