@@ -53,6 +53,7 @@ export const HeaderArea = styled.div`
       display: flex;
       align-items: center;
       transition: all 500ms ease;
+      font-family: "Open Sans", sans-serif !important;
       cursor: pointer;
       &:hover {
         div {
