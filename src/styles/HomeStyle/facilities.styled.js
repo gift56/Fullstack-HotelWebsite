@@ -213,6 +213,7 @@ export const FacilitiesRightside = styled.div`
         .arrowSide {
           width: 25%;
           transform: rotate(90deg);
+          cursor: pointer;
           @media screen and (min-width: 450px) {
             width: 87px;
             margin-top: 40px;
