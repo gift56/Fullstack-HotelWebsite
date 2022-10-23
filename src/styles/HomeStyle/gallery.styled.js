@@ -246,7 +246,7 @@ export const GalleryAnimationArea = styled.div`
       white-space: nowrap;
       overflow: hidden;
       transform: translateX(8%);
-      animation: ${moving} 30s linear infinite;
+      animation: ${moving} 40s linear infinite;
     }
     .firstP {
       p {
@@ -260,7 +260,7 @@ export const GalleryAnimationArea = styled.div`
       }
     }
     .secondP {
-      animation-duration: 25s;
+      animation-duration: 35s;
       p {
         color: rgba(255, 252, 246, 0.12);
       }
