@@ -54,9 +54,7 @@ const Facilities = () => {
               <div className="leftside">
                 <div className="textArea">
                   <div className="arrowSide">
-                    <a href="#down">
-                      <img src={NextArrow} alt="arrow" />
-                    </a>
+                    <img src={NextArrow} alt="arrow" />
                   </div>
                   <div className="text">
                     <div>
@@ -78,7 +76,7 @@ const Facilities = () => {
                 <img src={FacilityImg} alt="facilities_image" />
               </div>
             </div>
-            <div className="secondSide" id="down">
+            <div className="secondSide">
               <FacilityRooms />
             </div>
           </FacilitiesRightside>
