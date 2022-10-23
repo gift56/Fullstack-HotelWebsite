@@ -23,12 +23,16 @@ const Footer = () => {
       to: "",
     },
   ];
+
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
     <FooterCon>
       <Container>
         <FooterArea>
           <FooterMobileFooter>
-            <p>&copy; 2021 All rights reserved. BankHotel</p>
+            <p>&copy; {year} All rights reserved. BankHotel</p>
           </FooterMobileFooter>
           <FooterRows>
             <div className="rows">
