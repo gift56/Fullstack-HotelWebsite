@@ -4,7 +4,10 @@ import Star from "../../assets/star.svg";
 import Bar from "../../assets/openIcon.svg";
 import Close from "../../assets/closeIcon.svg";
 import { Container } from "../../styles/Container/container.styled";
-import { HeaderContainer, HeaderArea } from "../../styles/HeaderStyle/header.styled";
+import {
+  HeaderContainer,
+  HeaderArea,
+} from "../../styles/HeaderStyle/header.styled";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -58,7 +61,9 @@ const Header = () => {
       <Container>
         <HeaderArea>
           <div>
-            <h2>BankHotel</h2>
+            <h2>
+              <Link to="/">BankHotel</Link>
+            </h2>
           </div>
           <ul className="desktopUl">
             {navLinks.map(({ text, to }) => (
