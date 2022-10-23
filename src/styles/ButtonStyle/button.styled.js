@@ -9,6 +9,7 @@ export const ButtonsStar = styled.button`
     display: flex !important;
     align-items: center;
     gap: 1rem;
+    cursor: pointer;
     div {
       width: 35px;
       height: 35px;
@@ -23,6 +24,9 @@ export const ButtonsStar = styled.button`
       line-height: 26px;
       text-transform: capitalize;
       color: ${({ color }) => color};
+    }
+    &:hover{
+      opacity: 0.8;
     }
   }
 `;
