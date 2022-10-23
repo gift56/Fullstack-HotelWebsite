@@ -42,7 +42,7 @@ const Footer = () => {
                 <span> European city with a modern</span>
                 <span>restaurant, conference-hall, and art-bar.</span>
               </p>
-              <p className="copy">&copy; 2021 All rights reserved. BankHotel</p>
+              <p className="copy">&copy; {year} All rights reserved. BankHotel</p>
             </div>
             <div className="rows">
               <h3>New</h3>
