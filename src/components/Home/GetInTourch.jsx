@@ -13,7 +13,7 @@ import {
   GetInTourchRight,
 } from "../../styles/HomeStyle/getintourch.styled";
 
-const GetInTourch = () => {
+const GetInTourch = ({ getBg }) => {
   return (
     <GetInTourchCon>
       <Container>
@@ -38,14 +38,14 @@ const GetInTourch = () => {
                 <h2>Find a room</h2>
                 <div className="formArea">
                   <div className="form">
-                      <div className="checkIn input">
-                        <h4>Check in</h4>
-                        <img src={Dropdown} alt="dropdown" />
-                      </div>
-                      <div className="checkOut input">
-                        <h4>Check Out</h4>
-                        <img src={Dropdown} alt="dropdown" />
-                      </div>
+                    <div className="checkIn input">
+                      <h4>Check in</h4>
+                      <img src={Dropdown} alt="dropdown" />
+                    </div>
+                    <div className="checkOut input">
+                      <h4>Check Out</h4>
+                      <img src={Dropdown} alt="dropdown" />
+                    </div>
                   </div>
                   <button className="btn">book room</button>
                 </div>

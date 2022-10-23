@@ -8,7 +8,7 @@ import Hero from "../components/Home/Hero";
 import RoomandApartment from "../components/Home/RoomandApartment";
 import Layout from "../components/Layout/Layout";
 
-const Home = () => {
+const Home = ({ getBg }) => {
   return (
     <Layout>
       <Hero />
@@ -17,7 +17,7 @@ const Home = () => {
       <Facilities />
       <BestApartment />
       <Gallery />
-      <GetInTourch />
+      <GetInTourch getBg={getBg} />
     </Layout>
   );
 };

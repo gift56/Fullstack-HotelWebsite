@@ -6,11 +6,15 @@ import Resturants from "../pages/Resturants";
 import Room from "../pages/Room";
 
 const RoutedPages = () => {
+  const getBg = "#FFFCF6";
+
+  // const getBg2 = "#FFFCF6";
+
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/rooms" element={<Room />} />
+        <Route path="/" element={<Home getBg={getBg} />} />
+        <Route path="/rooms" element={<Room getBg={getBg} />} />
         <Route path="/about" element={<About />} />
         <Route path="/restaurant" element={<Resturants />} />
       </Routes>
