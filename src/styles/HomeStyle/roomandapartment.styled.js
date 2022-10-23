@@ -103,6 +103,7 @@ export const RoomRight = styled.div`
     }
   }
   .arrowSide {
+    cursor: pointer;
     @media screen and (min-width: 583px) {
       width: 100%;
     }
