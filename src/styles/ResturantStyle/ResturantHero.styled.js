@@ -85,6 +85,9 @@ export const ResturantRightArea = styled.div`
       font-size: 13px;
       line-height: 23px;
       margin-top: 10px !important;
+      /* @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+        
+      } */
       span {
         display: block;
         font-family: inherit;
