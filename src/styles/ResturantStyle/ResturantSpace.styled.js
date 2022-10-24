@@ -30,8 +30,11 @@ export const ResturantSpaceRightArea = styled.div`
     justify-content: flex-start;
     .image {
       width: 256px;
+      height: 292px;
       img {
         width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
     }
   }
