@@ -20,6 +20,12 @@ export const ResturantSpaceLeftArea = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   gap: 1rem;
+  .image {
+    width: 186px;
+    img {
+      width: 100%;
+    }
+  }
 `;
 
 export const ResturantSpaceRightArea = styled.div`
