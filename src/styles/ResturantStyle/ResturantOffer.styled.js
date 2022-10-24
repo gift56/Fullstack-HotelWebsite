@@ -53,21 +53,26 @@ export const ResturantOfferRightArea = styled.div`
       display: flex;
       width: 70% !important;
       height: 450px;
-      img {
-        height: 100%;
-        object-fit: cover;
-      }
+    }
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      height: 602px;
     }
   }
   .mobileImg {
     @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
       width: 50% !important;
+      height: 356px;
+    }
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      width: 356px !important;
     }
   }
   .image {
     width: 100%;
     img {
       width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 `;
