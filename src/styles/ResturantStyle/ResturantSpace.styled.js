@@ -66,6 +66,13 @@ export const ResturantSpaceRightArea = styled.div`
       p {
         color: ${({ theme }) => theme.whiteColor};
       }
+      h2 {
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 37px;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+      }
     }
   }
 `;
