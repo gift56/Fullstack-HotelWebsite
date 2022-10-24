@@ -25,7 +25,14 @@ const ResturantOffer = () => {
               restaurant.
             </p>
           </ResturantOfferLeftArea>
-          <ResturantOfferRightArea></ResturantOfferRightArea>
+          <ResturantOfferRightArea>
+            <div className="mobileImg image">
+                
+            </div>
+            <div className="desktopImg image">
+
+            </div>
+          </ResturantOfferRightArea>
         </ResturantOfferArea>
       </Container>
     </ResturantOfferCon>
