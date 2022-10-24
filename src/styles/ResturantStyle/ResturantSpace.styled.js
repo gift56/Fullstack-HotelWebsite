@@ -29,6 +29,9 @@ export const ResturantSpaceLeftArea = styled.div`
   @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
     width: 40%;
   }
+  @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+    width: 50%;
+  }
   .image {
     width: 186px;
     img {
@@ -83,6 +86,9 @@ export const ResturantSpaceRightArea = styled.div`
       height: 224px;
       @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
         width: 90%;
+      }
+      @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        width: 845px;
       }
       img {
         width: 100%;
