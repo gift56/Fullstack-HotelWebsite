@@ -75,9 +75,17 @@ export const ResturantRightArea = styled.div`
         align-items: flex-end;
         justify-content: flex-end;
       }
+      @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        width: 76%;
+        align-items: flex-start;
+        justify-content: flex-start;
+      }
     }
     .label {
       transform: rotate(-48deg) translateY(4px) translateX(-17px);
+      @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        transform: none;
+      }
     }
     p {
       font-family: "Open Sans", sans-serif !important;
