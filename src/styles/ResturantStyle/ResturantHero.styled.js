@@ -56,6 +56,7 @@ export const ResturantRightArea = styled.div`
     color: ${({ theme }) => theme.whiteColor};
     @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
       width: 100%;
+      font-size: 30px;
     }
   }
   .details {
@@ -69,7 +70,7 @@ export const ResturantRightArea = styled.div`
     }
     .labelCon {
       @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
-        width: 100%;
+        width: 90%;
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
@@ -85,9 +86,10 @@ export const ResturantRightArea = styled.div`
       font-size: 13px;
       line-height: 23px;
       margin-top: 10px !important;
-      /* @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
-        
-      } */
+      @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+        font-size: 18px;
+        line-height: 28px;
+      }
       span {
         display: block;
         font-family: inherit;
