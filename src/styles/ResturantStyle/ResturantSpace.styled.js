@@ -71,9 +71,15 @@ export const ResturantSpaceRightArea = styled.div`
     display: inherit;
     align-items: flex-start;
     justify-content: flex-start;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+      justify-content: flex-end;
+    }
     .image {
       width: 256px;
       height: 224px;
+      @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+        width: 90%;
+      }
       img {
         width: 100%;
         height: 100%;
