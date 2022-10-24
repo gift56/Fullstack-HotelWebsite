@@ -21,11 +21,15 @@ const ResturantHero = () => {
             <h3>One of a Kind</h3>
             <div className="details">
               <p>
-                <span>Bank Hotel proudly welcomes you to the</span> Safe Restaurant, a place
-                where you will wish you could dine every day. The restaurant
-                offers a unique menu developed by the team of professionals led
-                by chef Mary-Ann Jones, the wine list with more than 250 items,
-                the outstanding service, and the unforgettable atmosphere.
+                <span>Bank Hotel proudly welcomes you to the</span>{" "}
+                <span>Safe Restaurant, a place where you will</span>
+                {` `}
+                <span>wish you could dine every day. The</span>{" "}
+                <span>restaurant offers a unique menu developed</span>{" "}
+                <span>by the team of professionals led by chef</span>{" "}
+                <span>Mary-Ann Jones, the wine list with more</span>{" "}
+                <span>than 250 items, the outstanding service,</span>{" "}
+                <span>and the unforgettable atmosphere.</span>
               </p>
             </div>
           </ResturantRightArea>
