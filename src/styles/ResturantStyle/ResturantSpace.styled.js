@@ -6,6 +6,12 @@ export const ResturantSpaceCon = styled.section`
 
 export const ResturantSpaceArea = styled.div`
   padding: 40px 0;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
 `;
 
 export const ResturantSpaceLeftArea = styled.div``;
