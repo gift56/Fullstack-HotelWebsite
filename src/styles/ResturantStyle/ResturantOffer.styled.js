@@ -46,10 +46,17 @@ export const ResturantOfferRightArea = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
   .desktopImg {
     display: none;
-    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+    @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
       display: flex;
+      width: 70% !important;
+    }
+  }
+  .mobileImg {
+    @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+      width: 50% !important;
     }
   }
   .image {
