@@ -1,13 +1,23 @@
 import React from "react";
 import Label from "../../assets/Alabel.svg";
 import BgLine from "../../assets/Bglines.svg";
-import { ResturantCon } from "../../styles/ResturantStyle/ResturantHero.styled";
+import {
+  ResturantArea,
+  ResturantCon,
+  ResturantLeftArea,
+  ResturantRightArea,
+} from "../../styles/ResturantStyle/ResturantHero.styled";
 import { Container } from "../../styles/Container/container.styled";
 
 const ResturantHero = () => {
   return (
     <ResturantCon>
-      <Container></Container>
+      <Container>
+        <ResturantArea>
+          <ResturantLeftArea></ResturantLeftArea>
+          <ResturantRightArea></ResturantRightArea>
+        </ResturantArea>
+      </Container>
     </ResturantCon>
   );
 };
