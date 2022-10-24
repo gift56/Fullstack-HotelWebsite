@@ -52,4 +52,19 @@ export const ResturantSpaceRightArea = styled.div`
       }
     }
   }
+  .detailCon {
+    width: 100%;
+    display: inherit;
+    align-items: flex-end;
+    justify-content: flex-end;
+    .details {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      h2,
+      p {
+        color: ${({ theme }) => theme.whiteColor};
+      }
+    }
+  }
 `;
