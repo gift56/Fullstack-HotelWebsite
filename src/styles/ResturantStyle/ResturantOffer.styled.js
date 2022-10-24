@@ -11,6 +11,8 @@ export const ResturantOfferArea = styled.div`
   justify-content: center;
   gap: 2rem;
   width: 100%;
+  padding: 30px 0;
+  padding-bottom: 40px !important;
 `;
 
 export const ResturantOfferLeftArea = styled.div`
@@ -31,11 +33,15 @@ export const ResturantOfferLeftArea = styled.div`
 `;
 
 export const ResturantOfferRightArea = styled.div`
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   .desktopImg {
     display: none;
   }
-  .imgae {
-    width: 372px;
+  .image {
+    width: 100%;
     img {
       width: 100%;
     }
