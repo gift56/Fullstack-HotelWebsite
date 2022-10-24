@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const ResturantOfferCon = styled.section`
   background-color: ${({ theme }) => theme.darkColor};
   border-bottom: 1px solid ${({ theme }) => theme.whiteColor};
+  @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+    border: none !important;
+  }
 `;
 
 export const ResturantOfferArea = styled.div`
@@ -14,6 +17,9 @@ export const ResturantOfferArea = styled.div`
   width: 100%;
   padding: 30px 0;
   padding-bottom: 50px !important;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+    gap: 5rem;
+  }
 `;
 
 export const ResturantOfferLeftArea = styled.div`
@@ -23,6 +29,7 @@ export const ResturantOfferLeftArea = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   gap: 1rem;
+
   h2 {
     font-weight: 400;
     font-size: 30px;
@@ -30,6 +37,10 @@ export const ResturantOfferLeftArea = styled.div`
     letter-spacing: 0.03em;
     text-transform: capitalize;
     color: ${({ theme }) => theme.whiteColor};
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      font-size: 36px;
+      line-height: 44px;
+    }
   }
   p {
     color: ${({ theme }) => theme.whiteColor};
@@ -38,6 +49,16 @@ export const ResturantOfferLeftArea = styled.div`
     font-size: 14px;
     line-height: 23px;
     text-align: left;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    span {
+      font-family: inherit;
+      @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        display: block;
+      }
+    }
   }
 `;
 
