@@ -16,7 +16,7 @@ export const ResturantArea = styled.div`
   align-items: flex-start;
   width: 100%;
   justify-content: flex-start;
-  gap: 1rem;
+  gap: 2rem;
 `;
 
 export const ResturantLeftArea = styled.div`
@@ -35,7 +35,7 @@ export const ResturantLeftArea = styled.div`
 export const ResturantRightArea = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
@@ -54,6 +54,17 @@ export const ResturantRightArea = styled.div`
     justify-content: flex-end;
     .label {
       transform: rotate(-48deg);
+    }
+    p {
+      font-family: "Open Sans", sans-serif !important;
+      color: ${({ theme }) => theme.whiteColor};
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 23px;
+      span {
+        display: block;
+        font-family: inherit;
+      }
     }
   }
 `;
