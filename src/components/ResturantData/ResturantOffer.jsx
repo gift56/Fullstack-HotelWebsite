@@ -26,11 +26,11 @@ const ResturantOffer = () => {
             </p>
           </ResturantOfferLeftArea>
           <ResturantOfferRightArea>
-            <div className="mobileImg image">
-                
-            </div>
             <div className="desktopImg image">
-
+              <img src={DesktopImg} alt="resturant_image" />
+            </div>
+            <div className="mobileImg image">
+              <img src={MobileImg} alt="resturant_image" />
             </div>
           </ResturantOfferRightArea>
         </ResturantOfferArea>
