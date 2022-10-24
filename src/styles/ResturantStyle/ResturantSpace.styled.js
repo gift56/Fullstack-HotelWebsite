@@ -34,6 +34,7 @@ export const ResturantSpaceRightArea = styled.div`
       font-size: 30px;
       line-height: 30px;
       letter-spacing: 0.03em;
+      width: 231px;
     }
   }
   .imageCon {
