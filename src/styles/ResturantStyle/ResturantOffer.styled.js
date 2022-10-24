@@ -55,7 +55,7 @@ export const ResturantOfferRightArea = styled.div`
       height: 450px;
     }
     @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
-      height: 602px;
+      height: 580px;
     }
   }
   .mobileImg {
