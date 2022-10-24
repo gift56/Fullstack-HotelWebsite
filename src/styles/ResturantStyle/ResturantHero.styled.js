@@ -32,4 +32,17 @@ export const ResturantLeftArea = styled.div`
   }
 `;
 
-export const ResturantRightArea = styled.div``;
+export const ResturantRightArea = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-transform: capitalize;
+  }
+`;
