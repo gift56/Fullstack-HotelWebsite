@@ -44,7 +44,7 @@ export const ResturantOfferLeftArea = styled.div`
 export const ResturantOfferRightArea = styled.div`
   width: inherit;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
   .desktopImg {
