@@ -49,7 +49,11 @@ export const ResturantRightArea = styled.div`
   .details {
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
+    .label {
+      transform: rotate(-48deg);
+    }
   }
 `;
