@@ -34,8 +34,14 @@ export const ResturantSpaceLeftArea = styled.div`
   }
   .image {
     width: 186px;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      width: 358px;
+      height: 539px;
+    }
     img {
       width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
   h3 {
