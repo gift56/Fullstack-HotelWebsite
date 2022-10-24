@@ -52,6 +52,11 @@ export const ResturantOfferRightArea = styled.div`
     @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
       display: flex;
       width: 70% !important;
+      height: 450px;
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
     }
   }
   .mobileImg {
