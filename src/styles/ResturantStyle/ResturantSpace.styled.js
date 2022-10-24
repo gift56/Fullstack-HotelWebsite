@@ -23,6 +23,12 @@ export const ResturantSpaceRightArea = styled.div`
   gap: 2rem;
   align-items: center;
   justify-content: center;
+  .titleArea {
+    width: 100%;
+    display: inherit;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
   .imageCon {
     width: 100%;
     display: inherit;
