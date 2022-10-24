@@ -6,14 +6,14 @@ import RoomDetail from "../components/RoomsData/RoomDetail";
 import RoomHero from "../components/RoomsData/RoomHero";
 import RoomOptions from "../components/RoomsData/RoomOptions";
 
-const Room = () => {
+const Room = ({ getBg }) => {
   return (
     <Layout>
       <RoomHero />
       <RoomDetail />
       <DetailImage />
       <RoomOptions />
-      <GetInTourch />
+      <GetInTourch getBg={getBg} />
     </Layout>
   );
 };
