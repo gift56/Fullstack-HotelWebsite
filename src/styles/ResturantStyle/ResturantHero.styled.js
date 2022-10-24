@@ -61,6 +61,7 @@ export const ResturantRightArea = styled.div`
       font-weight: 400;
       font-size: 13px;
       line-height: 23px;
+      margin-top: 10px !important;
       span {
         display: block;
         font-family: inherit;
