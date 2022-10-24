@@ -11,7 +11,7 @@ import { Container } from "../../styles/Container/container.styled";
 
 const ResturantHero = () => {
   return (
-    <ResturantCon>
+    <ResturantCon bg={BgLine}>
       <Container>
         <ResturantArea>
           <ResturantLeftArea></ResturantLeftArea>
