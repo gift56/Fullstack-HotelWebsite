@@ -58,6 +58,9 @@ export const ResturantRightArea = styled.div`
       width: 100%;
       font-size: 30px;
     }
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      font-size: 45px;
+    }
   }
   .details {
     width: 100%;
