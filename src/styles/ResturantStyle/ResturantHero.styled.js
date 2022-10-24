@@ -6,6 +6,7 @@ export const ResturantCon = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-top: 1px solid #3f5148;
 `;
 
 export const ResturantArea = styled.div``;
