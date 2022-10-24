@@ -3,7 +3,9 @@ import Layout from "../components/Layout/Layout";
 
 
 const Resturants = () => {
-  return <Layout></Layout>;
+  return <Layout>
+    
+  </Layout>;
 };
 
 export default Resturants;
