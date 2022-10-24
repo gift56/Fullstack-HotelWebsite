@@ -12,6 +12,11 @@ export const ResturantSpaceArea = styled.div`
   width: 100%;
   align-items: flex-start;
   justify-content: flex-start;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 `;
 
 export const ResturantSpaceLeftArea = styled.div`
