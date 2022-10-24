@@ -34,7 +34,7 @@ export const ResturantSpaceRightArea = styled.div`
       font-size: 30px;
       line-height: 30px;
       letter-spacing: 0.03em;
-      width: 231px;
+      width: 79%;
     }
   }
   .imageCon {
@@ -61,6 +61,7 @@ export const ResturantSpaceRightArea = styled.div`
       display: flex;
       flex-direction: column;
       gap: 1rem;
+      width: 79%;
       h2,
       p {
         color: ${({ theme }) => theme.whiteColor};
