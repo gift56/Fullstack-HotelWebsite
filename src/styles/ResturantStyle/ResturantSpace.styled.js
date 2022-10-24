@@ -15,7 +15,9 @@ export const ResturantSpaceArea = styled.div`
 `;
 
 export const ResturantSpaceLeftArea = styled.div`
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 `;
 
 export const ResturantSpaceRightArea = styled.div`
