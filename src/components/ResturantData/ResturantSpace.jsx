@@ -27,6 +27,21 @@ const ResturantSpace = () => {
                 <img src={RightImg} alt="resturant_space_image" />
               </div>
             </div>
+            <div className="detailCon">
+              <div className="details">
+                <h2>
+                  Spend Your Time <br /> With Us
+                </h2>
+                <p>
+                  The team of the Safe Restaurant aims to exceed all
+                  expectations of our guests. Our chef worked hard to develop a
+                  unique menu that features the best meals of the European
+                  cuisine that will match the tastes of the most demanding
+                  clients. Friendly and attentive waiters will ensure that you
+                  will enjoy your time in our restaurant.
+                </p>
+              </div>
+            </div>
           </ResturantSpaceRightArea>
         </ResturantSpaceArea>
       </Container>
