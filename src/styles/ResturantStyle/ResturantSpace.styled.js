@@ -54,6 +54,9 @@ export const ResturantSpaceLeftArea = styled.div`
     span {
       display: block;
       font-family: inherit;
+      @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        display: inline;
+      }
     }
   }
 `;
