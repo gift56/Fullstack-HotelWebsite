@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const GetInTourchCon = styled.section`
   position: relative;
-  background-color: ${({ theme }) => theme.whiteColor};
+  background-color: ${({ bg }) => bg};
 `;
 
 export const GetInTourchArea = styled.div`

@@ -15,7 +15,7 @@ import {
 
 const GetInTourch = ({ getBg }) => {
   return (
-    <GetInTourchCon>
+    <GetInTourchCon bg={getBg}>
       <Container>
         <GetInTourchArea>
           <GetInTourchLeft>
