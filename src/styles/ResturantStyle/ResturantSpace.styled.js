@@ -25,6 +25,7 @@ export const ResturantSpaceLeftArea = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   gap: 1rem;
+  width: inherit;
   .image {
     width: 186px;
     img {
