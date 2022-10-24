@@ -14,7 +14,15 @@ const ResturantSpace = () => {
     <ResturantSpaceCon>
       <Container>
         <ResturantSpaceArea>
-          <ResturantSpaceLeftArea></ResturantSpaceLeftArea>
+          <ResturantSpaceLeftArea>
+            <div className="image">
+              <img src={LeftImg} alt="resturant_minImage_space" />
+            </div>
+            <h3>
+              <span>All room decoration</span> <span>was made with</span>{" "}
+              <span>ecological certified</span> <span>and safe materials.</span>
+            </h3>
+          </ResturantSpaceLeftArea>
           <ResturantSpaceRightArea>
             <div className="titleArea">
               <h3>
