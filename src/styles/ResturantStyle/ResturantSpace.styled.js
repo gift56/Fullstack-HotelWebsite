@@ -28,6 +28,13 @@ export const ResturantSpaceRightArea = styled.div`
     display: inherit;
     align-items: flex-end;
     justify-content: flex-end;
+    h3 {
+      color: ${({ theme }) => theme.whiteColor};
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 30px;
+      letter-spacing: 0.03em;
+    }
   }
   .imageCon {
     width: 100%;
