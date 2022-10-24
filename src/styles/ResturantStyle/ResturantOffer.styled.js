@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ResturantOfferCon = styled.section`
   background-color: ${({ theme }) => theme.darkColor};
+  border-bottom: 1px solid ${({ theme }) => theme.whiteColor};
 `;
 
 export const ResturantOfferArea = styled.div`
@@ -36,6 +37,7 @@ export const ResturantOfferLeftArea = styled.div`
     font-weight: 400;
     font-size: 14px;
     line-height: 23px;
+    text-align: left;
   }
 `;
 
