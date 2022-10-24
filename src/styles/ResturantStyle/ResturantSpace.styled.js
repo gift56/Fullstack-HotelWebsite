@@ -28,7 +28,7 @@ export const ResturantSpaceLeftArea = styled.div`
   }
   h3 {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 22px;
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif !important;
