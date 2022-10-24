@@ -44,5 +44,6 @@ export const ResturantRightArea = styled.div`
     font-size: 24px;
     line-height: 20px;
     text-transform: capitalize;
+    color: ${({ theme }) => theme.whiteColor};
   }
 `;
