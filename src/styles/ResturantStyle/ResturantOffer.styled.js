@@ -12,7 +12,7 @@ export const ResturantOfferArea = styled.div`
   gap: 2rem;
   width: 100%;
   padding: 30px 0;
-  padding-bottom: 40px !important;
+  padding-bottom: 50px !important;
 `;
 
 export const ResturantOfferLeftArea = styled.div`
