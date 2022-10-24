@@ -30,7 +30,7 @@ export const ResturantSpaceLeftArea = styled.div`
     width: 40%;
   }
   @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
-    width: 50%;
+    width: 60%;
   }
   .image {
     width: 186px;
@@ -64,6 +64,9 @@ export const ResturantSpaceRightArea = styled.div`
     display: inherit;
     align-items: flex-end;
     justify-content: flex-end;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      justify-content: flex-start;
+    }
     h3 {
       color: ${({ theme }) => theme.whiteColor};
       font-weight: 400;
@@ -71,6 +74,11 @@ export const ResturantSpaceRightArea = styled.div`
       line-height: 30px;
       letter-spacing: 0.03em;
       width: 79%;
+      @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+        width: 690px;
+        font-size: 40px;
+        line-height: 50px;
+      }
     }
   }
   .imageCon {
