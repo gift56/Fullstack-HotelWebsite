@@ -73,6 +73,12 @@ export const ResturantSpaceRightArea = styled.div`
         letter-spacing: 0.03em;
         text-transform: capitalize;
       }
+      p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+        font-family: "Open Sans", sans-serif !important;
+      }
     }
   }
 `;
