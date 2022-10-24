@@ -9,7 +9,14 @@ export const ResturantCon = styled.section`
   border-top: 1px solid #3f5148;
 `;
 
-export const ResturantArea = styled.div``;
+export const ResturantArea = styled.div`
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: flex-start;
+`;
 
 export const ResturantLeftArea = styled.div``;
 
