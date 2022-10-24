@@ -151,6 +151,9 @@ export const ResturantSpaceRightArea = styled.div`
         font-size: 13px;
         line-height: 23px;
         font-family: "Open Sans", sans-serif !important;
+        @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+          width: 442px;
+        }
       }
     }
   }
