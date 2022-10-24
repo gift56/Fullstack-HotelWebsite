@@ -143,7 +143,7 @@ export const ResturantSpaceRightArea = styled.div`
         text-transform: capitalize;
         @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
           font-size: 40px;
-          line-height: 61px;
+          line-height: 41px;
         }
       }
       p {
