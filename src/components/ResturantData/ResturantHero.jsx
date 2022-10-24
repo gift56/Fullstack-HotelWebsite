@@ -1,9 +1,12 @@
 import React from "react";
 import Label from "../../assets/Alabel.svg";
 import BgLine from "../../assets/Bglines.svg";
+import { ResturantCon } from "../../styles/ResturantStyle/ResturantHero.styled";
 
 const ResturantHero = () => {
-  return <div>ResturantHero</div>;
+  return <ResturantCon>
+    
+  </ResturantCon>;
 };
 
 export default ResturantHero;
