@@ -26,6 +26,9 @@ export const ResturantSpaceLeftArea = styled.div`
   justify-content: flex-start;
   gap: 1rem;
   width: inherit;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+    width: 40%;
+  }
   .image {
     width: 186px;
     img {
