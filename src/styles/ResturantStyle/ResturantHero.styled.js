@@ -53,7 +53,7 @@ export const ResturantRightArea = styled.div`
     align-items: flex-end;
     justify-content: flex-end;
     .label {
-      transform: rotate(-48deg);
+      transform: rotate(-48deg) translateY(4px) translateX(-17px);
     }
     p {
       font-family: "Open Sans", sans-serif !important;
