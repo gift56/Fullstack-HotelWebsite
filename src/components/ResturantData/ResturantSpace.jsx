@@ -22,6 +22,11 @@ const ResturantSpace = () => {
                 visit another restaurant.
               </h3>
             </div>
+            <div className="imageCon">
+              <div className="image">
+                <img src={RightImg} alt="resturant_space_image" />
+              </div>
+            </div>
           </ResturantSpaceRightArea>
         </ResturantSpaceArea>
       </Container>
