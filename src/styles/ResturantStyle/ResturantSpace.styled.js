@@ -88,7 +88,8 @@ export const ResturantSpaceRightArea = styled.div`
         width: 90%;
       }
       @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
-        width: 845px;
+        width: 100%;
+        height: 448px;
       }
       img {
         width: 100%;
