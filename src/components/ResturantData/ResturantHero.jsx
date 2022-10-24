@@ -20,8 +20,10 @@ const ResturantHero = () => {
           <ResturantRightArea>
             <h3>One of a Kind</h3>
             <div className="details">
-              <div className="label">
-                <img src={Label} alt="label" />
+              <div className="labelCon">
+                <div className="label">
+                  <img src={Label} alt="label" />
+                </div>
               </div>
               <p>
                 <span>Bank Hotel proudly welcomes you to the</span>{" "}

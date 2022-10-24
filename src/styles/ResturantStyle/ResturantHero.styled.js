@@ -29,6 +29,10 @@ export const ResturantLeftArea = styled.div`
     font-size: 60px;
     line-height: 60px;
     color: ${({ theme }) => theme.spanText};
+    @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+      font-size: 80px;
+      line-height: 80px;
+    }
   }
 `;
 
@@ -39,12 +43,20 @@ export const ResturantRightArea = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
   h3 {
     font-weight: 400;
     font-size: 24px;
     line-height: 20px;
     text-transform: capitalize;
     color: ${({ theme }) => theme.whiteColor};
+    @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+      width: 100%;
+    }
   }
   .details {
     width: 100%;
@@ -52,6 +64,17 @@ export const ResturantRightArea = styled.div`
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+      align-items: center;
+    }
+    .labelCon {
+      @media screen and (min-width: ${({ theme }) => theme.mobile.phone2}) {
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+      }
+    }
     .label {
       transform: rotate(-48deg) translateY(4px) translateX(-17px);
     }
