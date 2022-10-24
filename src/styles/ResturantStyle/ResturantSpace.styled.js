@@ -19,7 +19,7 @@ export const ResturantSpaceLeftArea = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 2rem;
+  gap: 1rem;
 `;
 
 export const ResturantSpaceRightArea = styled.div`
