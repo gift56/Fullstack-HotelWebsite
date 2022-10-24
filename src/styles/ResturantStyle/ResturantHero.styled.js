@@ -16,8 +16,20 @@ export const ResturantArea = styled.div`
   align-items: flex-start;
   width: 100%;
   justify-content: flex-start;
+  gap: 1rem;
 `;
 
-export const ResturantLeftArea = styled.div``;
+export const ResturantLeftArea = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  h2 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: ${({ theme }) => theme.spanText};
+  }
+`;
 
 export const ResturantRightArea = styled.div``;
