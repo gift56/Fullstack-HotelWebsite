@@ -17,7 +17,10 @@ const ResturantSpace = () => {
           <ResturantSpaceLeftArea></ResturantSpaceLeftArea>
           <ResturantSpaceRightArea>
             <div className="titleArea">
-              <h3></h3>
+              <h3>
+                Once you try our cuisine and service, you shall never want to
+                visit another restaurant.
+              </h3>
             </div>
           </ResturantSpaceRightArea>
         </ResturantSpaceArea>
