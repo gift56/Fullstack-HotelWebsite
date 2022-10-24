@@ -84,7 +84,7 @@ export const ResturantRightArea = styled.div`
     .label {
       transform: rotate(-48deg) translateY(4px) translateX(-17px);
       @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
-        transform: rotate(-90deg) translateY(50px);
+        transform: rotate(-90deg) translateY(-40px) translateX(-30px);
       }
     }
     p {
