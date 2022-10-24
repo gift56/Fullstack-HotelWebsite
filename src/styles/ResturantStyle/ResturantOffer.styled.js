@@ -48,6 +48,9 @@ export const ResturantOfferRightArea = styled.div`
   justify-content: space-between;
   .desktopImg {
     display: none;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.tab}) {
+      display: flex;
+    }
   }
   .image {
     width: 100%;
