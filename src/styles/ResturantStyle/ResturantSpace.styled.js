@@ -35,8 +35,8 @@ export const ResturantSpaceLeftArea = styled.div`
   .image {
     width: 186px;
     @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
-      width: 358px;
-      height: 539px;
+      width: 258px;
+      height: 362px;
     }
     img {
       width: 100%;
