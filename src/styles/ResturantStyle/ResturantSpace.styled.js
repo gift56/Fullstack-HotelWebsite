@@ -14,7 +14,9 @@ export const ResturantSpaceArea = styled.div`
   justify-content: flex-start;
 `;
 
-export const ResturantSpaceLeftArea = styled.div``;
+export const ResturantSpaceLeftArea = styled.div`
+
+`;
 
 export const ResturantSpaceRightArea = styled.div`
   width: inherit;
