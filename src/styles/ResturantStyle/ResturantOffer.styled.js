@@ -30,6 +30,13 @@ export const ResturantOfferLeftArea = styled.div`
     text-transform: capitalize;
     color: ${({ theme }) => theme.whiteColor};
   }
+  p {
+    color: ${({ theme }) => theme.whiteColor};
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+  }
 `;
 
 export const ResturantOfferRightArea = styled.div`
