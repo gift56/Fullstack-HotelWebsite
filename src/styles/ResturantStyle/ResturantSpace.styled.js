@@ -25,8 +25,11 @@ export const ResturantSpaceRightArea = styled.div`
   justify-content: center;
   .imageCon {
     width: 100%;
+    display: inherit;
+    align-items: flex-start;
+    justify-content: flex-start;
     .image {
-      width: 572px;
+      width: 256px;
       img {
         width: 100%;
       }
