@@ -123,6 +123,9 @@ export const ResturantSpaceRightArea = styled.div`
     display: inherit;
     align-items: flex-end;
     justify-content: flex-end;
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      justify-content: flex-start;
+    }
     .details {
       display: flex;
       flex-direction: column;
@@ -138,6 +141,10 @@ export const ResturantSpaceRightArea = styled.div`
         line-height: 37px;
         letter-spacing: 0.03em;
         text-transform: capitalize;
+        @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+          font-size: 40px;
+          line-height: 61px;
+        }
       }
       p {
         font-weight: 400;
