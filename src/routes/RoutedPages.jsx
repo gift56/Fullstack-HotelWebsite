@@ -14,7 +14,7 @@ const RoutedPages = () => {
     <>
       <Routes>
         <Route path="/" element={<Home getBg={getBg} />} />
-        <Route path="/rooms" element={<Room getBg={getBg} />} />
+        <Route path="/rooms" element={<Room />} />
         <Route path="/about" element={<About />} />
         <Route path="/restaurant" element={<Resturants />} />
       </Routes>
