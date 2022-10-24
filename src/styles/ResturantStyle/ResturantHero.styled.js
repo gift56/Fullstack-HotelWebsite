@@ -17,6 +17,9 @@ export const ResturantArea = styled.div`
   width: 100%;
   justify-content: flex-start;
   gap: 2rem;
+  @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+    padding-bottom: 80px !important;
+  }
 `;
 
 export const ResturantLeftArea = styled.div`
