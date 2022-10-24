@@ -51,6 +51,9 @@ export const ResturantSpaceLeftArea = styled.div`
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif !important;
     color: ${({ theme }) => theme.spanText};
+    @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
+      width: 60%;
+    }
     span {
       display: block;
       font-family: inherit;
