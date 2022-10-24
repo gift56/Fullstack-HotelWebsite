@@ -46,4 +46,10 @@ export const ResturantRightArea = styled.div`
     text-transform: capitalize;
     color: ${({ theme }) => theme.whiteColor};
   }
+  .details {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
 `;
