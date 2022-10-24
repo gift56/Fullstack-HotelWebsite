@@ -26,6 +26,13 @@ export const ResturantSpaceLeftArea = styled.div`
       width: 100%;
     }
   }
+  h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif !important;
+  }
 `;
 
 export const ResturantSpaceRightArea = styled.div`
