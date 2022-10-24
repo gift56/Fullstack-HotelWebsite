@@ -86,6 +86,9 @@ export const ResturantRightArea = styled.div`
       @media screen and (min-width: ${({ theme }) => theme.mobile.minLap}) {
         transform: rotate(-90deg) translateY(-40px) translateX(-30px);
       }
+      @media screen and (min-width: ${({ theme }) => theme.mobile.BigLap}) {
+        transform: rotate(-90deg) translateY(8px) translateX(-20px);
+      }
     }
     p {
       font-family: "Open Sans", sans-serif !important;
