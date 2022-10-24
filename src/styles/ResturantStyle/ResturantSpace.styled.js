@@ -32,6 +32,11 @@ export const ResturantSpaceLeftArea = styled.div`
     line-height: 22px;
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif !important;
+    color: ${({ theme }) => theme.spanText};
+    span {
+      display: block;
+      font-family: inherit;
+    }
   }
 `;
 
