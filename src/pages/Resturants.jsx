@@ -12,7 +12,6 @@ const Resturants = () => {
       <ResturantOffer />
       <ResturantSpace />
       <GetInTourch />
-      
     </Layout>
   );
 };
