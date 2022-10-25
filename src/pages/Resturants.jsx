@@ -10,6 +10,7 @@ const Resturants = () => {
       <ResturantHero />
       <ResturantOffer />
       <ResturantSpace />
+      
     </Layout>
   );
 };
