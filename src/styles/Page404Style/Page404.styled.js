@@ -23,11 +23,18 @@ export const PageContainer = styled.div`
     font-family: "Open Sans", sans-serif !important;
     color: ${({ theme }) => theme.darkColor2};
   }
-  p{
+  p {
     font-weight: 500;
     font-size: 38px;
     line-height: 37px;
     font-family: "Open Sans", sans-serif !important;
-    color: ${({ theme }) => theme.darkColor2}; 
+    color: ${({ theme }) => theme.whiteColor};
   }
+`;
+
+export const MyArea = styled.div`
+  background-image: url(${({ bg }) => bg});
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 88.5vh;
 `;
