@@ -260,7 +260,7 @@ export const GalleryAnimationArea = styled.div`
       }
     }
     .secondP {
-      animation-duration: 35s;
+      animation-duration: 50s;
       p {
         color: rgba(255, 252, 246, 0.12);
       }
