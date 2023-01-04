@@ -2,13 +2,13 @@ import React from "react";
 import Header from "../components/Header/Header";
 import { Container } from "../styles/Container/container.styled";
 import { MyArea, PageContainer } from "../styles/Page404Style/Page404.styled";
-import Desktophero from "../assets/desktopH.svg";
+import SubImg from "../assets/subscribeImg.svg";
 
 const Page404 = () => {
   return (
     <>
       <Header />
-      <MyArea bg={Desktophero}>
+      <MyArea bg={SubImg}>
         <Container>
           <PageContainer>
             <h2>Ooops</h2>
