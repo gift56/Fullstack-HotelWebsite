@@ -1,6 +1,6 @@
 import React from "react";
 import BookNow from "../../assets/bookNow.svg";
-import SubImg from "../../assets/subscribeImg.svg";
+import SubImg from "../../assets/subscribeImg.png";
 import Star from "../../assets/facilityStar.svg";
 import Dropdown from "../../assets/dropdown.svg";
 import Curve from "../../assets/curve.svg";

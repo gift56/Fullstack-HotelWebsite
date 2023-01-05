@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header/Header";
 import { Container } from "../styles/Container/container.styled";
 import { MyArea, PageContainer } from "../styles/Page404Style/Page404.styled";
-import SubImg from "../assets/subscribeImg.svg";
+import SubImg from "../assets/subscribeImg.png";
 
 const Page404 = () => {
   return (
