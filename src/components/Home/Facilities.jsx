@@ -1,9 +1,9 @@
 import React from "react";
-import FacilityImg from "../../assets/facilityH.svg";
+import FacilityImg from "../../assets/facilityH.png";
 import FacilitySmallImg from "../../assets/facilitySmI.png";
 import FacilityStar from "../../assets/facilityStar.svg";
 import FacilityLabel from "../../assets/facilityLabel.svg";
-import FacilityDesImg from "../../assets/facilityDesImg.svg";
+import FacilityDesImg from "../../assets/facilityDesImg.png";
 import NextArrow from "../../assets/nextBtn.svg";
 import { Container } from "../../styles/Container/container.styled";
 import {
